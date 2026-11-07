@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item id="sumpter_horse" name="{=P1rL28RT}Sumpter Horse{@Plural}sumpter horses{\@}" mesh="horse_brown" item_category="sumpter_horse" difficulty="0" weight="430" value="110" Type="Horse" multiplayer_item="true">
+    <ItemComponent>
+      <Horse monster="Monster.horse" maneuver="41" speed="34" charge_damage="8" body_length="102" is_mountable="true" is_pack_animal="true" extra_health="40" modifier_group="horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane" affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_brown_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101" percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090" percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_black_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101" percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090" percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_grey_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030" percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090" percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_white_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030" percentage="1.0" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="mule" name="{=VqCS28U1}Mule{@Plural}mules{\@}" mesh="mule_mesh" item_category="sumpter_horse" value="120" weight="300" Type="Horse" multiplayer_item="true">
+    <ItemComponent>
+      <Horse monster="Monster.mule" maneuver="48" speed="31" charge_damage="3" body_length="92" is_mountable="true" extra_health="0" is_pack_animal="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="wool" name="{=WVqaRKUm}Wool{@Plural}loads of wool{\@}" mesh="merchandise_wool" item_category="wool" value="22" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="silver" name="{=9X2l53vY}Silver Ore{@Plural}loads of silver ore{\@}" mesh="silver_ore" item_category="silver" value="100" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="jewelry" name="{=yQTBY9ie}Jewelry{@Plural}items of jewelry{\@}" mesh="bd_sturgia_statue" item_category="jewelry" value="675" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="salt" name="{=IK2IPJi1}Salt{@Plural}sacks of salt{\@}" mesh="merchandise_salt" item_category="salt" value="40" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="spice" name="{=1jqxlEkT}Spice{@Plural}sacks of spice{\@}" mesh="spice_sack" value="300" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cotton" name="{=Vqu67a3b}Raw Silk{@Plural}bolts of silk{\@}" mesh="merchandise_raw_silk" item_category="cotton" value="80" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="flax" name="{=xsu6bPTv}Flax{@Plural}sacks of flax{\@}" mesh="merchandise_flax" item_category="flax" value="15" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="clay" name="{=Zwb65ufG}Clay{@Plural}loads of clay{\@}" mesh="merchandise_clay" item_category="clay" value="18" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="stone" name="{=stone_name}Stone Blocks{@Plural}blocks of stone{\@}" mesh="merchandise_clay" item_category="clay" value="16" weight="20" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="pottery" name="{=awQrcrt2}Pottery{@Plural}crates of pottery{\@}" mesh="merchandise_pottery" item_category="pottery" value="210" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="linen" name="{=DvGueBrU}Linen{@Plural}rolls of linen{\@}" mesh="merchandise_linen" item_category="linen" value="245" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="leather" name="{=ufnnUxKb}Leather{@Plural}crates of leather{\@}" mesh="merchandise_leather_a" item_category="leather" value="230" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="velvet" name="{=O8TpGSDA}Velvet{@Plural}rolls of velvet{\@}" mesh="merchandise_velvet" item_category="velvet" value="575" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="bread" name="{=bread_name}Bread{@Plural}loaves of bread{\@}" mesh="merchandise_cheese_b" item_category="grain" IsFood="true" value="10" weight="5" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="1" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="grain" name="{=grain_name}Grain{@Plural}sacks of grain{\@}" mesh="merchandise_flax" item_category="grain" IsFood="true" value="15" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="1" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="meat" name="{=meat_name}Meat{@Plural}pieces of meat{\@}" mesh="merchandise_cheese_b" item_category="meat" IsFood="true" value="28" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cheese" name="{=WSk5Sibs}Cheese{@Plural}barrels of cheese{\@}" mesh="merchandise_cheese_b" item_category="cheese" IsFood="true" value="40" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="1" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="butter" name="{=VbL6GFmy}Butter{@Plural}casks of butter{\@}" mesh="merchandise_cheese_b" item_category="butter" IsFood="true" value="25" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="1" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="fish" name="{=QGaIYQpg}Fish{@Plural}barrels of fish{\@}" mesh="merchandise_fish_a" item_category="fish" IsFood="true" value="12" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="1" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="grape" name="{=ZgVVPGTb}Grapes{@Plural}sacks of grapes{\@}" mesh="kitchen_basket_grape_b" item_category="grape" IsFood="true" value="20" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="1" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="date_fruit" name="{=NtsdmmW9}Date Fruit{@Plural}sacks of date fruit{\@}" mesh="bd_barrel_a" item_category="date_fruit" IsFood="true" value="50" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="olives" name="{=45kZUyjh}Olives{@Plural}barrels of olives{\@}" mesh="bd_barrel_a" item_category="olives" IsFood="true" value="30" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="beer" name="{=HiSzYWeh}Beer{@Plural}casks of beer{\@}" mesh="bd_barrel_a" item_category="beer" IsFood="true" value="50" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="wine" name="{=ELsDFwAD}Wine{@Plural}amphorae of wine{\@}" mesh="amphora_slim" item_category="wine" IsFood="false" value="90" weight="10" Type="Goods" multiplayer_item="true">
+    <ItemComponent>
+      <Trade morale_bonus="3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="oil" name="{=lULBZ714}Oil{@Plural}amphorae of oil{\@}" mesh="amphora_slim" item_category="oil" IsFood="false" value="290" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="fur" name="{=ADJBbfbQ}Fur{@Plural}packs of fur{\@}" mesh="hung_fur_b" item_category="fur" value="400" weight="10" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="sheep" name="{=GD4aQgl7}Sheep{@Plural}sheep{\@}" mesh="sheep_mesh_new" item_category="sheep" value="80" weight="40" Type="Animal" multiplayer_item="true">
+    <ItemComponent>
+      <Horse monster="Monster.sheep" maneuver="40" speed="12" charge_damage="0" body_length="104" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cow" name="{=QWqvGa1P}Cow{@Plural}head of cattle{\@}" mesh="cow" item_category="cow" value="200" weight="200" Type="Animal" multiplayer_item="true">
+    <ItemComponent>
+      <Horse monster="Monster.cow" maneuver="30" speed="22" charge_damage="5" body_length="104">
+        <Materials>
+          <Material name="cow_skinned" />
+          <Material name="cow_skinned_2" />
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="hog" name="{=ZbsGBv10}Hog" mesh="hog_mesh" item_category="hog" value="60" weight="120" Type="Animal" multiplayer_item="true">
+    <ItemComponent>
+      <Horse monster="Monster.hog" maneuver="40" speed="10" charge_damage="5" body_length="104" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="goose" name="{=FhTUc64z}Goose" mesh="goose_model_a" item_category="animal" value="50" weight="5" Type="Animal" multiplayer_item="true">
+    <ItemComponent>
+      <Horse monster="Monster.goose" maneuver="50" speed="10" charge_damage="5" body_length="120" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="chicken" name="{=8el5a3sF}Chicken" mesh="chicken_mesh" item_category="animal" value="50" weight="5" Type="Animal" multiplayer_item="true">
+    <ItemComponent>
+      <Horse monster="Monster.chicken" maneuver="50" speed="10" charge_damage="5" body_length="120" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="camel" name="{=HAcujhib}Camel{@Plural}camels{\@}" mesh="camel_mesh" item_category="horse" value="3800" weight="500" difficulty="10" Type="Horse" multiplayer_item="true">
+    <ItemComponent>
+      <Horse monster="Monster.camel" maneuver="60" speed="44" charge_damage="20" body_length="115" extra_health="25" is_mountable="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="hay_cart" name="{=hay_cart_name}Hay Cart{@Plural}carts{\@}" mesh="bd_cart_a" item_category="sumpter_horse" value="850" weight="250" Type="Goods" multiplayer_item="true">
+    <Flags Civilian="true" />
+  </Item>
+</Items>

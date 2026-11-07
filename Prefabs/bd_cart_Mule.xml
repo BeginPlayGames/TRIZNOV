@@ -1,0 +1,207 @@
+<prefabs>
+	<game_entity name="bd_cart_Mule" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true" />
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="TriznovCart">
+				<variables>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="DestructableComponent">
+				<variables>
+					<variable name="DestructionStates" value="destroyed"/>
+					<variable name="DestroyedByStoneOnly" value="false"/>
+					<variable name="CanBeDestroyedInitially" value="true"/>
+					<variable name="MaxHitPoint" value="500.000"/>
+					<variable name="DestroyOnAnyHit" value="false"/>
+					<variable name="PassHitOnToParent" value="false"/>
+					<variable name="ReferenceEntityTag" value=""/>
+					<variable name="HeavyHitParticlesTag" value=""/>
+					<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+					<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+					<variable name="SoundEffectOnDestroy" value=""/>
+					<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+					<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+					<variable name="BattleSide" value="None"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="triznov_cart_attach_point" old_prefab_name="" mobility="1">
+				<transform position="-2.696, -0.025, -0.190"/>
+				<tags>
+					<tag name="cart_attach_point"/>
+					<tag name="pb_attach_point"/>
+				</tags>
+			</game_entity>
+			<game_entity name="clean" old_prefab_name="" mobility="1">
+				<tags>
+					<tag name="operational"/>
+				</tags>
+				<components>
+					<meta_mesh_component name="bd_cart_a"/>
+				</components>
+				<children>
+					<game_entity name="body_physics">
+						<physics shape="bo_bd_cart_a" override_material="wood">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="european_castle_wooden_cover_a" old_prefab_name="" mobility="1">
+						<transform position="-1.576, -0.064, 0.923" rotation_euler="-1.256, -0.020, -1.592"/>
+						<physics shape="bo_european_castle_wooden_cover_a" override_material="wood">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="european_castle_wooden_cover_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="european_castle_wooden_cover_a" old_prefab_name="" mobility="1">
+						<transform position="-1.073, -0.064, 0.617" rotation_euler="0.267, 0.002, -1.578"/>
+						<physics shape="bo_european_castle_wooden_cover_a" override_material="wood">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="european_castle_wooden_cover_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_a" old_prefab_name="" mobility="1">
+						<transform position="-0.426, 0.747, 1.517" rotation_euler="-1.291, -1.629, -1.617" scale="0.700, 1.000, 1.000"/>
+						<physics shape="bo_wooden_platform_2_plank_a">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_a" old_prefab_name="" mobility="1">
+						<transform position="-0.426, -0.860, 1.519" rotation_euler="-1.291, -1.629, -1.617" scale="0.700, 1.000, 1.000"/>
+						<physics shape="bo_wooden_platform_2_plank_a">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_a" old_prefab_name="" mobility="1">
+						<transform position="-1.129, -0.747, 1.150" rotation_euler="0.230, -1.582, -1.584" scale="0.400, 1.000, 1.000"/>
+						<physics shape="bo_wooden_platform_2_plank_a">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_a" old_prefab_name="" mobility="1">
+						<transform position="-0.326, -0.747, 1.379" rotation_euler="0.230, -1.582, -1.584" scale="0.400, 1.000, 1.000"/>
+						<physics shape="bo_wooden_platform_2_plank_a">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_a" old_prefab_name="" mobility="1">
+						<transform position="0.556, -0.747, 1.601" rotation_euler="0.230, -1.582, -1.584" scale="0.400, 1.000, 1.000"/>
+						<physics shape="bo_wooden_platform_2_plank_a">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_a" old_prefab_name="" mobility="1">
+						<transform position="-1.129, 0.653, 1.150" rotation_euler="0.230, -1.582, -1.584" scale="0.400, 1.000, 1.000"/>
+						<physics shape="bo_wooden_platform_2_plank_a">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_a" old_prefab_name="" mobility="1">
+						<transform position="0.556, 0.653, 1.601" rotation_euler="0.230, -1.582, -1.584" scale="0.400, 1.000, 1.000"/>
+						<physics shape="bo_wooden_platform_2_plank_a">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_a" old_prefab_name="" mobility="1">
+						<transform position="-0.326, 0.653, 1.379" rotation_euler="0.230, -1.582, -1.584" scale="0.400, 1.000, 1.000"/>
+						<physics shape="bo_wooden_platform_2_plank_a">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="destroyed" old_prefab_name="" visible="false" mobility="1">
+				<components>
+					<meta_mesh_component name="bd_cartbroken_d" position="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+				</components>
+				<children>
+					<game_entity name="body_physics_broken">
+						<physics shape="bo_bd_cartbroken_d" override_material="wood">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="broken_plank_1">
+						<transform position="-0.400, 0.800, 0.200" rotation_euler="-1.570, 0.000, -0.300" scale="0.700, 1.000, 1.000"/>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="broken_plank_2">
+						<transform position="0.200, -0.800, 0.150" rotation_euler="1.450, 0.100, 0.800" scale="0.400, 1.000, 1.000"/>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="broken_cover">
+						<transform position="-1.600, -0.200, 0.300" rotation_euler="0.400, -0.100, -1.200"/>
+						<physics shape="bo_european_castle_wooden_cover_a" override_material="wood">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="european_castle_wooden_cover_a"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>

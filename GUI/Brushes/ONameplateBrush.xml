@@ -1,0 +1,30 @@
+<Brushes>
+
+    <!-- Nameplate text — relationship color via Brush.FontColor, thin dark outline for readability -->
+    <Brush Name="TriznovNameplate.Text" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+        <Styles>
+            <Style Name="Default" FontColor="#FFFFFFFF" FontSize="26" TextBlur="0" TextOutlineAmount="0.35" TextOutlineColor="#000000FF" TextGlowRadius="0" />
+        </Styles>
+    </Brush>
+
+    <!-- Allegiance / House line — smaller for hierarchy -->
+    <Brush Name="TriznovNameplate.Faction" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+        <Styles>
+            <Style Name="Default" FontColor="#FFFFFFFF" FontSize="20" TextBlur="0" TextOutlineAmount="0.35" TextOutlineColor="#000000FF" TextGlowRadius="0" />
+        </Styles>
+    </Brush>
+
+    <!-- Order Conquest alias brushes -->
+    <Brush Name="ONameplate.Text" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+        <Styles>
+            <Style Name="Default" FontColor="#FFFFFFFF" FontSize="26" TextBlur="0" TextOutlineAmount="0.35" TextOutlineColor="#000000FF" TextGlowRadius="0" />
+        </Styles>
+    </Brush>
+
+    <Brush Name="ONameplate.Faction" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+        <Styles>
+            <Style Name="Default" FontColor="#FFFFFFFF" FontSize="20" TextBlur="0" TextOutlineAmount="0.35" TextOutlineColor="#000000FF" TextGlowRadius="0" />
+        </Styles>
+    </Brush>
+
+</Brushes>

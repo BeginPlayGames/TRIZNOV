@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPClassDivisions>
+	<!-- ======================================================== -->
+	<!-- 01 ГОЛОТА ТРИЗНОВА                                        -->
+	<!-- ======================================================== -->
+	<MPClassDivision
+		id="yar_01_voulgier"
+		culture="Culture.triznov"
+		hero="mp_shock_infantry_yar_hero"
+		troop="mp_shock_infantry_yar_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Infantry_Heavy"
+		melee_ai="70"
+		ranged_ai="0"
+		armor="40"
+		movement_speed="0.68"
+		combat_movement_speed="0.73"
+		acceleration="2.1"
+		hitpoints="160">
+		<Perks>
+			<!-- Левый перк: Оружие -->
+			<Perk game_mode="all" name="{=!}Меч" description="{=!}Одноручный меч, щит и копьё." icon="PerkSword" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Булава" description="{=!}Тяжёлая булава, щит и копьё." icon="PerkMaces" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_mace" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Топор" description="{=!}Боевой топор, щит и копьё." icon="PerkHeavyAxe" perk_list="1">
+				<Effect type="ShieldDamage" value="0.2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Пика" description="{=!}Меч, щит и длинная пехотная пика." icon="PerkPikes" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_pike" />
+			</Perk>
+
+			<!-- Правый перк: Снаряжение Голоты (настраивается в Арсенале) -->
+			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkVillageMilitia" perk_list="2">
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- ======================================================== -->
+	<!-- 02 ПАНЫ (И СЛУГИ)                                         -->
+	<!-- ======================================================== -->
+	<MPClassDivision
+		id="yar_01_lord"
+		culture="Culture.triznov"
+		hero="mp_lord_yar_hero"
+		troop="mp_lord_yar_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Infantry_Heavy"
+		melee_ai="70"
+		ranged_ai="0"
+		armor="45"
+		movement_speed="0.67"
+		combat_movement_speed="0.72"
+		acceleration="2.0"
+		hitpoints="160">
+		<Perks>
+			<!-- Левый перк: Оружие Панов -->
+			<Perk game_mode="all" name="{=!}Меч" description="{=!}Одноручный меч, щит пана и копьё." icon="PerkSword" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_pan_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Булава" description="{=!}Тяжёлая булава, щит пана и копьё." icon="PerkMaces" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_mace" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_pan_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Топор" description="{=!}Боевой топор, щит пана и копьё." icon="PerkHeavyAxe" perk_list="1">
+				<Effect type="ShieldDamage" value="0.2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_pan_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Пика" description="{=!}Меч, щит пана и длинная пехотная пика." icon="PerkPikes" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_pan_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_pike" />
+			</Perk>
+
+			<!-- Правый перк: Снаряжение Панов (настраивается в Арсенале) -->
+			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkArmorUpgrade" perk_list="2">
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- ======================================================== -->
+	<!-- 03 СТРЕЛОК ГОЛОТЫ                                         -->
+	<!-- ======================================================== -->
+	<MPClassDivision
+		id="yar_02_archer"
+		culture="Culture.triznov"
+		hero="mp_archer_yar_hero"
+		troop="mp_archer_yar_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.5"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Crossbowman_Heavy"
+		melee_ai="50"
+		ranged_ai="100"
+		armor="20"
+		movement_speed="0.68"
+		combat_movement_speed="0.71"
+		acceleration="2.1"
+		hitpoints="125">
+		<Perks>
+			<!-- Левый перк: Оружие дальнего боя (бонус по коням) -->
+			<Perk game_mode="all" name="{=!}Арбалет" description="{=!}Лёгкий арбалет и болты (стрельба и перезарядка в присяде).{newline} {newline}+60% урона по коням" icon="PerkHeavyCrossbows" perk_list="1">
+				<Effect type="MountDamage" value="0.60" hit_type="Ranged" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="triznov_light_crossbow" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_bolts_western" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Лук" description="{=!}Степной лук и стрелы (стрельба в присяде).{newline} {newline}+60% урона по коням" icon="PerkRecurveBows" perk_list="1">
+				<Effect type="MountDamage" value="0.60" hit_type="Ranged" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="triznov_steppe_bow" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_arrows_bodkin" />
+			</Perk>
+
+			<!-- Правый перк: Вспомогательное снаряжение и случайный наряд -->
+			<Perk game_mode="all" name="{=!}Павеза" description="{=!}Большая ростовая павеза за спиной (клавиша P) и случайная одежда стрелка." icon="PerkLargerShields" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="triznov_pavise_shield" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head" item="bb_skullcap" />
+						<Item slot="Body" item="bb_surcoat_gambeson_alt" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_1" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+					<Group>
+						<Item slot="Head" item="bb_kettle_1_bare" />
+						<Item slot="Body" item="bb_jupon_short" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_2" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+					<Group>
+						<Item slot="Head" item="bb_kettle_2_bare" />
+						<Item slot="Body" item="bb_gambeson_tabard_heraldry" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_2" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+				</RandomOnSpawnEffect>
+			</Perk>
+			<Perk game_mode="all" name="{=!}Копьё" description="{=!}Короткое пехотное копьё для защиты от коней и случайная одежда стрелка." icon="PerkSpears" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="triznov_spear" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head" item="bb_skullcap" />
+						<Item slot="Body" item="bb_surcoat_gambeson_alt" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_1" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+					<Group>
+						<Item slot="Head" item="bb_kettle_1_bare" />
+						<Item slot="Body" item="bb_jupon_short" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_2" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+					<Group>
+						<Item slot="Head" item="bb_kettle_2_bare" />
+						<Item slot="Body" item="bb_gambeson_tabard_heraldry" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_2" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+				</RandomOnSpawnEffect>
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- ======================================================== -->
+	<!-- 04 БАРОН НОВАК                                            -->
+	<!-- ======================================================== -->
+	<MPClassDivision
+		id="yar_06_baron_triznov"
+		culture="Culture.triznov"
+		hero="mp_baron_triznov_hero"
+		troop="mp_baron_triznov_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		hero_mount_idle_anim="act_vlandia_mp_knight_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Infantry_Heavy"
+		melee_ai="80"
+		ranged_ai="0"
+		armor="45"
+		movement_speed="0.66"
+		combat_movement_speed="0.71"
+		acceleration="2.0"
+		hitpoints="160">
+		<Perks>
+			<!-- Левый перк: Пеший / Верхом -->
+			<Perk game_mode="all" name="{=!}Пеший" description="{=!}Тяжёлый командир с длинным копьём.{newline}{newline}+5 к броне" icon="PerkFrontliner" perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="5" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_western_long_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Верхом" description="{=!}Королевский бронированный конь с рыцарской пикой." icon="PerkAgileHorses" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse" item="mp_vlandia_horse" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness" item="bb_horse_barding_2_5" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_western_lance" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- ======================================================== -->
+	<!-- 05 ПРОФЕССИИ (МАСТЕР)                                     -->
+	<!-- ======================================================== -->
+	<MPClassDivision
+		id="yar_05_craftsman"
+		culture="Culture.triznov"
+		hero="mp_craftsman_yar_hero"
+		troop="mp_craftsman_yar_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Infantry_Heavy"
+		melee_ai="80"
+		ranged_ai="50"
+		armor="42"
+		movement_speed="0.68"
+		combat_movement_speed="0.73"
+		acceleration="2.1"
+		hitpoints="160">
+		<Perks>
+			<!-- Левый перк: Мастер -->
+			<Perk game_mode="all" name="{=!}Мастер" description="{=!}Мастер своего дела: королевский жупон с нагрудником, худ с фестонами, стургийская меховая шапка, длинный меч, щит мастера и стургийский двуручный молот." icon="PerkFrontliner" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_master_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_sturgia_twohanded_hammer" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="mp_nordic_fur_cap" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_jupon_royal_2_breastplate" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_zizka_legs_realistic_tc" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_composite_gauntlets_tc" />
+			</Perk>
+			<!-- Левый перк: Знаменосец -->
+			<Perk game_mode="all" name="{=!}Знаменосец" description="{=!}Знаменосец Голоты: боевое знамя Тризнова в левой руке, длинный меч и одежда ополчения Голоты." icon="PerkHoldTheLine" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_banner" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head" item="bb_kettle_2_bare" />
+						<Item slot="Body" item="bb_surcoat_gambeson" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_1" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+					<Group>
+						<Item slot="Head" item="bb_kettle_1_bare" />
+						<Item slot="Body" item="bb_surcoat_gambeson_1" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_2" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+					<Group>
+						<Item slot="Head" item="bb_kettle_2_bare" />
+						<Item slot="Body" item="bb_gambeson_tabard_heraldry" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_2" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+				</RandomOnSpawnEffect>
+			</Perk>
+			<!-- Левый перк: Барабанщик -->
+			<Perk game_mode="all" name="{=!}Барабанщик" description="{=!}Походный барабанщик Голоты: барабан и колотушка в руках, длинный меч на поясе. Зажмите ПКМ (блок) с барабаном в руках, чтобы задавать маршевый ритм." icon="PerkHoldTheLine" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="triznov_drumstick" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_drum" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_long_sword" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head" item="bb_kettle_2_bare" />
+						<Item slot="Body" item="bb_surcoat_gambeson" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_1" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+					<Group>
+						<Item slot="Head" item="bb_kettle_1_bare" />
+						<Item slot="Body" item="bb_surcoat_gambeson_1" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_2" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+					<Group>
+						<Item slot="Head" item="bb_kettle_2_bare" />
+						<Item slot="Body" item="bb_gambeson_tabard_heraldry" />
+						<Item slot="Cape" item="bb_hood_lowered" />
+						<Item slot="Leg" item="bb_hose_2" />
+						<Item slot="Gloves" item="bb_leather_gloves" />
+					</Group>
+				</RandomOnSpawnEffect>
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<!-- ======================================================== -->
+	<!-- 06 КОННАЯ ГОЛОТА (ТРИЗНОВ ЛЕГКАЯ КАВАЛЕРИЯ)               -->
+	<!-- ======================================================== -->
+	<MPClassDivision
+		id="yar_07_cavalry"
+		culture="Culture.triznov"
+		hero="mp_cavalry_yar_hero"
+		troop="mp_cavalry_yar_troop"
+		hero_idle_anim="act_vlandia_mp_vanguard_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		hero_mount_idle_anim="act_vlandia_mp_knight_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Cavalry_Light"
+		melee_ai="75"
+		ranged_ai="0"
+		armor="25"
+		movement_speed="0.68"
+		combat_movement_speed="0.73"
+		acceleration="2.1"
+		hitpoints="140">
+		<Perks>
+			<!-- Левый перк: Оружие -->
+			<Perk game_mode="all" name="{=!}Кавалерийская пика" description="{=!}Длинная кавалерийская пика, меч и щит голоты." icon="PerkSpears" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_battania_long_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Дротики" description="{=!}Метательные дротики, меч и щит голоты." icon="PerkFastJavelin" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_ash_throwing_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Боевой топор" description="{=!}Боевой топор, щит голоты и кавалерийская пика." icon="PerkHeavyAxe" perk_list="1">
+				<Effect type="ShieldDamage" value="0.2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_golota_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_battania_long_spear" />
+			</Perk>
+
+			<!-- Правый перк: Снаряжение Арсенала -->
+			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkArmorUpgrade" perk_list="2">
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- ======================================================== -->
+	<!-- ФРАКЦИЯ НАЛЁТЧИКИ (ЗЕРКАЛЬНЫЕ КЛАССЫ)                     -->
+	<!-- ======================================================== -->
+
+	<!-- 01 РАЗБОЙНИКИ (Зеркало Голоты) -->
+	<MPClassDivision
+		id="nal_01_infantry"
+		culture="Culture.naletchiki"
+		hero="mp_raider_infantry_hero"
+		troop="mp_raider_infantry_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Infantry_Heavy"
+		melee_ai="70"
+		ranged_ai="0"
+		armor="40"
+		movement_speed="0.68"
+		combat_movement_speed="0.73"
+		acceleration="2.1"
+		hitpoints="160">
+		<Perks>
+			<!-- Левый перк: Оружие -->
+			<Perk game_mode="all" name="{=!}Меч" description="{=!}Одноручный меч, щит и копьё." icon="PerkSword" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Булава" description="{=!}Тяжёлая булава, щит и копьё." icon="PerkMaces" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_mace" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Топор" description="{=!}Боевой топор, щит и копьё." icon="PerkHeavyAxe" perk_list="1">
+				<Effect type="ShieldDamage" value="0.2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Пика" description="{=!}Меч, щит и длинная пика." icon="PerkPikes" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_pike" />
+			</Perk>
+
+			<!-- Правый перк: Снаряжение Арсенала -->
+			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkVillageMilitia" perk_list="2">
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- 02 ЗАСТРЕЛЬЩИКИ (Зеркало Стрелка) -->
+	<MPClassDivision
+		id="nal_02_archer"
+		culture="Culture.naletchiki"
+		hero="mp_raider_archer_hero"
+		troop="mp_raider_archer_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.5"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Crossbowman_Heavy"
+		melee_ai="50"
+		ranged_ai="100"
+		armor="20"
+		movement_speed="0.68"
+		combat_movement_speed="0.71"
+		acceleration="2.1"
+		hitpoints="125">
+		<Perks>
+			<!-- Левый перк: Оружие дальнего боя -->
+			<Perk game_mode="all" name="{=!}Арбалет" description="{=!}Лёгкий арбалет и болты (стрельба и перезарядка в присяде).{newline} {newline}+60% урона по коням" icon="PerkHeavyCrossbows" perk_list="1">
+				<Effect type="MountDamage" value="0.60" hit_type="Ranged" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="triznov_light_crossbow" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_bolts_western" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Лук" description="{=!}Степной лук и стрелы (стрельба в присяде).{newline} {newline}+60% урона по коням" icon="PerkRecurveBows" perk_list="1">
+				<Effect type="MountDamage" value="0.60" hit_type="Ranged" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="triznov_steppe_bow" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_arrows_bodkin" />
+			</Perk>
+
+			<!-- Правый перк: Вспомогательное снаряжение -->
+			<Perk game_mode="all" name="{=!}Павеза" description="{=!}Большая ростовая павеза за спиной (клавиша P)." icon="PerkLargerShields" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="triznov_pavise_shield" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Копьё" description="{=!}Короткое пехотное копьё для защиты от коней." icon="PerkSpears" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="triznov_spear" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- 03 КОННЫЕ НАЛЁТЧИКИ (Зеркало Кавалерии) -->
+	<MPClassDivision
+		id="nal_07_cavalry"
+		culture="Culture.naletchiki"
+		hero="mp_raider_cavalry_hero"
+		troop="mp_raider_cavalry_troop"
+		hero_idle_anim="act_vlandia_mp_vanguard_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		hero_mount_idle_anim="act_vlandia_mp_knight_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Cavalry_Light"
+		melee_ai="75"
+		ranged_ai="0"
+		armor="25"
+		movement_speed="0.68"
+		combat_movement_speed="0.73"
+		acceleration="2.1"
+		hitpoints="140">
+		<Perks>
+			<!-- Левый перк: Оружие -->
+			<Perk game_mode="all" name="{=!}Кавалерийская пика" description="{=!}Длинная кавалерийская пика, меч и щит налётчиков." icon="PerkSpears" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_battania_long_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Дротики" description="{=!}Метательные дротики, меч и щит налётчиков." icon="PerkFastJavelin" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_ash_throwing_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Боевой топор" description="{=!}Боевой топор, щит налётчиков и кавалерийская пика." icon="PerkHeavyAxe" perk_list="1">
+				<Effect type="ShieldDamage" value="0.2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_golota_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_battania_long_spear" />
+			</Perk>
+
+			<!-- Правый перк: Снаряжение Арсенала -->
+			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkArmorUpgrade" perk_list="2">
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- 04 ПРОФЕССИИ (Зеркало Мастера / Знаменосца) -->
+	<MPClassDivision
+		id="nal_05_chieftain"
+		culture="Culture.naletchiki"
+		hero="mp_raider_chieftain_hero"
+		troop="mp_raider_chieftain_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Infantry_Heavy"
+		melee_ai="80"
+		ranged_ai="50"
+		armor="42"
+		movement_speed="0.68"
+		combat_movement_speed="0.73"
+		acceleration="2.1"
+		hitpoints="160">
+		<Perks>
+			<!-- Левый перк: Мастер -->
+			<Perk game_mode="all" name="{=!}Мастер" description="{=!}Мастер налётчиков: топор, тарч мастера, стургийский двуручный молот и крепкий наряд." icon="PerkFrontliner" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_master_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_sturgia_twohanded_hammer" />
+			</Perk>
+			<!-- Левый перк: Знаменосец налётчиков -->
+			<Perk game_mode="all" name="{=!}Знаменосец" description="{=!}Знаменосец налётчиков: боевое знамя шайки в левой руке и длинный меч." icon="PerkHoldTheLine" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_banner" />
+			</Perk>
+			<!-- Левый перк: Барабанщик налётчиков -->
+			<Perk game_mode="all" name="{=!}Барабанщик" description="{=!}Походный барабанщик налётчиков: барабан и колотушка в руках, топор на поясе. Зажмите ПКМ (блок) с барабаном в руках, чтобы задавать маршевый ритм." icon="PerkHoldTheLine" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="triznov_drumstick" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_drum" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_axe" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- 05 АТАМАНЫ (Зеркало Панов) -->
+	<MPClassDivision
+		id="nal_01_ataman"
+		culture="Culture.naletchiki"
+		hero="mp_raider_ataman_hero"
+		troop="mp_raider_ataman_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Infantry_Heavy"
+		melee_ai="70"
+		ranged_ai="0"
+		armor="45"
+		movement_speed="0.67"
+		combat_movement_speed="0.72"
+		acceleration="2.0"
+		hitpoints="160">
+		<Perks>
+			<!-- Левый перк: Оружие Атаманов -->
+			<Perk game_mode="all" name="{=!}Меч" description="{=!}Одноручный меч, тарч и копьё." icon="PerkSword" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_pan_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Булава" description="{=!}Тяжёлая булава, тарч и копьё." icon="PerkMaces" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_mace" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_pan_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Топор" description="{=!}Боевой топор, тарч и копьё." icon="PerkHeavyAxe" perk_list="1">
+				<Effect type="ShieldDamage" value="0.2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_pan_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Пика" description="{=!}Меч, тарч и длинная пехотная пика." icon="PerkPikes" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_long_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_pan_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_pike" />
+			</Perk>
+
+			<!-- Правый перк: Снаряжение Атаманов (настраивается в Арсенале) -->
+			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkArmorUpgrade" perk_list="2">
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- 06 ВОЕВОДА НАЛЁТЧИКОВ (Зеркало Барона) -->
+	<MPClassDivision
+		id="nal_06_warlord"
+		culture="Culture.naletchiki"
+		hero="mp_raider_warlord_hero"
+		troop="mp_raider_warlord_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		hero_mount_idle_anim="act_vlandia_mp_knight_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="1.0"
+		cost="150"
+		casual_cost="150"
+		battle_cost="150"
+		icon="Infantry_Heavy"
+		melee_ai="80"
+		ranged_ai="0"
+		armor="45"
+		movement_speed="0.66"
+		combat_movement_speed="0.71"
+		acceleration="2.0"
+		hitpoints="160">
+		<Perks>
+			<!-- Левый перк: Пеший / Верхом -->
+			<Perk game_mode="all" name="{=!}Пеший" description="{=!}Тяжёлый вожак с длинным копьём.{newline}{newline}+5 к броне" icon="PerkFrontliner" perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="5" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_western_long_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Верхом" description="{=!}Бронированный конь с рыцарской пикой." icon="PerkAgileHorses" perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse" item="mp_vlandia_horse" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness" item="bb_horse_barding_2_5" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_western_lance" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+
+	<!-- Prop Hunt -->
+	<MPClassDivision id="triznov_ph_stone" culture="Culture.triznov_prop_hunters"
+		hero="triznov_ph_stone_hero" troop="triznov_ph_stone_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle" troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0" cost="100" casual_cost="100" battle_cost="100"
+		icon="Infantry_Light" melee_ai="70" ranged_ai="80" armor="30"
+		movement_speed="0.78" combat_movement_speed="0.78" acceleration="2.1" hitpoints="100">
+		<Perks />
+	</MPClassDivision>
+	<MPClassDivision id="triznov_ph_crossbow" culture="Culture.triznov_prop_hunters"
+		hero="triznov_ph_crossbow_hero" troop="triznov_ph_crossbow_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle" troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0" cost="120" casual_cost="120" battle_cost="120"
+		icon="Crossbowman_Light" melee_ai="0" ranged_ai="85" armor="30"
+		movement_speed="0.78" combat_movement_speed="0.78" acceleration="2.1" hitpoints="100">
+		<Perks />
+	</MPClassDivision>
+	<MPClassDivision id="triznov_ph_archer" culture="Culture.triznov_prop_hunters"
+		hero="triznov_ph_archer_hero" troop="triznov_ph_archer_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle" troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0" cost="150" casual_cost="150" battle_cost="150"
+		icon="Archer_Light" melee_ai="0" ranged_ai="90" armor="30"
+		movement_speed="0.78" combat_movement_speed="0.78" acceleration="2.1" hitpoints="100">
+		<Perks />
+	</MPClassDivision>
+	<MPClassDivision id="triznov_ph_horse_archer" culture="Culture.triznov_prop_hunters"
+		hero="triznov_ph_horse_archer_hero" troop="triznov_ph_horse_archer_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle" troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0" cost="200" casual_cost="200" battle_cost="200"
+		icon="Cavalry_Light" melee_ai="0" ranged_ai="90" armor="30"
+		movement_speed="0.78" combat_movement_speed="0.78" acceleration="2.1" hitpoints="100">
+		<Perks />
+	</MPClassDivision>
+	<MPClassDivision id="triznov_ph_prop" culture="Culture.triznov_props"
+		hero="triznov_ph_prop_hero" troop="triznov_ph_prop_troop"
+		hero_idle_anim="act_vlandia_mp_sergeant_idle" troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="1.0" cost="0" casual_cost="0" battle_cost="0"
+		icon="Infantry_Light" melee_ai="0" ranged_ai="0" armor="0"
+		movement_speed="0.68" combat_movement_speed="0.68" acceleration="1.8" hitpoints="100">
+		<Perks />
+	</MPClassDivision>
+</MPClassDivisions>

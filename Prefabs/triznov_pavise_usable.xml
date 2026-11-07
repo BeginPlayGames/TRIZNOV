@@ -1,0 +1,63 @@
+<prefabs>
+  <game_entity name="triznov_pavise_usable" old_prefab_name="" mobility="1">
+    <flags>
+      <flag name="record_to_scene_replay" value="true" />
+      <flag name="align_to_terrain" value="true" />
+      <flag name="align_rotation_to_terrain" value="true" />
+    </flags>
+    <transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" />
+    <physics shape="bo_kite_shield_e" mass="5.000" center_of_mass="0.088, 0.184, 0.112">
+      <body_flags>
+        <body_flag name="two_sided" />
+      </body_flags>
+    </physics>
+    <scripts>
+      <script name="TriznovPaviseShieldObject">
+        <variables>
+          <variable name="NavMeshPrefabName" value="" />
+        </variables>
+      </script>
+    </scripts>
+    <children>
+      <game_entity name="pavise_shield_scaled" old_prefab_name="" mobility="1">
+        <flags>
+          <flag name="record_to_scene_replay" value="true" />
+        </flags>
+        <transform position="-0.052, 0.175, 0.672" rotation_euler="-1.571, -3.142, 3.142" scale="1.200, 1.200, 1.200" />
+        <physics shape="bo_kite_shield_e" mass="5.000" center_of_mass="0.088, 0.184, 0.112">
+          <body_flags>
+            <body_flag name="two_sided" />
+          </body_flags>
+        </physics>
+        <components>
+          <meta_mesh_component name="kite_shield_e" />
+        </components>
+        <children>
+          <game_entity name="pavise_shield_stand" old_prefab_name="" mobility="1">
+            <flags>
+              <flag name="record_to_scene_replay" value="true" />
+            </flags>
+            <transform position="0.155, 0.002, 0.201" rotation_euler="-0.015, 3.094, 0.000" />
+            <physics shape="bo_kite_shield_e" mass="5.000" center_of_mass="0.088, 0.184, 0.112" />
+            <children>
+              <game_entity name="pavise_plank_right" old_prefab_name="" mobility="1">
+                <transform position="0.263, 0.690, 0.253" rotation_euler="0.163, 0.953, -1.568" scale="0.119, 0.160, 0.285" />
+                <physics shape="bo_wooden_platform_plank_a" />
+                <components>
+                  <meta_mesh_component name="wooden_platform_plank_d" />
+                </components>
+              </game_entity>
+              <game_entity name="pavise_plank_left" old_prefab_name="" mobility="1">
+                <transform position="-0.058, 0.690, 0.231" rotation_euler="-0.360, 0.973, -1.519" scale="0.119, 0.160, 0.285" />
+                <physics shape="bo_wooden_platform_plank_a" />
+                <components>
+                  <meta_mesh_component name="wooden_platform_plank_d" />
+                </components>
+              </game_entity>
+            </children>
+          </game_entity>
+        </children>
+      </game_entity>
+    </children>
+  </game_entity>
+</prefabs>

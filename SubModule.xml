@@ -1,0 +1,103 @@
+<Module>
+    <Name value="TRIZNOV"/>
+    <Id value="TRIZNOV"/>
+    <Version value="v2.0.3" />
+    <DefaultModule value="false" />
+    <ModuleCategory value="Multiplayer" />
+    <Official value="false" />
+    <DependedModules>
+        <DependedModule Id="Native" />
+        <DependedModule Id="Multiplayer" />
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="TRIZNOV" />
+            <DLLName value="TRIZNOV.dll" />
+            <SubModuleClassType value="TRIZNOV.TriznovSubModule" />
+            <Tags />
+        </SubModule>
+        <SubModule>
+            <Name value="TRIZNOV.Client" />
+            <DLLName value="TRIZNOV.Client.dll" />
+            <SubModuleClassType value="TRIZNOV.Client.TriznovClientSubModule" />
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="Items" path="mpitems" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="head_armor" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="body_armor" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="civ_armor" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="hand_armor" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="leg_armor" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="shoulder_armor" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="horse_armor" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="estate_items" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="BasicCultures" path="triznov_cultures" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="MPCharacters" path="triznov_characters" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="MPClassDivisions" path="triznov_classdivisions" />
+            <IncludedGameTypes>
+                <GameType value="MultiplayerGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+</Module>

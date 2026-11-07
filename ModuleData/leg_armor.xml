@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<Item multiplayer_item="true"
+		id="bb_hose_1"
+		name="[BUA] Hose"
+		mesh="bb_hose_1"
+		weight="0.5"
+		appearance="1"
+		value="120"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="2"
+				stealth_factor="10"
+				covers_legs="true"
+				modifier_group="cloth_unarmoured"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_hose_2"
+		name="[BUA] Hose 2"
+		mesh="bb_hose_2"
+		weight="0.5"
+		appearance="1"
+		value="120"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="2"
+				stealth_factor="10"
+				covers_legs="true"
+				modifier_group="cloth_unarmoured"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_poor_legs"
+		name="[BUA] Leather cuisses"
+		mesh="bb_poor_legs"
+		weight="3.5"
+		appearance="1"
+		value="900"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="14"
+				stealth_factor="10"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_poor_legs_tc"
+		name="[BUA] Leather cuisses coloured"
+		mesh="bb_poor_legs_tc"
+		weight="3.5"
+		appearance="1"
+		value="900"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="14"
+				stealth_factor="10"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_poor_legs_greaves"
+		name="[BUA] Leather cuisses with greaves"
+		mesh="bb_poor_legs_greaves"
+		weight="5.0"
+		appearance="1"
+		value="5000"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="20"
+				stealth_factor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_poor_legs_greaves_tc"
+		name="[BUA] Leather cuisses with greaves coloured"
+		mesh="bb_poor_legs_greaves_tc"
+		weight="5.0"
+		appearance="1"
+		value="5000"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="20"
+				stealth_factor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_half_plate_legs"
+		name="[BUA] Plate cuisses"
+		mesh="bb_half_plate_legs"
+		weight="5.5"
+		appearance="1"
+		value="5000"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="24"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_zizka_legs"
+		name="[BUA] Plate leg harness leather cuisses"
+		mesh="bb_zizka_legs"
+		weight="7.0"
+		appearance="1"
+		value="7500"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="30"
+				stealth_factor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_zizka_legs_tc"
+		name="[BUA] Plate leg harness w leather cuisses coloured"
+		mesh="bb_zizka_legs_tc"
+		weight="7.0"
+		appearance="1"
+		value="7500"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="30"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_zizka_legs_realistic"
+		name="[BUA] Plate leg harness w leather cuisses"
+		mesh="bb_zizka_legs_realistic"
+		weight="7.5"
+		appearance="1"
+		value="7500"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="32"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_zizka_legs_realistic_tc"
+		name="[BUA] Plate leg harness w leather cuisses coloured"
+		mesh="bb_zizka_legs_realistic_tc"
+		weight="7.5"
+		appearance="1"
+		value="7500"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="32"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_plate_legs"
+		name="[BUA] Plate leg harness w sabatons"
+		mesh="bb_plate_legs"
+		weight="8.7"
+		appearance="1"
+		value="9000"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="38"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			Stealth="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_plate_legs_t0"
+		name="[BUA] Plate leg harness"
+		mesh="bb_plate_legs_t0"
+		weight="8.0"
+		appearance="1"
+		value="5000"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="34"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_plate_legs_trim"
+		name="[BUA] Plate leg harness gold trim"
+		mesh="bb_plate_legs_trim"
+		weight="9.0"
+		appearance="2.0"
+		value="12600"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="38"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_composite_legs"
+		name="[BUA] Composite leg harness"
+		mesh="bb_composite_legs"
+		weight="6.5"
+		appearance="1"
+		value="3500"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="22"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="hallow_armor_boots"
+		name="{=!}Сапоги Охотника"
+		mesh="hallow_armor_boots"
+		weight="1.5"
+		appearance="1"
+		value="3000"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="20"
+				stealth_factor="2"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+	</Item>
+</Items>

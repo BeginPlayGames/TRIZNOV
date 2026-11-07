@@ -1,32 +1,30 @@
-# Prerequisites
-*.d
+# Build intermediates & debug symbols
+obj/
+**/obj/
+*.pdb
+*.user
+*.suo
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Source code & internal tools (not needed by players)
+src/
+src_client/
+src_launcher/
+bot/
+scratch/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Logs, local configs & workshop scripts
+runtimelog*.txt
+*.log
+crash_logs/
+triznov_launcher.json
+admins.txt
+filtered_warrior_actions.txt
+orig_bot.txt
+warrior_actions.txt
+steam_appid.txt
+steam_workshop_uploader.txt
+STEAM_DESCRIPTION_AND_PATCHNOTES.txt
+*.bat
+*.ps1
+*.bak
+workshop_*.xml

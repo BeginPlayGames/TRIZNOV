@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cheers>
+    <!-- ============================================================= -->
+    <!-- 1. Боевые кличи и Победа (Warcries & Victory)                  -->
+    <!-- ============================================================= -->
+    <Cheer action="act_cheering_high_01" key="cheer" />
+    <Cheer action="act_cheering_high_01" key="cheer1" />
+    <Cheer action="act_cheering_high_02" key="cheer2" />
+    <Cheer action="act_cheering_high_03" key="cheer3" />
+    <Cheer action="act_cheering_high_04" key="cheer4" />
+    <Cheer action="act_cheering_high_05" key="cheer5" />
+    <Cheer action="act_cheering_high_06" key="cheer6" />
+    <Cheer action="act_cheering_high_07" key="cheer7" />
+    <Cheer action="act_cheering_high_08" key="cheer8" />
+
+    <Cheer action="act_cheering_low_01" key="cheerlow1" />
+    <Cheer action="act_cheering_low_02" key="cheerlow2" />
+    <Cheer action="act_cheering_low_03" key="cheerlow3" />
+    <Cheer action="act_cheering_low_04" key="cheerlow4" />
+    <Cheer action="act_cheering_low_05" key="cheerlow5" />
+    <Cheer action="act_cheering_low_06" key="cheerlow6" />
+    <Cheer action="act_cheering_low_07" key="cheerlow7" />
+    <Cheer action="act_cheering_low_08" key="cheerlow8" />
+    <Cheer action="act_cheering_low_09" key="cheerlow9" />
+    <Cheer action="act_cheering_low_10" key="cheerlow10" />
+
+    <Cheer action="act_arena_winner_1" key="victory" />
+    <Cheer action="act_arena_winner_1" key="victory1" />
+    <Cheer action="act_arena_winner_2" key="victory2" />
+    <Cheer action="act_arena_winner_3" key="victory3" />
+
+    <Cheer action="act_taunt_cheer_1" key="taunt" />
+    <Cheer action="act_taunt_cheer_1" key="taunt1" />
+    <Cheer action="act_taunt_cheer_2" key="taunt2" />
+    <Cheer action="act_taunt_cheer_3" key="taunt3" />
+    <Cheer action="act_taunt_cheer_4" key="taunt4" />
+
+    <Cheer action="act_taunt_18" key="warcry" />
+    <Cheer action="act_taunt_18" key="rage" />
+    <Cheer action="act_command" key="charge" />
+    <Cheer action="act_command" key="command" />
+    <Cheer action="act_command_follow" key="follow" />
+
+    <!-- Праздничное ликование (победный танец победителя арены) -->
+    <Cheer action="act_arena_winner_1" key="dance" />
+    <Cheer action="act_arena_winner_2" key="dance2" />
+    <Cheer action="act_arena_winner_3" key="dance3" />
+    <Cheer action="act_cheering_high_01" key="dance4" />
+    <Cheer action="act_arena_winner_1" key="celebrate" />
+
+    <!-- ============================================================= -->
+    <!-- 2. Провокации и Угрозы (Taunts & Threats)                      -->
+    <!-- ============================================================= -->
+    <Cheer action="act_taunt_09" key="shieldtaunt" />
+    <Cheer action="act_taunt_09" key="shield" />
+    <Cheer action="act_taunt_09" key="щит" />
+    <Cheer action="act_taunt_08" key="shieldtaunt2" />
+    <Cheer action="act_taunt_08" key="shield2" />
+
+    <Cheer action="act_taunt_10" key="invite" />
+    <Cheer action="act_taunt_10" key="invite1" />
+    <Cheer action="act_taunt_11" key="invite2" />
+    <Cheer action="act_taunt_14" key="crazy" />
+    <Cheer action="act_taunt_14" key="invitemad" />
+
+    <Cheer action="act_taunt_15" key="laugh" />
+    <Cheer action="act_taunt_15" key="смех" />
+    <Cheer action="act_taunt_17" key="point" />
+    <Cheer action="act_taunt_17" key="палец" />
+
+    <Cheer action="act_taunt_29" key="threat" />
+    <Cheer action="act_taunt_29" key="threat1" />
+    <Cheer action="act_taunt_29" key="угроза" />
+    <Cheer action="act_taunt_30" key="threat2" />
+    <Cheer action="act_conversation_threat_cuttrhoat" key="cutthroat" />
+    <Cheer action="act_conversation_threat_cuttrhoat" key="горло" />
+
+    <Cheer action="act_taunt_25" key="smash" />
+    <Cheer action="act_cutscene_break_chains_1" key="break" />
+    <Cheer action="act_cutscene_break_chains_1" key="chains" />
+
+    <Cheer action="act_taunt_23" key="search" />
+    <Cheer action="act_taunt_23" key="search1" />
+    <Cheer action="act_taunt_24" key="search2" />
+
+    <!-- ============================================================= -->
+    <!-- 3. Эмоции, Приветствие и Покорность (Emotions & Surrender)     -->
+    <!-- ============================================================= -->
+    <Cheer action="act_taunt_20" key="salute" />
+    <Cheer action="act_taunt_20" key="respect" />
+    <Cheer action="act_taunt_20" key="салют" />
+
+    <Cheer action="act_taunt_02" key="bow" />
+    <Cheer action="act_taunt_02" key="поклон" />
+
+    <Cheer action="act_taunt_26" key="surrender" />
+    <Cheer action="act_taunt_26" key="сдаюсь" />
+    <Cheer action="act_taunt_28" key="mercy" />
+    <Cheer action="act_taunt_28" key="пощада" />
+
+    <Cheer action="act_taunt_21" key="scared" />
+    <Cheer action="act_taunt_21" key="страх" />
+    <Cheer action="act_taunt_01" key="afraid" />
+
+    <Cheer action="act_taunt_04" key="no" />
+    <Cheer action="act_taunt_04" key="dissapoint" />
+    <Cheer action="act_taunt_04" key="нет" />
+    <Cheer action="act_taunt_05" key="no2" />
+
+    <!-- ============================================================= -->
+    <!-- 4. Позы лордов и знати (Lord Poses)                            -->
+    <!-- ============================================================= -->
+    <Cheer action="act_pose_lord_1" key="lord1" />
+    <Cheer action="act_pose_lord_1" key="lord_mercy" />
+
+    <Cheer action="act_pose_lord_2" key="lord2" />
+    <Cheer action="act_pose_lord_2" key="lord_think" />
+    <Cheer action="act_pose_lord_2" key="think" />
+
+    <Cheer action="act_pose_lord_3" key="lord3" />
+    <Cheer action="act_pose_lord_3" key="lord_soldier" />
+    <Cheer action="act_pose_lord_3" key="soldier" />
+
+    <Cheer action="act_pose_lord_4" key="lord4" />
+    <Cheer action="act_pose_lord_4" key="lord_miser" />
+
+    <Cheer action="act_pose_lord_5" key="lord5" />
+    <Cheer action="act_pose_lord_5" key="lord_uncertain" />
+
+    <Cheer action="act_pose_lord_6" key="lord6" />
+    <Cheer action="act_pose_lord_6" key="lord_noble" />
+    <Cheer action="act_pose_lord_6" key="noble" />
+
+    <Cheer action="act_pose_lord_7" key="lord7" />
+    <Cheer action="act_pose_lord_7" key="lord_relax" />
+    <Cheer action="act_pose_lord_7" key="relax" />
+
+    <Cheer action="act_pose_lord_8" key="lord8" />
+    <Cheer action="act_pose_lord_8" key="lord_reckless" />
+
+    <!-- ============================================================= -->
+    <!-- 5. Портретные стойки и стража (Poses & Guards)                -->
+    <!-- ============================================================= -->
+    <Cheer action="act_tableau_pose_1" key="pose1" />
+    <Cheer action="act_tableau_pose_2" key="pose2" />
+    <Cheer action="act_tableau_pose_3" key="pose3" />
+    <Cheer action="act_tableau_pose_4" key="pose4" />
+    <Cheer action="act_tableau_pose_5" key="pose5" />
+    <Cheer action="act_tableau_pose_6" key="pose6" />
+    <Cheer action="act_tableau_pose_7" key="pose7" />
+    <Cheer action="act_tableau_pose_8" key="pose8" />
+
+    <Cheer action="act_troop_cavalry_sword" key="cavalry" />
+    <Cheer action="act_drafted_to_war_pose" key="recruit" />
+    <Cheer action="act_t_pose" key="tpose" />
+
+    <Cheer action="act_aserai_mp_guard_idle" key="guard" />
+    <Cheer action="act_aserai_mp_guard_idle" key="guard1" />
+    <Cheer action="act_aserai_mp_guard_idle_2hperk" key="guard2" />
+    <Cheer action="act_empire_mp_palatine_guard_idle" key="guard3" />
+    <Cheer action="act_villager_arms_on_fence_idle" key="fence" />
+
+    <!-- ============================================================= -->
+    <!-- 6. Сидение и отдых (Sitting & Resting)                         -->
+    <!-- ============================================================= -->
+    <Cheer action="act_sit_1" key="sit" />
+    <Cheer action="act_sit_1" key="сидеть" />
+    <Cheer action="act_sit_and_drink_idle" key="drink" />
+    <Cheer action="act_sit_and_drink_idle" key="пить" />
+
+    <Cheer action="act_sit_idle_on_floor_1" key="sitfloor" />
+    <Cheer action="act_sit_idle_on_floor_1" key="sitfloor1" />
+    <Cheer action="act_sit_idle_on_floor_2" key="sitfloor2" />
+    <Cheer action="act_sit_idle_on_floor_3" key="sitfloor3" />
+
+    <Cheer action="act_villager_sitting_on_dock" key="sitdock" />
+    <Cheer action="act_villager_sitting_on_beach_idle" key="sitbeach" />
+
+    <Cheer action="act_throne_sit_idle1" key="throne" />
+    <Cheer action="act_throne_sit_idle1" key="throne1" />
+    <Cheer action="act_throne_sit_idle1" key="трон" />
+    <Cheer action="act_throne_sit_idle2" key="throne2" />
+    <Cheer action="act_throne_sit_idle3" key="throne3" />
+    <Cheer action="act_throne_sit_idle4" key="throne4" />
+
+    <!-- ============================================================= -->
+    <!-- 7. Диалог и ролевые жесты (Roleplay & Conversation)            -->
+    <!-- ============================================================= -->
+    <Cheer action="act_main_story_conspirator_kneel_down_1_continue" key="kneel" />
+    <Cheer action="act_main_story_conspirator_kneel_down_1_continue" key="колено" />
+
+    <Cheer action="act_cutscene_wedding_priest_loop" key="pray" />
+    <Cheer action="act_cutscene_wedding_priest_loop" key="молитва" />
+
+    <Cheer action="act_conversation_talk_crossedarms" key="crossedarms" />
+    <Cheer action="act_conversation_talk_crossedarms" key="руки" />
+
+    <Cheer action="act_conversation_talk_explain" key="explain" />
+    <Cheer action="act_conversation_talk_promise" key="promise" />
+    <Cheer action="act_conversation_talk_promise" key="клятва" />
+
+    <Cheer action="act_conversation_talk_dunno" key="idk" />
+    <Cheer action="act_conversation_talk_dunno" key="dunno" />
+
+    <Cheer action="act_cutscene_npc_argue_player_1" key="argue" />
+    <Cheer action="act_cutscene_npc_argue_player_1" key="спор" />
+
+    <Cheer action="act_conversation_weary_loop" key="tired" />
+    <Cheer action="act_conversation_weary_loop" key="tired1" />
+    <Cheer action="act_conversation_weary2_loop" key="tired2" />
+
+    <Cheer action="act_conversation_normal_loop" key="talk" />
+    <Cheer action="act_conversation_normal_loop" key="talk1" />
+    <Cheer action="act_conversation_warrior_loop" key="talk2" />
+    <Cheer action="act_conversation_warrior_loop" key="warrior" />
+    <Cheer action="act_conversation_hip_loop" key="talk3" />
+    <Cheer action="act_conversation_demure_loop" key="talk4" />
+    <Cheer action="act_conversation_rage" key="convo_rage" />
+
+    <!-- ============================================================= -->
+    <!-- 8. Ремесло и работа (Work & Crafting)                          -->
+    <!-- ============================================================= -->
+    <Cheer action="act_smithing_machine_anvil_start" key="forge" />
+    <Cheer action="act_smithing_machine_anvil_start" key="forge1" />
+    <Cheer action="act_smithing_machine_anvil_start" key="кузнец" />
+    <Cheer action="act_smithing_machine_anvil_part_1" key="forge2" />
+
+    <Cheer action="act_use_smithing_machine_loop" key="craft" />
+    <Cheer action="act_villager_sawing" key="saw" />
+    <Cheer action="act_villager_sawing" key="пила" />
+
+    <Cheer action="act_shipyard_worker_repair_loop" key="repair" />
+    <Cheer action="act_villager_washing_floor" key="wash" />
+    <Cheer action="act_pickup_down_begin" key="loot" />
+
+    <!-- ============================================================= -->
+    <!-- 9. Сюжетные и драматичные сцены (Dramatic & Death)             -->
+    <!-- ============================================================= -->
+    <Cheer action="act_cutscene_execution_prisoner_idle" key="prisoner" />
+    <Cheer action="act_cutscene_execution_prisoner_idle" key="пленник" />
+
+    <Cheer action="act_cutscene_executioner_action" key="executioner" />
+    <Cheer action="act_cutscene_executioner_action" key="палач" />
+
+    <Cheer action="act_cutscene_family_member_death_war_player_loop" key="grief" />
+    <Cheer action="act_cutscene_family_member_death_war_player_loop" key="скорбь" />
+
+    <Cheer action="act_cutscene_main_hero_battle_death_01" key="dead" />
+    <Cheer action="act_cutscene_main_hero_battle_death_01" key="dead1" />
+    <Cheer action="act_cutscene_main_hero_battle_death_01" key="смерть" />
+    <Cheer action="act_cutscene_main_hero_battle_death_02" key="dead2" />
+    <Cheer action="act_cutscene_death_old_age_player" key="dead3" />
+    <Cheer action="act_cutscene_break_chains_short" key="shackles" />
+
+    <!-- ============================================================= -->
+    <!-- 10. Остановка анимации                                         -->
+    <!-- ============================================================= -->
+    <Cheer action="act_none" key="stop" />
+    <Cheer action="act_none" key="stand" />
+    <Cheer action="act_none" key="стоп" />
+</Cheers>

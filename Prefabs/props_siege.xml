@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+	<!-- NEW Stable Cabbage Pile B based on individual cabbages -->
+	<game_entity name="cabbage_pile_b_usable" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<physics shape="bo_stone_pile_a" mass="1.000"/>
+		<scripts>
+			<script name="StonePile">
+				<variables>
+					<variable name="PileTypeText" value="Cabbage"/>
+					<variable name="GivenItemID" value="cabbage_boulder"/>
+					<variable name="IsWaiting" value="false"/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<!-- Interaction Point -->
+			<game_entity name="icon_man" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="ammopickup"/>
+				</tags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="true"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="DescriptionMessage" value=""/>
+							<variable name="ActionMessage" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+
+			<!-- 12 Individual Cabbages forming the pile -->
+			<!-- Base Layer (8 cabbages) -->
+			<game_entity name="cabbage_1" old_prefab_name="" mobility="1">
+				<transform position="0.300, 0.000, 0.000" rotation_euler="0.0, 0.0, 0.5"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_2" old_prefab_name="" mobility="1">
+				<transform position="0.212, 0.212, 0.000" rotation_euler="0.0, 0.0, 1.2"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_3" old_prefab_name="" mobility="1">
+				<transform position="0.000, 0.300, 0.000" rotation_euler="0.0, 0.0, 2.1"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_4" old_prefab_name="" mobility="1">
+				<transform position="-0.212, 0.212, 0.000" rotation_euler="0.0, 0.0, 3.1"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_5" old_prefab_name="" mobility="1">
+				<transform position="-0.300, 0.000, 0.000" rotation_euler="0.0, 0.0, 4.2"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_6" old_prefab_name="" mobility="1">
+				<transform position="-0.212, -0.212, 0.000" rotation_euler="0.0, 0.0, 5.0"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_7" old_prefab_name="" mobility="1">
+				<transform position="0.000, -0.300, 0.000" rotation_euler="0.0, 0.0, 0.8"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_8" old_prefab_name="" mobility="1">
+				<transform position="0.212, -0.212, 0.000" rotation_euler="0.0, 0.0, 1.9"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+
+			<!-- Middle Layer (3 cabbages) -->
+			<game_entity name="cabbage_9" old_prefab_name="" mobility="1">
+				<transform position="0.150, 0.100, 0.180" rotation_euler="0.3, 0.0, 0.0"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_10" old_prefab_name="" mobility="1">
+				<transform position="-0.150, 0.100, 0.180" rotation_euler="0.3, 0.0, 2.5"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+			<game_entity name="cabbage_11" old_prefab_name="" mobility="1">
+				<transform position="0.000, -0.180, 0.180" rotation_euler="0.3, 0.0, 4.7"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+
+			<!-- Top Layer (1 cabbage) -->
+			<game_entity name="cabbage_12" old_prefab_name="" mobility="1">
+				<transform position="0.000, 0.000, 0.320" rotation_euler="0.0, 0.0, 0.0"/>
+				<components><meta_mesh_component name="foods_cabbage_a"/></components>
+			</game_entity>
+		</children>
+	</game_entity>
+
+	<!-- NEW Fish Pile based on individual fishes -->
+	<game_entity name="fish_pile_b_usable" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<physics shape="bo_stone_pile_a" mass="1.000"/>
+		<scripts>
+			<script name="StonePile">
+				<variables>
+					<variable name="PileTypeText" value="Fish"/>
+					<variable name="GivenItemID" value="mp_fish_boulder"/>
+					<variable name="IsWaiting" value="false"/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<!-- Interaction Point -->
+			<game_entity name="icon_man" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="ammopickup"/>
+				</tags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="true"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="DescriptionMessage" value=""/>
+							<variable name="ActionMessage" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+
+			<!-- 12 Individual Fishes forming the pile -->
+			<game_entity name="fish_1" old_prefab_name="" mobility="1">
+				<transform position="0.300, 0.000, 0.000" rotation_euler="0.0, 0.0, 0.5"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_2" old_prefab_name="" mobility="1">
+				<transform position="0.212, 0.212, 0.000" rotation_euler="0.0, 0.0, 1.2"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_3" old_prefab_name="" mobility="1">
+				<transform position="0.000, 0.300, 0.000" rotation_euler="0.0, 0.0, 2.1"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_4" old_prefab_name="" mobility="1">
+				<transform position="-0.212, 0.212, 0.000" rotation_euler="0.0, 0.0, 3.1"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_5" old_prefab_name="" mobility="1">
+				<transform position="-0.300, 0.000, 0.000" rotation_euler="0.0, 0.0, 4.2"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_6" old_prefab_name="" mobility="1">
+				<transform position="-0.212, -0.212, 0.000" rotation_euler="0.0, 0.0, 5.0"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_7" old_prefab_name="" mobility="1">
+				<transform position="0.000, -0.300, 0.000" rotation_euler="0.0, 0.0, 0.8"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_8" old_prefab_name="" mobility="1">
+				<transform position="0.212, -0.212, 0.000" rotation_euler="0.0, 0.0, 1.9"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_9" old_prefab_name="" mobility="1">
+				<transform position="0.150, 0.100, 0.180" rotation_euler="0.3, 0.0, 0.0"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_10" old_prefab_name="" mobility="1">
+				<transform position="-0.150, 0.100, 0.180" rotation_euler="0.3, 0.0, 2.5"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_11" old_prefab_name="" mobility="1">
+				<transform position="0.000, -0.180, 0.180" rotation_euler="0.3, 0.0, 4.7"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+			<game_entity name="fish_12" old_prefab_name="" mobility="1">
+				<transform position="0.000, 0.000, 0.320" rotation_euler="0.0, 0.0, 0.0"/>
+				<components><meta_mesh_component name="merchandise_fish_b"/></components>
+			</game_entity>
+		</children>
+	</game_entity>
+
+	<!-- Single Cabbage Prop -->
+	<game_entity name="cabbage_single" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<physics shape="bo_projectile_rock" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_cabbage_a"/>
+		</components>
+	</game_entity>
+
+	<!-- Single Fish Prop -->
+	<game_entity name="fish_single" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<physics shape="bo_projectile_rock" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="merchandise_fish_b"/>
+		</components>
+	</game_entity>
+</prefabs>

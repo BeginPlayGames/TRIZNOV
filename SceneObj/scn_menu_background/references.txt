@@ -1,0 +1,14 @@
+13
+mesh battania_castle_corner_d
+mesh intro_scene
+prefab battania_castle_corner_mainmenu
+prefab camera_icon
+prefab camera_instance
+prefab envmap_prop
+prefab spr_invalid_object
+prefab valley_mountain_c
+texture cg_50c_5b
+texture lens_dirt
+texture lens_star
+texture photo_sky_overcast_noon
+texture sun_core2

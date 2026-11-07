@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Cabbage Triplet (Working stable version) -->
+	<Item
+		multiplayer_item="true"
+		id="cabbage_boulder"
+		name="{=!}Cabbage"
+		is_merchandise="false"
+		body_name="bo_projectile_rock"
+		holster_body_name="bo_axe_short"
+		mesh="foods_cabbage_a"
+		holster_mesh=""
+		subtype="arrows"
+		value="1"
+		weight="15"
+		difficulty="0"
+		appearance="0.5"
+		Type="Thrown"
+		item_holsters="">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Boulder"
+				ammo_class="Boulder"
+				stack_amount="1"
+				position="0.05, -0.15, 0"
+				center_of_mass="0,0,0"
+				physics_material="boulder_stone"
+				thrust_speed="100"
+				speed_rating="0"
+				missile_speed="8"
+				weapon_length="95"
+				thrust_damage="130"
+				item_usage="heavy_stone"
+				flying_sound_code="event:/mission/combat/boulder/passby"
+				rotation_speed="2, 0.5, 0">
+				<WeaponFlags
+					RangedWeapon="true"
+					Consumable="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanPenetrateShield="true"
+					MissileWithPhysics="true"
+					UseHandAsThrowBase="true"
+					LeavesTrail="true"
+					AmmoCanBreakOnBounceBack="true"
+					CanKillEvenIfBlunt="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			QuickFadeOut="true"
+			CannotBePickedUp="true"
+			DropOnWeaponChange="true"
+			DropOnAnyAction="true" />
+	</Item>
+
+	<Item
+		multiplayer_item="true"
+		id="cabbage_projectile"
+		name="{=!}Cabbage Projectile"
+		is_merchandise="false"
+		body_name="bo_projectile_rock"
+		holster_body_name="bo_axe_short"
+		mesh="foods_cabbage_a"
+		holster_mesh=""
+		subtype="arrows"
+		value="1"
+		weight="15"
+		difficulty="0"
+		appearance="0.5"
+		Type="Thrown"
+		item_holsters="">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Boulder"
+				ammo_class="Boulder"
+				stack_amount="1"
+				position="0.05, -0.15, 0"
+				center_of_mass="0,0,0"
+				physics_material="boulder_stone"
+				thrust_speed="100"
+				speed_rating="0"
+				missile_speed="8"
+				weapon_length="95"
+				thrust_damage="3250"
+				item_usage="heavy_stone"
+				flying_sound_code="event:/mission/combat/boulder/passby"
+				rotation_speed="2, 0.5, 0">
+				<WeaponFlags
+					RangedWeapon="true"
+					Consumable="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanPenetrateShield="true"
+					MissileWithPhysics="true"
+					UseHandAsThrowBase="true"
+					LeavesTrail="true"
+					AmmoCanBreakOnBounceBack="true"
+					CanKillEvenIfBlunt="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			QuickFadeOut="true"
+			CannotBePickedUp="true"
+			DropOnWeaponChange="true"
+			DropOnAnyAction="true" />
+	</Item>
+
+	<Item
+		multiplayer_item="true"
+		id="cabbage_carry"
+		name="{=!}Cabbage"
+		is_merchandise="false"
+		body_name="bo_projectile_rock"
+		holster_body_name="bo_axe_short"
+		mesh="foods_cabbage_a"
+		holster_mesh=""
+		subtype="arrows"
+		value="1"
+		weight="20"
+		difficulty="0"
+		appearance="0.5"
+		Type="Thrown"
+		item_holsters="">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Boulder"
+				ammo_class="Boulder"
+				stack_amount="1"
+				position="0.05, -0.15, 0"
+				center_of_mass="0,0,0"
+				physics_material="boulder_stone"
+				thrust_speed="100"
+				speed_rating="0"
+				missile_speed="8"
+				weapon_length="95"
+				thrust_damage="220"
+				item_usage="heavy_stone"
+				flying_sound_code="event:/mission/combat/boulder/passby"
+				rotation_speed="2, 0.5, 0">
+				<WeaponFlags
+					RangedWeapon="true"
+					Consumable="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanPenetrateShield="true"
+					MissileWithPhysics="true"
+					UseHandAsThrowBase="true"
+					LeavesTrail="true"
+					AmmoCanBreakOnBounceBack="true"
+					CanKillEvenIfBlunt="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			QuickFadeOut="true"
+			CannotBePickedUp="true"
+			DropOnWeaponChange="true"
+			DropOnAnyAction="true" />
+	</Item>
+
+	<!-- Fish Triplet (Working stable version) -->
+	<Item
+		multiplayer_item="true"
+		id="mp_fish_boulder"
+		name="{=!}Large Throwing Fish"
+		is_merchandise="false"
+		body_name="bo_projectile_rock"
+		holster_body_name="bo_axe_short"
+		mesh="merchandise_fish_b"
+		holster_mesh=""
+		subtype="arrows"
+		value="1"
+		weight="15"
+		difficulty="0"
+		appearance="0.5"
+		Type="Thrown"
+		item_holsters="">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Boulder"
+				ammo_class="Boulder"
+				stack_amount="1"
+				position="0.05, -0.15, 0"
+				center_of_mass="0,0,0"
+				physics_material="boulder_stone"
+				thrust_speed="100"
+				speed_rating="0"
+				missile_speed="8"
+				weapon_length="95"
+				thrust_damage="130"
+				item_usage="heavy_stone"
+				flying_sound_code="event:/mission/combat/boulder/passby"
+				rotation_speed="2, 0.5, 0">
+				<WeaponFlags
+					RangedWeapon="true"
+					Consumable="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanPenetrateShield="true"
+					MissileWithPhysics="true"
+					UseHandAsThrowBase="true"
+					LeavesTrail="true"
+					AmmoCanBreakOnBounceBack="true"
+					CanKillEvenIfBlunt="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			QuickFadeOut="true"
+			CannotBePickedUp="true"
+			DropOnWeaponChange="true"
+			DropOnAnyAction="true" />
+	</Item>
+
+	<Item
+		multiplayer_item="true"
+		id="mp_fish_projectile"
+		name="{=!}Large Throwing Fish Projectile"
+		is_merchandise="false"
+		body_name="bo_projectile_rock"
+		holster_body_name="bo_axe_short"
+		mesh="merchandise_fish_b"
+		holster_mesh=""
+		subtype="arrows"
+		value="1"
+		weight="5"
+		difficulty="0"
+		appearance="0.5"
+		Type="Thrown"
+		item_holsters="">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Boulder"
+				ammo_class="Boulder"
+				stack_amount="1"
+				position="0.05, -0.15, 0"
+				center_of_mass="0,0,0"
+				physics_material="boulder_stone"
+				thrust_speed="150"
+				speed_rating="0"
+				missile_speed="30"
+				weapon_length="95"
+				thrust_damage="180"
+				item_usage="heavy_stone"
+				flying_sound_code="event:/mission/combat/boulder/passby"
+				rotation_speed="2, 0.5, 0">
+				<WeaponFlags
+					RangedWeapon="true"
+					Consumable="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanPenetrateShield="true"
+					MissileWithPhysics="true"
+					UseHandAsThrowBase="true"
+					LeavesTrail="true"
+					AmmoCanBreakOnBounceBack="true"
+					CanKillEvenIfBlunt="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			QuickFadeOut="true"
+			CannotBePickedUp="true"
+			DropOnWeaponChange="true"
+			DropOnAnyAction="true" />
+	</Item>
+
+	<Item
+		multiplayer_item="true"
+		id="mp_fish_carry"
+		name="{=!}Large Throwing Fish"
+		is_merchandise="false"
+		body_name="bo_projectile_rock"
+		holster_body_name="bo_axe_short"
+		mesh="merchandise_fish_b"
+		holster_mesh=""
+		subtype="arrows"
+		value="1"
+		weight="20"
+		difficulty="0"
+		appearance="0.5"
+		Type="Thrown"
+		item_holsters="">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Boulder"
+				ammo_class="Boulder"
+				stack_amount="1"
+				position="0.05, -0.15, 0"
+				center_of_mass="0,0,0"
+				physics_material="boulder_stone"
+				thrust_speed="100"
+				speed_rating="0"
+				missile_speed="8"
+				weapon_length="95"
+				thrust_damage="220"
+				item_usage="heavy_stone"
+				flying_sound_code="event:/mission/combat/boulder/passby"
+				rotation_speed="2, 0.5, 0">
+				<WeaponFlags
+					RangedWeapon="true"
+					Consumable="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanPenetrateShield="true"
+					MissileWithPhysics="true"
+					UseHandAsThrowBase="true"
+					LeavesTrail="true"
+					AmmoCanBreakOnBounceBack="true"
+					CanKillEvenIfBlunt="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			QuickFadeOut="true"
+			CannotBePickedUp="true"
+			DropOnWeaponChange="true"
+			DropOnAnyAction="true" />
+	</Item>
+
+
+	<!-- CUSTOM MASS-PRODUCED BOW -->
+	<Item
+		multiplayer_item="true"
+		id="mp_yar_mass_bow"
+		name="{=!}Mass-Produced Bow"
+		body_name="bo_longbow_f"
+		mesh="longbow_f"
+		holster_mesh="longbow_f_holster"
+		holster_mesh_with_weapon="longbow_f_holster"
+		culture="Culture.neutral_culture"
+		value="1"
+		is_merchandise="false"
+		weight="2"
+		difficulty="0"
+		Type="Bow"
+		item_holsters="bow_back_longbow:bow_back_longbow_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bow"
+				ammo_class="Arrow"
+				missile_speed="68"
+				accuracy="82"
+				thrust_damage="47"
+				thrust_speed="100"
+				speed_rating="86"
+				weapon_length="95"
+				ammo_limit="1"
+				thrust_damage_type="Pierce"
+				item_usage="bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.1,0,-0.15">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<!-- TRIZNOV BANNERS -->
+	<Item
+		multiplayer_item="true"
+		id="triznov_banner"
+		name="{=!}Знамя Тризнова"
+		body_name="bo_mace_a"
+		recalculate_body="true"
+		mesh="vlandia_tier_2_banner"
+		prefab="vlandia_tier_2_banner"
+		culture="Culture.neutral_culture"
+		weight="2.1"
+		value="10"
+		Type="OneHandedWeapon"
+		using_tableau="true"
+		item_holsters="abdomen_left">
+		<ItemComponent>
+			<Weapon
+				weapon_class="OneHandedAxe"
+				weapon_balance="100"
+				thrust_speed="78"
+				speed_rating="97"
+				missile_speed="0"
+				weapon_length="150"
+				swing_damage="6"
+				swing_damage_type="Blunt"
+				item_usage="banner"
+				physics_material="metal_weapon"
+				position="0.0, 0.0, -0.8">
+				<WeaponFlags
+					MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			DropOnWeaponChange="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			HasToBeHeldUp="true"
+			CanBePickedUpFromCorpse="false" />
+	</Item>
+
+	<Item
+		multiplayer_item="true"
+		id="triznov_royal_banner"
+		name="{=!}Королевское знамя"
+		body_name="bo_mace_a"
+		recalculate_body="true"
+		mesh="vlandia_tier_3_banner"
+		prefab="vlandia_tier_3_banner"
+		culture="Culture.neutral_culture"
+		weight="2.4"
+		value="15"
+		Type="OneHandedWeapon"
+		using_tableau="true"
+		item_holsters="abdomen_left">
+		<ItemComponent>
+			<Weapon
+				weapon_class="OneHandedAxe"
+				weapon_balance="100"
+				thrust_speed="78"
+				speed_rating="97"
+				missile_speed="0"
+				weapon_length="150"
+				swing_damage="6"
+				swing_damage_type="Blunt"
+				item_usage="banner"
+				physics_material="metal_weapon"
+				position="0.0, 0.0, -0.8">
+				<WeaponFlags
+					MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			DropOnWeaponChange="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			HasToBeHeldUp="true"
+			CanBePickedUpFromCorpse="false" />
+	</Item>
+
+	<!-- Backwards compatibility for yar_banner -->
+	<Item
+		multiplayer_item="true"
+		id="yar_banner"
+		name="{=!}Знамя Тризнова"
+		body_name="bo_mace_a"
+		recalculate_body="true"
+		mesh="vlandia_tier_2_banner"
+		prefab="vlandia_tier_2_banner"
+		culture="Culture.neutral_culture"
+		weight="2.1"
+		value="10"
+		Type="OneHandedWeapon"
+		using_tableau="true"
+		item_holsters="abdomen_left">
+		<ItemComponent>
+			<Weapon
+				weapon_class="OneHandedAxe"
+				weapon_balance="100"
+				thrust_speed="78"
+				speed_rating="97"
+				missile_speed="0"
+				weapon_length="150"
+				swing_damage="6"
+				swing_damage_type="Blunt"
+				item_usage="banner"
+				physics_material="metal_weapon"
+				position="0.0, 0.0, -0.8">
+				<WeaponFlags
+					MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			DropOnWeaponChange="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			HasToBeHeldUp="true"
+			CanBePickedUpFromCorpse="false" />
+	</Item>
+
+	<Item
+		multiplayer_item="true"
+		id="yarug_gambeson"
+		name="{=!}Yarug Gambeson"
+		mesh="tim_2024_norman_gambeson_tubes_1"
+		subtype="body_armor"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="22.3"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="22"
+				leg_armor="7"
+				arm_armor="3"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="yarug_hood"
+		name="{=!}Yarug Hood"
+		subtype="head_armor"
+		mesh="tim_2024_hood_tail_3"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="0.4"
+		difficulty="0"
+		appearance="0.3"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="4"
+				has_gender_variations="false"
+				hair_cover_type="type2"
+				modifier_group="cloth_unarmoured"
+				material_type="Cloth" />
+		</ItemComponent>
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="yarug_gambeson_blue"
+		name="{=!}Yarug Blue Gambeson"
+		mesh="tim_2024_norman_gambeson_tunic_riding_2"
+		subtype="body_armor"
+		culture="Culture.yarugs"
+		weight="4.0"
+		difficulty="0"
+		appearance="1"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				leg_armor="2"
+				head_armor="0"
+				arm_armor="2"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="yarug_boots"
+		name="{=!}Yarug Boots"
+		mesh="tim_2024_nordic_baggy_pants"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="0.8"
+		difficulty="0"
+		appearance="0.3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="cloth_unarmoured"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="yarug_hat"
+		name="{=73U5RElj}Yarug Hat"
+		subtype="head_armor"
+		mesh="tim_2025_felt_hat_01"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="3"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="12"
+				has_gender_variations="false"
+				hair_cover_type="type1"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="yarug_gambeson_archer"
+		name="{=!}Yarug Archer Gambeson"
+		mesh="tim_2025_gambeson_03"
+		subtype="body_armor"
+		culture="Culture.yarugs"
+		weight="4.0"
+		difficulty="0"
+		appearance="1"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				leg_armor="2"
+				head_armor="0"
+				arm_armor="2"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="yarug_hood_infantry"
+		name="{=!}Yarug Infantry Hood"
+		subtype="head_armor"
+		mesh="tim_2023_hood_04"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="0.4"
+		difficulty="0"
+		appearance="0.5"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="4"
+				has_gender_variations="false"
+				hair_cover_type="type2"
+				modifier_group="cloth_unarmoured"
+				material_type="Cloth" />
+		</ItemComponent>
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="tim_2023_hood_03"
+		name="{=!}Yarug Veteran Hood"
+		subtype="head_armor"
+		mesh="tim_2023_hood_03"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="0.5"
+		difficulty="0"
+		appearance="0.5"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="5"
+				has_gender_variations="false"
+				hair_cover_type="type2"
+				modifier_group="cloth_unarmoured"
+				material_type="Cloth" />
+		</ItemComponent>
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="tim_2024_eoe_hosen_1"
+		name="{=!}Yarug Hosen"
+		mesh="tim_2024_eoe_hosen_1"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="0.8"
+		difficulty="0"
+		appearance="0.3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="cloth_unarmoured"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="tim_2023_coif_crown_1"
+		name="{=!}Triznov Coif Crown"
+		mesh="tim_2023_coif_crown_1"
+		subtype="head_armor"
+		culture="Culture.yarugs"
+		value="1"
+		weight="1.0"
+		difficulty="0"
+		appearance="0.5"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="20"
+				has_gender_variations="false"
+				hair_cover_type="type2"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="tim_2023_hauberk_long_v2_2"
+		name="{=!}Triznov Hauberk"
+		mesh="tim_2023_hauberk_long_v2_2"
+		subtype="body_armor"
+		culture="Culture.neutral_culture"
+		value="1"
+		is_merchandise="false"
+		weight="23.7"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="34"
+				leg_armor="12"
+				arm_armor="3"
+				has_gender_variations="true"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="chausses3"
+		name="{=!}Triznov Chausses"
+		mesh="chausses3"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="4.0"
+		difficulty="0"
+		appearance="0.5"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="75"
+				covers_legs="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="tim_byrnie_norse_tunic_3"
+		name="{=!}Lord Norse Tunic"
+		mesh="tim_byrnie_norse_tunic_3"
+		subtype="body_armor"
+		culture="Culture.yarugs"
+		weight="12.0"
+		difficulty="0"
+		appearance="1"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="32"
+				leg_armor="12"
+				head_armor="0"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="tim_helm_full_haub_set_o_04"
+		name="{=!}Lord Spangelhelm Helm"
+		mesh="tim_helm_full_haub_set_o_04"
+		subtype="head_armor"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="2.5"
+		difficulty="0"
+		appearance="0.7"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="85"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="tim_cloak_large_lamellar_1"
+		name="{=!}Large Lamellar Cloak"
+		mesh="tim_cloak_large_lamellar_1"
+		culture="Culture.yarugs"
+		value="1"
+		is_merchandise="false"
+		weight="2.0"
+		appearance="1"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				arm_armor="2"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+	</Item>
+	<CraftedItem
+		multiplayer_item="true"
+		id="yarg_mace_stable"
+		name="{=!}Mace"
+		crafting_template="Mace"
+		culture="Culture.neutral_culture">
+		<Pieces>
+			<Piece
+				id="mp_vlandian_mace_head"
+				Type="Blade"
+				scale_factor="100" />
+			<Piece
+				id="mp_vlandia_mace_handle"
+				Type="Handle"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<Item
+		multiplayer_item="true"
+		id="mp_yarug_shield"
+		name="{=!}Yarugs Shield"
+		body_name="bo_cap_kite_shield_b"
+		shield_body_name="bo_kite_shield_b"
+		recalculate_body="false"
+		mesh="kite_shield_b"
+		culture="Culture.neutral_culture"
+		using_tableau="true"
+		value="1"
+		is_merchandise="false"
+		weight="3.0"
+		Type="Shield"
+		item_holsters="shield_kite:shield_2:shield_3:shield_4"
+		has_lower_holster_priority="true"
+		holster_position_shift="-0.1,-0.0,-0.025">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="12"
+				thrust_damage_type="Blunt"
+				thrust_speed="82"
+				speed_rating="82"
+				item_usage="shield"
+				position="0.0, 0.00, 0.00"
+				rotation="0.0,10.0,40.00"
+				physics_material="wood_shield"
+				weapon_length="128"
+				hit_points="250"
+				center_of_mass="0,-0.1,0.1">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			HeldInOffHand="true"
+			ForceAttachOffHandSecondaryItemBone="true" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="triznov_master_shield"
+		name="{=!}Каплевидный щит мастера"
+		body_name="bo_cap_kite_shield_n"
+		shield_body_name="bo_kite_shield_n"
+		recalculate_body="false"
+		mesh="kite_shield_n"
+		culture="Culture.neutral_culture"
+		using_tableau="true"
+		value="1"
+		is_merchandise="false"
+		weight="3.2"
+		appearance="1"
+		Type="Shield"
+		item_holsters="shield_kite:shield_2:shield_3:shield_4"
+		has_lower_holster_priority="true"
+		holster_position_shift="-0.1,-0.1,-0.025">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="15"
+				thrust_speed="82"
+				thrust_damage_type="Blunt"
+				speed_rating="85"
+				item_usage="shield"
+				position="0.0, 0.00, 0.00"
+				rotation="0.0,10.0,40.00"
+				physics_material="wood_shield"
+				weapon_length="85"
+				center_of_mass="0.0,0.1,0.1"
+				hit_points="250"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			HeldInOffHand="true"
+			ForceAttachOffHandSecondaryItemBone="true" />
+	</Item>
+	<!-- TRIZNOV MARCHING DRUM -->
+	<Item
+		multiplayer_item="true"
+		id="triznov_drum"
+		name="{=!}Барабан"
+		body_name="bo_musical_instrument_bodhran"
+		shield_body_name="bo_musical_instrument_bodhran"
+		recalculate_body="false"
+		mesh="musical_instrument_bodhran"
+		culture="Culture.neutral_culture"
+		using_tableau="false"
+		value="1"
+		is_merchandise="false"
+		weight="2.2"
+		appearance="1"
+		Type="Shield"
+		item_holsters="triznov_drum_back:triznov_drum_back_4:javelins:shield_round:shield_4"
+		has_lower_holster_priority="true"
+		holster_position_shift="0.0,0.0,0.0">
+		<ItemComponent>
+			<Weapon
+				weapon_class="SmallShield"
+				body_armor="0"
+				thrust_speed="85"
+				thrust_damage_type="Blunt"
+				speed_rating="90"
+				item_usage="hand_shield"
+				position="-0.02, 0.0, 0.08"
+				rotation="0.0,-90.0,0.0"
+				physics_material="wood_shield"
+				weapon_length="45"
+				center_of_mass="0.0,0.0,0.0"
+				hit_points="120"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			HeldInOffHand="true"
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<!-- TRIZNOV DRUMSTICK / MALLET -->
+	<CraftedItem
+		multiplayer_item="true"
+		id="triznov_drumstick"
+		name="{=!}Колотушка барабанщика"
+		crafting_template="Mace"
+		value="1"
+		is_merchandise="false"
+		culture="Culture.neutral_culture">
+		<Pieces>
+			<Piece
+				id="mp_vlandian_mace_head"
+				Type="Blade"
+				scale_factor="65" />
+			<Piece
+				id="mp_vlandia_mace_handle"
+				Type="Handle"
+				scale_factor="70" />
+		</Pieces>
+	</CraftedItem>
+	<Item
+		multiplayer_item="true"
+		id="triznov_golota_shield"
+		name="{=!}Тарч голоты"
+		body_name="bo_cap_heater_shield_f"
+		shield_body_name="bo_heater_shield_f"
+		recalculate_body="false"
+		mesh="heater_shield_f"
+		culture="Culture.neutral_culture"
+		using_tableau="true"
+		weight="3.2"
+		appearance="1"
+		Type="Shield"
+		item_holsters="shield:shield_2:shield_3:shield_4"
+		has_lower_holster_priority="true"
+		holster_position_shift="-0.10,0.1,0.025">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="15"
+				thrust_speed="82"
+				thrust_damage_type="Blunt"
+				speed_rating="85"
+				physics_material="wood_shield"
+				item_usage="shield"
+				position="0.0, 0.00, 0.00"
+				rotation="0.0,10.0,40.00"
+				weapon_length="90"
+				center_of_mass="0.0,0.1,0.05"
+				hit_points="200"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			HeldInOffHand="true"
+			ForceAttachOffHandSecondaryItemBone="true" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="triznov_pan_shield"
+		name="{=!}Панский тарч"
+		body_name="bo_cap_heater_shield_g"
+		shield_body_name="bo_heater_shield_g"
+		recalculate_body="false"
+		mesh="heater_shield_g"
+		culture="Culture.neutral_culture"
+		using_tableau="true"
+		weight="3.2"
+		appearance="1"
+		Type="Shield"
+		item_holsters="shield:shield_2:shield_3:shield_4"
+		has_lower_holster_priority="true"
+		holster_position_shift="-0.1,0,0.025">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="15"
+				thrust_speed="82"
+				thrust_damage_type="Blunt"
+				speed_rating="85"
+				physics_material="wood_shield"
+				item_usage="shield"
+				position="0.0, 0.00, 0.00"
+				rotation="0.0,10.0,40.00"
+				weapon_length="100"
+				center_of_mass="0.0,0.05,0.05"
+				hit_points="250"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			HeldInOffHand="true"
+			ForceAttachOffHandSecondaryItemBone="true" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="triznov_pavise_shield"
+		name="{=!}Большая павеза"
+		body_name="bo_cap_kite_shield_e"
+		shield_body_name="bo_kite_shield_e"
+		recalculate_body="false"
+		mesh="kite_shield_e"
+		culture="Culture.neutral_culture"
+		using_tableau="true"
+		value="1"
+		is_merchandise="false"
+		weight="3.8"
+		appearance="1"
+		Type="Shield"
+		item_holsters="shield:shield_2:shield_3:shield_4"
+		has_lower_holster_priority="true"
+		holster_position_shift="-0.1,-0.1,-0.025">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="15"
+				thrust_speed="82"
+				thrust_damage_type="Blunt"
+				speed_rating="78"
+				item_usage="shield"
+				position="0.0, 0.00, 0.00"
+				rotation="0.0,10.0,40.00"
+				physics_material="wood_shield"
+				weapon_length="118"
+				center_of_mass="0.0,0.1,0.1"
+				hit_points="250"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			HeldInOffHand="true"
+			ForceAttachOffHandSecondaryItemBone="true" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="triznov_torch"
+		name="{=!}Факел"
+		body_name="bo_axe_short"
+		recalculate_body="true"
+		mesh="torch_g"
+		prefab="torch_a_wm"
+		culture="Culture.neutral_culture"
+		weight="1.0"
+		value="5"
+		Type="OneHandedWeapon"
+		item_holsters="">
+		<ItemComponent>
+			<Weapon
+				weapon_class="OneHandedAxe"
+				weapon_balance="100"
+				thrust_speed="80"
+				speed_rating="90"
+				missile_speed="0"
+				weapon_length="60"
+				swing_damage="10"
+				swing_damage_type="Blunt"
+				item_usage="banner"
+				physics_material="wood"
+				position="0.0, 0.0, -0.05">
+				<WeaponFlags
+					MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			DropOnWeaponChange="true"
+			QuickFadeOut="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			HasToBeHeldUp="true"
+			CanBePickedUpFromCorpse="false" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="mp_mule_harness_baskets"
+		name="{=!}Mule Baskets"
+		mesh="mule_load_b"
+		culture="Culture.neutral_culture"
+		value="1"
+		is_merchandise="false"
+		weight="10"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				family_type="1"
+				material_type="Cloth" />
+		</ItemComponent>
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="mp_yarug_donkey"
+		name="{=!}Тягловый осёл"
+		mesh="mule_mesh"
+		culture="Culture.neutral_culture"
+		value="1"
+		is_merchandise="false"
+		weight="300"
+		Type="Horse">
+		<ItemComponent>
+			<Horse
+				monster="Monster.mule"
+				maneuver="22"
+				speed="13"
+				charge_damage="3"
+				body_length="92"
+				is_mountable="true"
+				is_pack_animal="true"
+				extra_health="150" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="mp_mule_harness"
+		name="{=!}Сбруя для осла"
+		mesh="mule_load_a"
+		culture="Culture.neutral_culture"
+		value="1"
+		is_merchandise="false"
+		weight="10"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				family_type="1" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+	<!-- Wool Sling -->
+	<Item
+		multiplayer_item="true"
+		id="mp_sling_wool"
+		name="{=L5i5RgO0}Wool Sling"
+		body_name="bo_throwing_stone"
+		skeleton_name="sling_skeleton"
+		static_animation_name="sling_drop_weapon"
+		holster_body_name="bo_axe_short"
+		holster_mesh_with_weapon="sling_holster"
+		mesh="sling_c"
+		value="300"
+		weight="0.1"
+		appearance="1"
+		Type="Thrown"
+		AmmoOffset="-0.02, 0.0, 0.0"
+		item_holsters="throwing_stone:throwing_stone_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Sling"
+				ammo_class="SlingStone"
+				ammo_limit="1"
+				accuracy="45"
+				thrust_speed="105"
+				speed_rating="105"
+				missile_speed="40"
+				weapon_length="20"
+				thrust_damage="25"
+				thrust_damage_type="Blunt"
+				item_usage="sling"
+				physics_material="wood_weapon"
+				center_of_mass="0,0,0.1">
+				<WeaponFlags
+					RangedWeapon="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true"
+					UseHandAsThrowBase="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			Stealth="true" />
+	</Item>
+
+	<!-- Stone Sling Bullets -->
+	<Item
+		multiplayer_item="true"
+		id="sling_stoneammo"
+		name="{=a3WNz6Ci}Stone Sling Bullets"
+		body_name="bo_sling_ammo"
+		holster_body_name="bo_axe_short"
+		flying_mesh="sling_ammo_flying"
+		mesh="sling_ammo"
+		tier_override="1"
+		holster_mesh="stone_holster"
+		holster_mesh_with_weapon="stone_holster"
+		weight="0.1"
+		appearance="1"
+		Type="SlingStones"
+		item_holsters="throwing_stone:throwing_stone_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="SlingStone"
+				stack_amount="18"
+				physics_material="missile"
+				accuracy="45"
+				thrust_speed="0"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="10"
+				thrust_damage="4"
+				thrust_damage_type="Blunt"
+				item_usage=""
+				passby_sound_code="">
+				<WeaponFlags
+					AmmoBreaksOnBounceBack="true"
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					UseHandAsThrowBase="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			Stealth="true"
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<!-- TRIZNOV CUSTOM SPEAR -->
+	<CraftedItem
+		multiplayer_item="true"
+		id="triznov_spear"
+		name="{=!}Копьё Тризнова"
+		crafting_template="TwoHandedPolearm"
+		value="1"
+		is_merchandise="false"
+		culture="Culture.neutral_culture">
+		<Pieces>
+			<Piece
+				id="mp_sturgia_short_spear_blade"
+				Type="Blade"
+				scale_factor="90" />
+			<Piece
+				id="mp_western_spear_handle"
+				Type="Handle"
+				scale_factor="90" />
+			<Piece
+				id="mp_spear_pommel_7"
+				Type="Pommel"
+				scale_factor="90" />
+		</Pieces>
+	</CraftedItem>
+
+	<!-- TRIZNOV CROUCH-CAPABLE STEPPE BOW -->
+	<Item
+		multiplayer_item="true"
+		id="triznov_steppe_bow"
+		name="{=!}Степной лук"
+		body_name="bo_shortbow_g"
+		mesh="shortbow_g"
+		holster_mesh="shortbow_g_holster"
+		holster_mesh_with_weapon="shortbow_g_holster_weapon"
+		culture="Culture.neutral_culture"
+		value="1"
+		is_merchandise="false"
+		weight="0.4"
+		difficulty="0"
+		appearance="1"
+		Type="Bow"
+		item_holsters="bow_hip:bow_hip_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bow"
+				ammo_class="Arrow"
+				ammo_limit="1"
+				thrust_speed="75"
+				speed_rating="86"
+				missile_speed="70"
+				weapon_length="105"
+				accuracy="94"
+				thrust_damage="55"
+				thrust_damage_type="Pierce"
+				item_usage="bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.1,0,-0.15">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true"
+					CanBeUsedWhileCrouched="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			Stealth="true"
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+
+	<!-- TRIZNOV CROUCH-CAPABLE LIGHT CROSSBOW (SLOW RELOAD) -->
+	<Item
+		multiplayer_item="true"
+		id="triznov_light_crossbow"
+		name="{=!}Лёгкий арбалет"
+		body_name="bo_cross_bow_heavy"
+		mesh="crossbow_a"
+		culture="Culture.neutral_culture"
+		value="1"
+		is_merchandise="false"
+		weight="1.8"
+		difficulty="0"
+		appearance="0.8"
+		Type="Crossbow"
+		AmmoOffset="0.0, 0.02131, 0.24650"
+		item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+		holster_position_shift="0.02,0,-0.4">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Crossbow"
+				ammo_class="Bolt"
+				missile_speed="95"
+				accuracy="96"
+				thrust_damage="76"
+				thrust_speed="78"
+				speed_rating="50"
+				weapon_length="95"
+				ammo_limit="1"
+				thrust_damage_type="Pierce"
+				item_usage="crossbow_light"
+				reload_phase_count="2"
+				physics_material="wood_weapon"
+				center_of_mass="0,0,0.4">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanBeUsedWhileCrouched="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			Stealth="true" />
+	</Item>
+
+</Items>
+

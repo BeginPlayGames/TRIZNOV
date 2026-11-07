@@ -1,0 +1,8 @@
+<base>
+	<materials>
+		<material name="bb">
+			<simulation stretching_stiffness="0.500" anchor_stiffness="1.000" bending_stiffness="0.500" shearing_stiffness_="0.500" damping="0.950" gravity="10.000" linear_inertia="0.100" max_linear_velocity="-1.000" linear_velocity_multiplier="1.000" wind="0.100" air_drag_multiplier="0.100"/>
+		</material>
+	</materials>
+</base>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+<Item multiplayer_item="true" 
+		id="bb_hood_lowered"
+		name="[BUA] Hood lowered"
+		mesh="bb_hood_lowered"
+		weight="0.4"
+		appearance="2"
+		value="180"	 
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+			body_armor="2"
+			arm_armor="1"
+			modifier_group="cloth"
+			material_type="Cloth"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"
+			Civilian="true"/>
+</Item>
+<Item multiplayer_item="true" 
+		id="bb_hood_lowered_wide"
+		name="[BUA] Hood lowered over aventail"
+		mesh="bb_hood_lowered_wide"
+		weight="0.4"
+		appearance="2"
+		value="180"	 
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+			body_armor="2"
+			arm_armor="1"
+			modifier_group="cloth"
+			material_type="Cloth"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"
+			Civilian="true"/>
+</Item>
+<Item multiplayer_item="true"
+		id="hallow_armor_shoulder"
+		name="{=!}Наплечники Охотника"
+		mesh="hallow_armor_shoulder"
+		weight="1.5"
+		appearance="1.5"
+		value="3000"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+			body_armor="10"
+			arm_armor="8"
+			modifier_group="leather"
+			material_type="Leather"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false"
+			Civilian="true"/>
+</Item>
+</Items>

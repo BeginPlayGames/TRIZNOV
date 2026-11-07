@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+<Item multiplayer_item="true"
+		id="bb_civ_garment_1"
+		name="[BUA] Civilian Garment 1"
+		subtype="body_armor"
+		mesh="bb_civ_garment_1"
+		weight="1.2"
+		difficulty="0"
+		appearance="1.5"
+		value="1500"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_civ_garment_1_alt"
+		name="[BUA] Civilian Garment 1 Alternate"
+		subtype="body_armor"
+		mesh="bb_civ_garment_1_alt"
+		weight="1.2"
+		difficulty="0"
+		appearance="1.5"
+		value="1500"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_civ_garment_1_royal"
+		name="[BUA] Civilian Garment 1 Royal"
+		subtype="body_armor"
+		mesh="bb_civ_garment_1_royal"
+		weight="1.2"
+		difficulty="0"
+		appearance="1.5"
+		value="4800"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_civ_garment_1_royal_alt"
+		name="[BUA] Civilian Garment 1 Royal Alternate"
+		subtype="body_armor"
+		mesh="bb_civ_garment_1_royal_alt"
+		weight="1.2"
+		difficulty="0"
+		appearance="1.5"
+		value="4800"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true" 
+		id="bb_dagged_hood_1"
+		name="[BUA] Dagged Hood"
+		mesh="bb_dagged_hood_1"
+		weight="0.8"
+		appearance="2"
+		value="3000"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+			body_armor="3"
+			arm_armor="2"
+			modifier_group="cloth"
+			material_type="Cloth"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"
+			Civilian="true"/>
+</Item>
+<Item multiplayer_item="true" 
+		id="bb_dagged_hood_1_alt"
+		name="[BUA] Dagged Hood alternate"
+		mesh="bb_dagged_hood_1_alt"
+		weight="0.8"
+		appearance="2"
+		value="3000"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+			body_armor="3"
+			arm_armor="2"
+			modifier_group="cloth"
+			material_type="Cloth"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"
+			Civilian="true"/>
+</Item>
+<Item multiplayer_item="true" 
+		id="bb_dagged_hood_1_wide"
+		name="[BUA] Dagged Hood Wide"
+		mesh="bb_dagged_hood_1_wide"
+		weight="0.8"
+		appearance="2"
+		value="3000"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+			body_armor="3"
+			arm_armor="2"
+			modifier_group="cloth"
+			material_type="Cloth"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"
+			Civilian="true"/>
+</Item>
+<Item multiplayer_item="true" 
+		id="bb_dagged_hood_1_wide_alt"
+		name="[BUA] Dagged Hood Wide alternate"
+		mesh="bb_dagged_hood_1_wide_alt"
+		weight="0.8"
+		appearance="2"
+		value="3000"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+			body_armor="3"
+			arm_armor="2"
+			modifier_group="cloth"
+			material_type="Cloth"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"
+			Civilian="true"/>
+</Item>
+</Items>

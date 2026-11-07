@@ -1,0 +1,46 @@
+<prefabs>
+	<game_entity name="bd_cartbroken_a" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true" />
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="bd_cartbroken_a" position="-0.600, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+		</components>
+		<scripts>
+			<script name="SynchedMissionObject" />
+		</scripts>
+		<children>
+			<game_entity name="body_physics">
+				<physics shape="bo_bd_cartbroken_a">
+					<body_flags>
+						<body_flag name="moveable"/>
+					</body_flags>
+				</physics>
+			</game_entity>
+			<game_entity name="broken_shield_1">
+				<transform position="-1.553, 0.850, 0.200" rotation_euler="-1.570, 0.000, -0.300"/>
+				<components>
+					<meta_mesh_component name="sturgia_shield_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="broken_shield_2">
+				<transform position="-0.400, -0.900, 0.150" rotation_euler="1.450, 0.100, 0.800"/>
+				<components>
+					<meta_mesh_component name="sturgia_shield_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="broken_cover">
+				<transform position="-2.200, -0.200, 0.300" rotation_euler="0.400, -0.100, -1.200"/>
+				<physics shape="bo_european_castle_wooden_cover_a" override_material="wood">
+					<body_flags>
+						<body_flag name="moveable"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="european_castle_wooden_cover_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>

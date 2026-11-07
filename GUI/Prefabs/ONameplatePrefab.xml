@@ -1,0 +1,45 @@
+<Prefab>
+    <Window>
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                DoNotAcceptEvents="true" DoNotPassEventsToChildren="true">
+            <Children>
+
+                <Widget DataSource="{Targets}"
+                        WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                        DoNotAcceptEvents="true" DoNotPassEventsToChildren="true">
+                    <ItemTemplate>
+                        <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren"
+                                HorizontalAlignment="Center" VerticalAlignment="Center"
+                                ScaledPositionXOffset="@ScreenPositionX"
+                                ScaledPositionYOffset="@ScreenPositionY"
+                                IsVisible="@IsVisible"
+                                DoNotAcceptEvents="true" DoNotPassEventsToChildren="true">
+                            <Children>
+                                <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren"
+                                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                                           StackLayout.LayoutMethod="VerticalTopToBottom">
+                                    <Children>
+                                        <!-- Name / "+" — relationship color (green/purple/red). -->
+                                        <TextWidget Text="@DisplayText"
+                                                    Brush="ONameplate.Text"
+                                                    Brush.FontColor="@ColorHex"
+                                                    WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren"
+                                                    HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                        <!-- Faction line — faction's own color. -->
+                                        <TextWidget Text="@FactionText"
+                                                    Brush="ONameplate.Faction"
+                                                    Brush.FontColor="@FactionColorHex"
+                                                    IsVisible="@ShowFaction"
+                                                    WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren"
+                                                    HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Children>
+                                </ListPanel>
+                            </Children>
+                        </Widget>
+                    </ItemTemplate>
+                </Widget>
+
+            </Children>
+        </Widget>
+    </Window>
+</Prefab>

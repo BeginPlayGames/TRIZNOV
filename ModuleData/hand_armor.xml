@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+<Item multiplayer_item="true" 		
+		id="bb_plate_gauntlets"
+		name="[BUA] Plate hourglass gauntlets" 
+		mesh="bb_plate_gauntlets"
+		weight="1.8"
+		difficulty="0"
+		appearance="1"
+		value="8000"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="34"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false"/>
+</Item>
+
+
+
+
+
+
+
+
+
+
+
+<Item multiplayer_item="true" 		
+		id="bb_leather_gloves"
+		name="[BUA] Leather Gloves" 
+		mesh="bb_leather_gloves"
+		weight="0.8"
+		difficulty="0"
+		appearance="1"
+		value="1500"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false"/>
+</Item>
+<Item multiplayer_item="true" 		
+		id="bb_leather_gloves_black"
+		name="[BUA] Leather Gloves Black" 
+		mesh="bb_leather_gloves_black"
+		weight="0.8"
+		difficulty="0"
+		appearance="1"
+		value="1500"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false"/>
+</Item>
+<Item multiplayer_item="true" 		
+		id="bb_leather_gloves_tc"
+		name="[BUA] Leather Gloves Coloured" 
+		mesh="bb_leather_gloves_tc"
+		weight="0.8"
+		difficulty="0"
+		appearance="1"
+		value="1500"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"/>
+
+</Item>
+
+<Item multiplayer_item="true" 		
+		id="bb_composite_gauntlets"
+		name="[BUA] Composite Gauntlets" 
+		mesh="bb_composite_gauntlets"
+		weight="1.2"
+		difficulty="0"
+		appearance="1"
+		value="5000"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false"/>
+</Item>
+<Item multiplayer_item="true" 		
+		id="bb_composite_gauntlets_tc"
+		name="[BUA] Composite Gauntlets colooured" 
+		mesh="bb_composite_gauntlets_tc"
+		weight="1.2"
+		difficulty="0"
+		appearance="1"
+		value="5000"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"/>
+
+</Item>
+<Item multiplayer_item="true" 		
+		id="bb_plate_gauntlets_trim"
+		name="[BUA] Plate Hourglass Gauntlets Trimmed" 
+		mesh="bb_plate_gauntlets_trim"
+		weight="1.9"
+		difficulty="0"
+		appearance="1"
+		value="12000"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="36"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"/>
+
+</Item>
+<Item multiplayer_item="true"
+		id="hallow_armor_gauntlets"
+		name="{=!}Перчатки Охотника"
+		mesh="hallow_armor_gauntlets"
+		weight="1.0"
+		difficulty="0"
+		appearance="1"
+		value="3000"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="18"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false"
+			Civilian="true"/>
+</Item>
+</Items>

@@ -1,0 +1,2980 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cosmetics>
+	<!-- ======================================================== -->
+	<!-- LIGHT HEAD (Golota, Archers, Cavalry, Pan, Ataman) (16 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_kettle_1_bare" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_2_bare" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_hat_3_bare" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_1_padded" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_2_padded" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_hat_3" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_hat_3" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_hat_3_mail" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kettle_1_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_skullcap" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_scale_cap" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_tegulated_helmet" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_tegulated_helmet_padded" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_maille" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_tegulated_helmet_maille" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_kettle_1_bare" />
+			<Item id="bb_kettle_2_bare" />
+			<Item id="bb_kettle_hat_3_bare" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_1" />
+			<Item id="bb_kettle_2" />
+			<Item id="bb_kettle_hat_3" />
+			<Item id="bb_kettle_hat_3_mail" />
+			<Item id="bb_kettle_1_torse" />
+			<Item id="bb_skullcap" />
+			<Item id="bb_scale_cap" />
+			<Item id="bb_tegulated_helmet" />
+			<Item id="bb_tegulated_helmet_padded" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- MEDIUM HEAD (Pan, Ataman, Craftsman, Cavalry) (14 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="mp_nordic_fur_cap" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_open_1_bare" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_open_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_open_2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_open_1_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_barbute_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_visor" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_bretache" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_bretache_1_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_klappvisor_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_klappvisor_2_strapless" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_klappvisor_3" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_klappvisor_2_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_spoleto_1" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_spoleto_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="mp_nordic_fur_cap" />
+			<Item id="bb_bascinet_open_1_bare" />
+			<Item id="bb_bascinet_open_1" />
+			<Item id="bb_bascinet_open_2" />
+			<Item id="bb_bascinet_open_1_torse" />
+			<Item id="bb_barbute_1" />
+			<Item id="bb_bascinet_visor" />
+			<Item id="bb_bascinet_bretache" />
+			<Item id="bb_bascinet_bretache_1_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_klappvisor_2_strapless" />
+			<Item id="bb_bascinet_klappvisor_3" />
+			<Item id="bb_bascinet_klappvisor_2_torse" />
+			<Item id="bb_kettle_1_padded" />
+			<Item id="bb_kettle_2_padded" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- HEAVY HEAD (Baron Novak, Warlord, Pan, Ataman) (18 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_sugarloaf_greathelm" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_sugarloaf_greathelm_gold" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_sugarloaf_greathelm_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_sugarloaf_greathelm_gold_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_greathelm_mitre" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_2_gold" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_2_plume" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_3" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_3_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_4" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_4_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_5" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_5_plumed" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_5_raised" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_5_raised_plumed" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_torse" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_bascinet_hounskull_5_torse" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_sugarloaf_greathelm" />
+			<Item id="bb_sugarloaf_greathelm_gold" />
+			<Item id="bb_sugarloaf_greathelm_torse" />
+			<Item id="bb_sugarloaf_greathelm_gold_torse" />
+			<Item id="bb_greathelm_mitre" />
+			<Item id="bb_bascinet_hounskull_1" />
+			<Item id="bb_bascinet_hounskull_2" />
+			<Item id="bb_bascinet_hounskull_2_gold" />
+			<Item id="bb_bascinet_hounskull_2_plume" />
+			<Item id="bb_bascinet_hounskull_3" />
+			<Item id="bb_bascinet_hounskull_3_torse" />
+			<Item id="bb_bascinet_hounskull_4" />
+			<Item id="bb_bascinet_hounskull_4_torse" />
+			<Item id="bb_bascinet_hounskull_5" />
+			<Item id="bb_bascinet_hounskull_5_plumed" />
+			<Item id="bb_bascinet_hounskull_5_raised" />
+			<Item id="bb_bascinet_hounskull_5_raised_plumed" />
+			<Item id="bb_bascinet_klappvisor_1" />
+			<Item id="bb_bascinet_open_1" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- LIGHT BODY (Golota, Archers, Cavalry, Pan, Ataman) (23 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_gambeson_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_gambeson_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_gambeson_tabard_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_gambeson_tabard_2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_gambeson_tabard_heraldry" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson_heraldry" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson_alt" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson_alt_heraldry" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson_1_heraldry" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson_t2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson_t2_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_surcoat_gambeson_t2_heraldry" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_overcoat_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_overcoat_2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_overcoat_3" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_overcoat_heraldry" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_overcoat_heraldry_2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_civ_garment_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_civ_garment_1_alt" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_civ_garment_1_royal" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal_alt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_civ_garment_1_royal_alt" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_gambeson_1" />
+			<Item id="bb_gambeson_tc" />
+			<Item id="bb_gambeson_tabard_1" />
+			<Item id="bb_gambeson_tabard_2" />
+			<Item id="bb_gambeson_tabard_heraldry" />
+			<Item id="bb_surcoat_gambeson" />
+			<Item id="bb_surcoat_gambeson_heraldry" />
+			<Item id="bb_surcoat_gambeson_alt" />
+			<Item id="bb_surcoat_gambeson_alt_heraldry" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_surcoat_gambeson_1_heraldry" />
+			<Item id="bb_surcoat_gambeson_t2" />
+			<Item id="bb_surcoat_gambeson_t2_tc" />
+			<Item id="bb_surcoat_gambeson_t2_heraldry" />
+			<Item id="bb_overcoat_1" />
+			<Item id="bb_overcoat_2" />
+			<Item id="bb_overcoat_3" />
+			<Item id="bb_overcoat_heraldry" />
+			<Item id="bb_overcoat_heraldry_2" />
+			<Item id="bb_civ_garment_1" />
+			<Item id="bb_civ_garment_1_alt" />
+			<Item id="bb_civ_garment_1_royal" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- MEDIUM BODY (Pan, Ataman, Craftsman, Cavalry) (16 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_coat_plates" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_coat_plates_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_coat_plates_t2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_coat_plates_t2_royal" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_gambeson_breastplate" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_gambeson_breastplate_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kastenbrust_t1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kastenbrust_t2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_covered_cuirass_t1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_covered_cuirass_t2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_covered_cuirass_t2_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_cuirass_leather_t2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_cuirass_leather_t2_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_breastplate_leather" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_breastplate_leather_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_jupon_royal_2_breastplate" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon_royal_2_breastplate" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_coat_plates" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates_t2" />
+			<Item id="bb_coat_plates_t2_royal" />
+			<Item id="bb_gambeson_breastplate" />
+			<Item id="bb_gambeson_breastplate_tc" />
+			<Item id="bb_kastenbrust_t1" />
+			<Item id="bb_kastenbrust_t2" />
+			<Item id="bb_covered_cuirass_t1" />
+			<Item id="bb_covered_cuirass_t2" />
+			<Item id="bb_covered_cuirass_t2_tc" />
+			<Item id="bb_cuirass_leather_t2" />
+			<Item id="bb_cuirass_leather_t2_tc" />
+			<Item id="bb_breastplate_leather" />
+			<Item id="bb_breastplate_leather_tc" />
+			<Item id="bb_surcoat_gambeson_1" />
+			<Item id="bb_gambeson_tabard_1" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- HEAVY BODY (Baron Novak, Warlord, Pan, Ataman) (24 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_zizka_armor" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_plate_breastplate_mail" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_waffenrock_plate" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_cuirass" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_kastenbrust_t3" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_cuirass_t2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_cuirass_t2_trim" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_cuirass_skirt" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_cuirass_coat" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_cuirass_coat_trim" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon_breastplate" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon_royal" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon_short" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon_long" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon_sleeved" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon_sleeved_t2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_jupon_royal_2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_covered_cuirass_t3" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_covered_cuirass_t3_trim" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_tabard_t1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_tabard_t2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_tabard_t3" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_belt" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_tabard_belt" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_zizka_armor" />
+			<Item id="bb_plate_breastplate_mail" />
+			<Item id="bb_waffenrock_plate" />
+			<Item id="bb_cuirass" />
+			<Item id="bb_kastenbrust_t3" />
+			<Item id="bb_cuirass_t2" />
+			<Item id="bb_cuirass_t2_trim" />
+			<Item id="bb_cuirass_skirt" />
+			<Item id="bb_cuirass_coat" />
+			<Item id="bb_cuirass_coat_trim" />
+			<Item id="bb_jupon" />
+			<Item id="bb_jupon_breastplate" />
+			<Item id="bb_jupon_royal" />
+			<Item id="bb_jupon_short" />
+			<Item id="bb_jupon_long" />
+			<Item id="bb_jupon_sleeved" />
+			<Item id="bb_jupon_sleeved_t2" />
+			<Item id="bb_jupon_royal_2" />
+			<Item id="bb_covered_cuirass_t3" />
+			<Item id="bb_covered_cuirass_t3_trim" />
+			<Item id="bb_tabard_t1" />
+			<Item id="bb_tabard_t2" />
+			<Item id="bb_tabard_t3" />
+			<Item id="bb_coat_plates_tc" />
+			<Item id="bb_coat_plates" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- LIGHT LEGS (Golota, Archers, Cavalry, Pan, Ataman) (4 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_hose_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hose_2" />
+			<Item id="bb_poor_legs" />
+			<Item id="bb_poor_legs_tc" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_poor_legs_greaves_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_hose_2" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hose_1" />
+			<Item id="bb_poor_legs" />
+			<Item id="bb_poor_legs_tc" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_poor_legs_greaves_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_poor_legs" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hose_1" />
+			<Item id="bb_hose_2" />
+			<Item id="bb_poor_legs_tc" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_poor_legs_greaves_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_poor_legs_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hose_1" />
+			<Item id="bb_hose_2" />
+			<Item id="bb_poor_legs" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_poor_legs_greaves_tc" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- MEDIUM LEGS (Pan, Ataman, Craftsman, Cavalry) (6 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_poor_legs_greaves" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_poor_legs_greaves_tc" />
+			<Item id="bb_composite_legs" />
+			<Item id="bb_half_plate_legs" />
+			<Item id="bb_zizka_legs_realistic" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_poor_legs_greaves_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_composite_legs" />
+			<Item id="bb_half_plate_legs" />
+			<Item id="bb_zizka_legs_realistic" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_composite_legs" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_poor_legs_greaves_tc" />
+			<Item id="bb_half_plate_legs" />
+			<Item id="bb_zizka_legs_realistic" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_half_plate_legs" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_poor_legs_greaves_tc" />
+			<Item id="bb_composite_legs" />
+			<Item id="bb_zizka_legs_realistic" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_zizka_legs_realistic" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_poor_legs_greaves_tc" />
+			<Item id="bb_composite_legs" />
+			<Item id="bb_half_plate_legs" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_zizka_legs_realistic_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_poor_legs_greaves" />
+			<Item id="bb_poor_legs_greaves_tc" />
+			<Item id="bb_composite_legs" />
+			<Item id="bb_half_plate_legs" />
+			<Item id="bb_zizka_legs_realistic" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- HEAVY LEGS (Baron Novak, Warlord, Pan, Ataman) (5 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_plate_legs" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_plate_legs_t0" />
+			<Item id="bb_plate_legs_trim" />
+			<Item id="bb_zizka_legs" />
+			<Item id="bb_zizka_legs_tc" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_plate_legs_t0" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_plate_legs" />
+			<Item id="bb_plate_legs_trim" />
+			<Item id="bb_zizka_legs" />
+			<Item id="bb_zizka_legs_tc" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_plate_legs_trim" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_plate_legs" />
+			<Item id="bb_plate_legs_t0" />
+			<Item id="bb_zizka_legs" />
+			<Item id="bb_zizka_legs_tc" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_zizka_legs" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_plate_legs" />
+			<Item id="bb_plate_legs_t0" />
+			<Item id="bb_plate_legs_trim" />
+			<Item id="bb_zizka_legs_tc" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_zizka_legs_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_plate_legs" />
+			<Item id="bb_plate_legs_t0" />
+			<Item id="bb_plate_legs_trim" />
+			<Item id="bb_zizka_legs" />
+			<Item id="bb_zizka_legs_realistic_tc" />
+			<Item id="bb_poor_legs_greaves" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- LIGHT GLOVES (Golota, Archers, Cavalry, Pan, Ataman) (3 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_leather_gloves" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_leather_gloves_black" />
+			<Item id="bb_leather_gloves_tc" />
+			<Item id="bb_composite_gauntlets" />
+			<Item id="bb_composite_gauntlets_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_leather_gloves_black" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_leather_gloves" />
+			<Item id="bb_leather_gloves_tc" />
+			<Item id="bb_composite_gauntlets" />
+			<Item id="bb_composite_gauntlets_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_leather_gloves_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_leather_gloves" />
+			<Item id="bb_leather_gloves_black" />
+			<Item id="bb_composite_gauntlets" />
+			<Item id="bb_composite_gauntlets_tc" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- MEDIUM GLOVES (Pan, Ataman, Craftsman) (2 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_composite_gauntlets" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_composite_gauntlets_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_composite_gauntlets_tc" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_composite_gauntlets" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- HEAVY GLOVES (Baron Novak, Warlord, Pan, Ataman) (2 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_plate_gauntlets" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_plate_gauntlets_trim" />
+			<Item id="bb_composite_gauntlets" />
+			<Item id="bb_composite_gauntlets_tc" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_plate_gauntlets_trim" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_plate_gauntlets" />
+			<Item id="bb_composite_gauntlets" />
+			<Item id="bb_composite_gauntlets_tc" />
+		</Replace>
+	</Cosmetic>
+	<!-- ======================================================== -->
+	<!-- CAPES / HOODS (All Classes) (6 items) -->
+	<!-- ======================================================== -->
+	<Cosmetic type="Clothing" id="bb_hood_lowered" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hood_lowered_wide" />
+			<Item id="bb_dagged_hood_1" />
+			<Item id="bb_dagged_hood_1_alt" />
+			<Item id="bb_dagged_hood_1_wide" />
+			<Item id="bb_dagged_hood_1_wide_alt" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_hood_lowered_wide" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hood_lowered" />
+			<Item id="bb_dagged_hood_1" />
+			<Item id="bb_dagged_hood_1_alt" />
+			<Item id="bb_dagged_hood_1_wide" />
+			<Item id="bb_dagged_hood_1_wide_alt" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_dagged_hood_1" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hood_lowered" />
+			<Item id="bb_hood_lowered_wide" />
+			<Item id="bb_dagged_hood_1_alt" />
+			<Item id="bb_dagged_hood_1_wide" />
+			<Item id="bb_dagged_hood_1_wide_alt" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_dagged_hood_1_alt" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hood_lowered" />
+			<Item id="bb_hood_lowered_wide" />
+			<Item id="bb_dagged_hood_1" />
+			<Item id="bb_dagged_hood_1_wide" />
+			<Item id="bb_dagged_hood_1_wide_alt" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_dagged_hood_1_wide" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hood_lowered" />
+			<Item id="bb_hood_lowered_wide" />
+			<Item id="bb_dagged_hood_1" />
+			<Item id="bb_dagged_hood_1_alt" />
+			<Item id="bb_dagged_hood_1_wide_alt" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic type="Clothing" id="bb_dagged_hood_1_wide_alt" rarity="Common" cost="0">
+		<Replace>
+			<Item id="bb_hood_lowered" />
+			<Item id="bb_hood_lowered_wide" />
+			<Item id="bb_dagged_hood_1" />
+			<Item id="bb_dagged_hood_1_alt" />
+			<Item id="bb_dagged_hood_1_wide" />
+		</Replace>
+	</Cosmetic>
+</Cosmetics>

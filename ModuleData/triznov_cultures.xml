@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCultures>
+	<Culture
+		id="triznov"
+		name="{=!}Тризнов"
+		is_main_culture="true"
+		color="FF8B0000"
+		color2="FFFFD700"
+		cloth_alternative_color1="FF6B0000"
+		cloth_alternative_color2="FFDAA520"
+		banner_background_color1="FF8B0000"
+		banner_foreground_color1="FFFFD700"
+		banner_background_color2="FF8B0000"
+		banner_foreground_color2="FFFFD700"
+		faction_banner_key="11.14.15.4345.4345.764.764.1.0.0.436.15.14.512.512.764.764.1.0.0" />
+	<Culture
+		id="naletchiki"
+		name="{=!}Налётчики"
+		is_main_culture="true"
+		color="FF1A1A1A"
+		color2="FF5A5A5A"
+		cloth_alternative_color1="FF111111"
+		cloth_alternative_color2="FF383838"
+		banner_background_color1="FF1A1A1A"
+		banner_foreground_color1="FFA0A0A0"
+		banner_background_color2="FF1A1A1A"
+		banner_foreground_color2="FFA0A0A0"
+		faction_banner_key="11.116.14.4345.4345.764.764.1.0.0.148.14.116.512.512.764.764.1.0.0" />
+
+	<!-- Prop Hunt -->
+	<Culture id="triznov_prop_hunters" name="{=!}Охотники" is_main_culture="true" color="FF8B0000" color2="FFFFD700" cloth_alternative_color1="FF6B0000" cloth_alternative_color2="FFDAA520" banner_background_color1="FF8B0000" banner_foreground_color1="FFFFD700" banner_background_color2="FF8B0000" banner_foreground_color2="FFFFD700" faction_banner_key="11.14.15.4345.4345.764.764.1.0.0.436.15.14.512.512.764.764.1.0.0" />
+	<Culture id="triznov_props" name="{=!}Пропсы" is_main_culture="true" color="FF1A1A1A" color2="FF5A5A5A" cloth_alternative_color1="FF111111" cloth_alternative_color2="FF383838" banner_background_color1="FF1A1A1A" banner_foreground_color1="FFA0A0A0" banner_background_color2="FF1A1A1A" banner_foreground_color2="FFA0A0A0" faction_banner_key="11.116.14.4345.4345.764.764.1.0.0.148.14.116.512.512.764.764.1.0.0" />
+</BasicCultures>

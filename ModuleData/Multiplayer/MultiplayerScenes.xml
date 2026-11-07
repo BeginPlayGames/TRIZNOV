@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MultiplayerScenes>
+  <!-- Native Siege Maps -->
+  <Scene name="mp_siege_map_005">
+    <GameType name="Siege" />
+  </Scene>
+  <Scene name="mp_siege_map_003">
+    <GameType name="Siege" />
+  </Scene>
+  <Scene name="mp_siege_map_004_rs">
+    <GameType name="Siege" />
+  </Scene>
+  <Scene name="mp_siege_map_006_vlandia">
+    <GameType name="Siege" />
+  </Scene>
+  <Scene name="mp_siege_map_007_battania">
+    <GameType name="Siege" />
+  </Scene>
+  <Scene name="mp_siege_map_009">
+    <GameType name="Siege" />
+  </Scene>
+  <Scene name="mp_siege_map_011_b">
+    <GameType name="Siege" />
+  </Scene>
+  <Scene name="mp_siege_map_012">
+    <GameType name="Siege" />
+  </Scene>
+
+  <!-- Battle / Skirmish Maps -->
+  <Scene name="mp_battle_map_001">
+    <GameType name="Battle" />
+    <GameType name="PropHunt" />
+  </Scene>
+  <Scene name="mp_battle_map_002">
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="mp_battle_map_003">
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="mp_groupfight">
+    <GameType name="Battle" />
+    <GameType name="PropHunt" />
+  </Scene>
+  <Scene name="mp_sergeant_map_007">
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="mp_sergeant_map_008">
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="mp_sergeant_map_011_rw">
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="scn_Brodes">
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="scn_mp_checkers_yarg">
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="scn_bandits8">
+    <GameType name="Battle" />
+  </Scene>
+
+  <!-- Prop Hunt Maps -->
+  <Scene name="Farmstead">
+    <GameType name="PropHunt" />
+  </Scene>
+  <Scene name="fief_town_outskirts_remastered_v1.1">
+    <GameType name="PropHunt" />
+  </Scene>
+  <Scene name="mp_skirmish_map_002f">
+    <GameType name="PropHunt" />
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="mp_skirmish_map_003_skinc">
+    <GameType name="PropHunt" />
+    <GameType name="Battle" />
+  </Scene>
+  <Scene name="mp_skirmish_map_010">
+    <GameType name="PropHunt" />
+    <GameType name="Battle" />
+  </Scene>
+</MultiplayerScenes>

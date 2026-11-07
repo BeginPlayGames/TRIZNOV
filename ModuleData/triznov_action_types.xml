@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action_types>
+    <!-- Боевые кличи и празднование -->
+    <action name="triznov_act_cheer_1" />
+    <action name="triznov_act_cheer_2" />
+    <action name="triznov_act_cheer_3" />
+    <action name="triznov_act_cheer_4" />
+    <action name="triznov_act_cheer_5" />
+    <action name="triznov_act_cheer_6" />
+    <action name="triznov_act_command" />
+    <action name="triznov_act_victory" />
+    <action name="triznov_act_applaud" />
+    <action name="triznov_act_dance" />
+    <action name="triznov_act_crazy" />
+    <action name="triznov_act_warcry" />
+    <action name="triznov_act_rage" />
+    <action name="triznov_act_rage2" />
+    <action name="triznov_act_invitemad" />
+    <action name="triznov_act_laugh" />
+    <action name="triznov_act_drum_march" />
+
+    <!-- Стойки, таунты и жесты -->
+    <action name="triznov_act_guard" />
+    <action name="triznov_act_guard2" />
+    <action name="triznov_act_scared" />
+    <action name="triznov_act_afraid" />
+    <action name="triznov_act_threat" />
+    <action name="triznov_act_threat2" />
+    <action name="triznov_act_threat3" />
+    <action name="triznov_act_shieldtaunt" />
+    <action name="triznov_act_shieldtaunt2" />
+    <action name="triznov_act_flex" />
+    <action name="triznov_act_challenge" />
+    <action name="triznov_act_break" />
+    <action name="triznov_act_salute" />
+    <action name="triznov_act_bow" />
+    <action name="triznov_act_surrender" />
+    <action name="triznov_act_surrender2" />
+    <action name="triznov_act_point" />
+    <action name="triznov_act_greet" />
+    <action name="triznov_act_wave" />
+    <action name="triznov_act_wave2" />
+    <action name="triznov_act_search" />
+    <action name="triznov_act_search2" />
+    <action name="triznov_act_smash" />
+    <action name="triznov_act_dissapoint" />
+    <action name="triznov_act_dissapoint2" />
+    <action name="triznov_act_think" />
+    <action name="triznov_act_smart" />
+    <action name="triznov_act_banner" />
+    <action name="triznov_act_weapon" />
+    <action name="triznov_act_report" />
+    <action name="triznov_act_handsome" />
+    <action name="triznov_act_shoulder" />
+    <action name="triznov_act_confident" />
+    <action name="triznov_act_ignore" />
+
+    <!-- Сидение, отдых и социальные действия -->
+    <action name="triznov_act_sit_floor" />
+    <action name="triznov_act_sit_floor2" />
+    <action name="triznov_act_sit_floor3" />
+    <action name="triznov_act_sit_floor4" />
+    <action name="triznov_act_throne" />
+    <action name="triznov_act_throne2" />
+    <action name="triznov_act_throne3" />
+    <action name="triznov_act_throne4" />
+    <action name="triznov_act_beggar" />
+    <action name="triznov_act_beg" />
+    <action name="triznov_act_tired" />
+    <action name="triznov_act_injured" />
+    <action name="triznov_act_prisoner" />
+    <action name="triznov_act_prisoner2" />
+    <action name="triznov_act_drunk" />
+    <action name="triznov_act_wait" />
+
+    <!-- Работа и активность -->
+    <action name="triznov_act_forge" />
+    <action name="triznov_act_hoe" />
+    <action name="triznov_act_harvest" />
+    <action name="triznov_act_farm" />
+    <action name="triznov_act_groom" />
+    <action name="triznov_act_fish" />
+    <action name="triznov_act_chop" />
+    <action name="triznov_act_wash" />
+    <action name="triznov_act_work" />
+    <action name="triznov_act_work2" />
+    <action name="triznov_act_loot" />
+    <action name="triznov_act_shackles" />
+    <action name="triznov_act_pick" />
+    <action name="triznov_act_train" />
+
+    <!-- Диалог и ролевые эмоции -->
+    <action name="triznov_act_yes" />
+    <action name="triznov_act_no" />
+    <action name="triznov_act_idk" />
+    <action name="triznov_act_talk" />
+    <action name="triznov_act_talk2" />
+    <action name="triznov_act_talk3" />
+    <action name="triznov_act_talk4" />
+    <action name="triznov_act_talk5" />
+    <action name="triznov_act_gossip" />
+    <action name="triznov_act_explain" />
+    <action name="triznov_act_argue" />
+    <action name="triznov_act_promise" />
+    <action name="triznov_act_arms" />
+    <action name="triznov_act_angry" />
+
+    <!-- Драматичные сцены и смерть -->
+    <action name="triznov_act_execute" />
+    <action name="triznov_act_body" />
+    <action name="triznov_act_dead" />
+</action_types>

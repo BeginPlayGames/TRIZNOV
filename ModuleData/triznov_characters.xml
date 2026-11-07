@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPCharacters>
+	<!-- 01 ГОЛОТА -->
+	<NPCCharacter
+		id="mp_shock_infantry_yar_hero"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Голота"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="34.12" weight="0.4" build="0.4568"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<BodyPropertiesMax
+				version="4" age="68.79" weight="0.7253" build="0.6852"
+				key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="100" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="90" />
+		</skills>
+		<Equipments>
+			<!-- Сет 1: Сюрко на гамбезоне, капельер 2, худ на плечах, шоссы 1 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_kettle_2_bare" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_1" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+			<!-- Сет 2: Короткий жупон, капельер 1, худ на плечах, шоссы 2 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_kettle_1_bare" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+			<!-- Сет 3: Гербовый гамбезон-табард, черепник, худ на плечах, шоссы 2 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_skullcap" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_heraldry" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="50"
+			knockback="25"
+			dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_shock_infantry_yar_troop"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Голота"
+		occupation="Soldier"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="34.12" weight="0.4" build="0.4568"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<BodyPropertiesMax
+				version="4" age="68.79" weight="0.7253" build="0.6852"
+				key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="100" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="90" />
+		</skills>
+		<Equipments>
+			<!-- Сет 1: Сюрко на гамбезоне, капельер 2, худ на плечах, шоссы 1 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_kettle_2_bare" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_1" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+			<!-- Сет 2: Короткий жупон, капельер 1, худ на плечах, шоссы 2 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_kettle_1_bare" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+			<!-- Сет 3: Гербовый гамбезон-табард, черепник, худ на плечах, шоссы 2 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_skullcap" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_heraldry" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="50"
+			knockback="25"
+			dismount="50" />
+	</NPCCharacter>
+
+	<!-- 02 ПАНЫ -->
+	<NPCCharacter
+		id="mp_lord_yar_hero"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Паны"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="34.12" weight="0.4" build="0.4568"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<BodyPropertiesMax
+				version="4" age="68.79" weight="0.7253" build="0.6852"
+				key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="100" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="90" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_klappvisor_1" />
+				<equipment slot="Body" id="Item.bb_coat_plates_tc" />
+				<equipment slot="Leg" id="Item.bb_zizka_legs_realistic_tc" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="50"
+			knockback="25"
+			dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_lord_yar_troop"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Паны"
+		occupation="Soldier"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="27.7" weight="0.45" build="0.5833"
+				key="000000000E00014100000000000710000007000000000000000000000000000000097003090000000000000000000000000000000000000000000000001180000" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="100" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="90" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_klappvisor_1" />
+				<equipment slot="Body" id="Item.bb_coat_plates_tc" />
+				<equipment slot="Leg" id="Item.bb_zizka_legs_realistic_tc" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="50"
+			knockback="25"
+			dismount="50" />
+	</NPCCharacter>
+
+	<!-- 03 СТРЕЛОК ГОЛОТЫ -->
+	<NPCCharacter
+		id="mp_archer_yar_hero"
+		default_group="Ranged"
+		level="25"
+		name="{=!}Стрелок"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="34.12" weight="0.4" build="0.4568"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<BodyPropertiesMax
+				version="4" age="68.79" weight="0.7253" build="0.6852"
+				key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="40" />
+			<skill id="OneHanded" value="90" />
+			<skill id="TwoHanded" value="50" />
+			<skill id="Polearm" value="50" />
+			<skill id="Crossbow" value="90" />
+			<skill id="Bow" value="90" />
+			<skill id="Throwing" value="50" />
+		</skills>
+		<Equipments>
+			<!-- Сет 1: Гербовый сюрко на гамбезоне, черепник, худ на плечах, шоссы 1 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_short_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_skullcap" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson_alt" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_1" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+			<!-- Сет 2: Короткий жупон, капельер 1, худ на плечах, шоссы 2 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_short_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_1_bare" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+			<!-- Сет 3: Гербовый гамбезон-табард, капельер 2, худ на плечах, шоссы 2 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_short_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_2_bare" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_heraldry" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="40"
+			knockback="25"
+			dismount="40" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_archer_yar_troop"
+		default_group="Ranged"
+		level="25"
+		name="{=!}Стрелок"
+		occupation="Soldier"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="27.7" weight="0.45" build="0.5833"
+				key="000000000E00014100000000000710000007000000000000000000000000000000097003090000000000000000000000000000000000000000000000001180000" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="40" />
+			<skill id="OneHanded" value="90" />
+			<skill id="TwoHanded" value="50" />
+			<skill id="Polearm" value="50" />
+			<skill id="Crossbow" value="90" />
+			<skill id="Bow" value="90" />
+			<skill id="Throwing" value="50" />
+		</skills>
+		<Equipments>
+			<!-- Сет 1: Гербовый сюрко на гамбезоне, черепник, худ на плечах, шоссы 1 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_short_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_skullcap" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson_alt" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_1" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+			<!-- Сет 2: Короткий жупон, капельер 1, худ на плечах, шоссы 2 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_short_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_1_bare" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+			<!-- Сет 3: Гербовый гамбезон-табард, капельер 2, худ на плечах, шоссы 2 -->
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_short_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_2_bare" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_heraldry" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="40"
+			knockback="25"
+			dismount="40" />
+	</NPCCharacter>
+
+	<!-- 04 БАРОН НОВАК -->
+	<NPCCharacter
+		id="mp_baron_triznov_hero"
+		default_group="Infantry"
+		level="35"
+		name="{=!}Барон Новак"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="34.12" weight="0.4" build="0.4568"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<BodyPropertiesMax
+				version="4" age="68.79" weight="0.7253" build="0.6852"
+				key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="100" />
+			<skill id="OneHanded" value="130" />
+			<skill id="TwoHanded" value="120" />
+			<skill id="Polearm" value="120" />
+			<skill id="Crossbow" value="20" />
+			<skill id="Bow" value="20" />
+			<skill id="Throwing" value="90" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_hounskull_2_gold" />
+				<equipment slot="Body" id="Item.bb_cuirass_coat_trim" />
+				<equipment slot="Leg" id="Item.bb_plate_legs_trim" />
+				<equipment slot="Gloves" id="Item.bb_plate_gauntlets_trim" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_wide" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="50"
+			knockback="25"
+			dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_baron_triznov_troop"
+		default_group="Infantry"
+		level="35"
+		name="{=!}Барон Новак"
+		occupation="Soldier"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="27.7" weight="0.45" build="0.5833"
+				key="000000000E00014100000000000710000007000000000000000000000000000000097003090000000000000000000000000000000000000000000000001180000" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="100" />
+			<skill id="OneHanded" value="130" />
+			<skill id="TwoHanded" value="120" />
+			<skill id="Polearm" value="120" />
+			<skill id="Crossbow" value="20" />
+			<skill id="Bow" value="20" />
+			<skill id="Throwing" value="90" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_hounskull_2_gold" />
+				<equipment slot="Body" id="Item.bb_cuirass_coat_trim" />
+				<equipment slot="Leg" id="Item.bb_plate_legs_trim" />
+				<equipment slot="Gloves" id="Item.bb_plate_gauntlets_trim" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_wide" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="50"
+			knockback="25"
+			dismount="50" />
+	</NPCCharacter>
+
+	<!-- 05 ПРОФЕССИИ (МАСТЕР) -->
+	<NPCCharacter
+		id="mp_craftsman_yar_hero"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Профессии"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="34.12" weight="0.4" build="0.4568"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<BodyPropertiesMax
+				version="4" age="68.79" weight="0.7253" build="0.6852"
+				key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="105" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_sturgia_twohanded_hammer" />
+				<equipment slot="Head" id="Item.mp_nordic_fur_cap" />
+				<equipment slot="Body" id="Item.bb_jupon_royal_2_breastplate" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_zizka_legs_realistic_tc" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets_tc" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="50"
+			knockback="25"
+			dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_craftsman_yar_troop"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Профессии"
+		occupation="Soldier"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="34.12" weight="0.4" build="0.4568"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<BodyPropertiesMax
+				version="4" age="68.79" weight="0.7253" build="0.6852"
+				key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="105" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_sturgia_twohanded_hammer" />
+				<equipment slot="Head" id="Item.mp_nordic_fur_cap" />
+				<equipment slot="Body" id="Item.bb_jupon_royal_2_breastplate" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_zizka_legs_realistic_tc" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets_tc" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			knockdown="50"
+			knockback="25"
+			dismount="50" />
+	</NPCCharacter>
+	<!-- ======================================================== -->
+	<!-- 06 КОННАЯ ГОЛОТА (ТРИЗНОВ ЛЕГКАЯ КАВАЛЕРИЯ)               -->
+	<!-- ======================================================== -->
+	<NPCCharacter
+		id="mp_cavalry_yar_hero"
+		default_group="Cavalry"
+		level="25"
+		name="{=!}Конная Голота"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="30" weight="0.4" build="0.45"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="150" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="140" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_battania_long_spear" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item2" id="Item.triznov_golota_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_1_padded" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+				<equipment slot="Horse" id="Item.mp_battania_pony" />
+				<equipment slot="HorseHarness" id="Item.bb_horse_barding_1" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_cavalry_yar_troop"
+		default_group="Cavalry"
+		level="25"
+		name="{=!}Конная Голота"
+		occupation="Soldier"
+		culture="Culture.triznov">
+		<face>
+			<BodyProperties
+				version="4" age="26" weight="0.4" build="0.45"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="vlandia" /></hair_tags>
+			<beard_tags><beard_tag name="vlandia" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="150" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="140" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_battania_long_spear" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item2" id="Item.triznov_golota_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_1_padded" />
+				<equipment slot="Body" id="Item.bb_surcoat_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+				<equipment slot="Horse" id="Item.mp_battania_pony" />
+				<equipment slot="HorseHarness" id="Item.bb_horse_barding_1" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<!-- ======================================================== -->
+	<!-- ФРАКЦИЯ НАЛЁТЧИКИ (ЗЕРКАЛЬНЫЕ ПЕРСОНАЖИ)                  -->
+	<!-- ======================================================== -->
+
+	<!-- 01 РАЗБОЙНИКИ (Зеркало Голоты) -->
+	<NPCCharacter
+		id="mp_raider_infantry_hero"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Разбойники"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="34.12" weight="0.5" build="0.5"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="100" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="90" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_skullcap" />
+				<equipment slot="Body" id="Item.bb_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_poor_legs" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_raider_infantry_troop"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Разбойники"
+		occupation="Soldier"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="28" weight="0.5" build="0.5"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="100" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="90" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_skullcap" />
+				<equipment slot="Body" id="Item.bb_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_poor_legs" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<!-- 02 ЗАСТРЕЛЬЩИКИ (Зеркало Стрелка) -->
+	<NPCCharacter
+		id="mp_raider_archer_hero"
+		default_group="Ranged"
+		level="25"
+		name="{=!}Застрельщики"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="25" weight="0.4" build="0.45"
+				key="00000000000000010000000000000000000700000000000000000000000000000009700309000000000000000000000000000000000000000000000000118000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="100" />
+			<skill id="TwoHanded" value="80" />
+			<skill id="Polearm" value="90" />
+			<skill id="Crossbow" value="130" />
+			<skill id="Bow" value="130" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_1_bare" />
+				<equipment slot="Body" id="Item.bb_overcoat_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_raider_archer_troop"
+		default_group="Ranged"
+		level="25"
+		name="{=!}Застрельщики"
+		occupation="Soldier"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="25" weight="0.4" build="0.45"
+				key="00000000000000010000000000000000000700000000000000000000000000000009700309000000000000000000000000000000000000000000000000118000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="100" />
+			<skill id="TwoHanded" value="80" />
+			<skill id="Polearm" value="90" />
+			<skill id="Crossbow" value="130" />
+			<skill id="Bow" value="130" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_1_bare" />
+				<equipment slot="Body" id="Item.bb_overcoat_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<!-- 03 КОННЫЕ НАЛЁТЧИКИ (Зеркало Кавалерии) -->
+	<NPCCharacter
+		id="mp_raider_cavalry_hero"
+		default_group="Cavalry"
+		level="25"
+		name="{=!}Конные налётчики"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="31" weight="0.45" build="0.5"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="150" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="140" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_battania_long_spear" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item2" id="Item.triznov_golota_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_2_padded" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+				<equipment slot="Horse" id="Item.mp_battania_pony" />
+				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_raider_cavalry_troop"
+		default_group="Cavalry"
+		level="25"
+		name="{=!}Конные налётчики"
+		occupation="Soldier"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="27" weight="0.45" build="0.5"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="150" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="140" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_battania_long_spear" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item2" id="Item.triznov_golota_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_2_padded" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+				<equipment slot="Horse" id="Item.mp_battania_pony" />
+				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<!-- 04 ГЛАВАРЬ ШАЙКИ (Зеркало Мастера / Знаменосца) -->
+	<NPCCharacter
+		id="mp_raider_chieftain_hero"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Профессии"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="36" weight="0.55" build="0.6"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="125" />
+			<skill id="TwoHanded" value="105" />
+			<skill id="Polearm" value="110" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_sturgia_twohanded_hammer" />
+				<equipment slot="Head" id="Item.bb_kettle_2_bare" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_raider_chieftain_troop"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Профессии"
+		occupation="Soldier"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="32" weight="0.55" build="0.6"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="125" />
+			<skill id="TwoHanded" value="105" />
+			<skill id="Polearm" value="110" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_sturgia_twohanded_hammer" />
+				<equipment slot="Head" id="Item.bb_kettle_2_bare" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<!-- 05 АТАМАНЫ (Зеркало Панов) -->
+	<NPCCharacter
+		id="mp_raider_ataman_hero"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Атаманы"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="35" weight="0.5" build="0.6"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="125" />
+			<skill id="TwoHanded" value="105" />
+			<skill id="Polearm" value="105" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="95" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_open_1" />
+				<equipment slot="Body" id="Item.bb_coat_plates" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_raider_ataman_troop"
+		default_group="Infantry"
+		level="30"
+		name="{=!}Атаманы"
+		occupation="Soldier"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="30" weight="0.5" build="0.6"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="125" />
+			<skill id="TwoHanded" value="105" />
+			<skill id="Polearm" value="105" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="95" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_open_1" />
+				<equipment slot="Body" id="Item.bb_coat_plates" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<!-- 06 ВОЕВОДА НАЛЁТЧИКОВ (Зеркало Барона) -->
+	<NPCCharacter
+		id="mp_raider_warlord_hero"
+		default_group="Infantry"
+		level="35"
+		name="{=!}Воевода налётчиков"
+		occupation="Soldier"
+		is_hero="true"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="42" weight="0.6" build="0.65"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="120" />
+			<skill id="OneHanded" value="140" />
+			<skill id="TwoHanded" value="120" />
+			<skill id="Polearm" value="120" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_western_long_spear" />
+				<equipment slot="Head" id="Item.bb_sugarloaf_greathelm" />
+				<equipment slot="Body" id="Item.bb_zizka_armor" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_wide" />
+				<equipment slot="Leg" id="Item.bb_plate_legs" />
+				<equipment slot="Gloves" id="Item.bb_plate_gauntlets" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mp_raider_warlord_troop"
+		default_group="Infantry"
+		level="35"
+		name="{=!}Воевода налётчиков"
+		occupation="Soldier"
+		culture="Culture.naletchiki">
+		<face>
+			<BodyProperties
+				version="4" age="38" weight="0.6" build="0.65"
+				key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" />
+			<hair_tags><hair_tag name="khuzait" /></hair_tags>
+			<beard_tags><beard_tag name="khuzait" /></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags>
+		</face>
+		<skills>
+			<skill id="Riding" value="120" />
+			<skill id="OneHanded" value="140" />
+			<skill id="TwoHanded" value="120" />
+			<skill id="Polearm" value="120" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Bow" value="50" />
+			<skill id="Throwing" value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_western_long_spear" />
+				<equipment slot="Head" id="Item.bb_sugarloaf_greathelm" />
+				<equipment slot="Body" id="Item.bb_zizka_armor" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_wide" />
+				<equipment slot="Leg" id="Item.bb_plate_legs" />
+				<equipment slot="Gloves" id="Item.bb_plate_gauntlets" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances knockdown="50" knockback="25" dismount="50" />
+	</NPCCharacter>
+
+	<!-- Prop Hunt -->
+	<NPCCharacter id="triznov_ph_stone_hero" default_group="Infantry" level="15"
+		name="{=!}Метатель камней" occupation="Soldier" is_hero="true" culture="Culture.triznov_prop_hunters">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="100" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Bow" value="0" />
+			<skill id="Riding" value="0" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.hallow_armor_helmet" />
+				<equipment slot="Body" id="Item.hallow_armor" />
+				<equipment slot="Cape" id="Item.hallow_armor_shoulder" />
+				<equipment slot="Gloves" id="Item.hallow_armor_gauntlets" />
+				<equipment slot="Leg" id="Item.hallow_armor_boots" />
+				<equipment slot="Item0" id="Item.mp_throwing_stone" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_stone_troop" default_group="Infantry" level="15"
+		name="{=!}Метатель камней" occupation="Soldier" is_hero="false" culture="Culture.triznov_prop_hunters">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="100" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Bow" value="0" />
+			<skill id="Riding" value="0" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.hallow_armor_helmet" />
+				<equipment slot="Body" id="Item.hallow_armor" />
+				<equipment slot="Cape" id="Item.hallow_armor_shoulder" />
+				<equipment slot="Gloves" id="Item.hallow_armor_gauntlets" />
+				<equipment slot="Leg" id="Item.hallow_armor_boots" />
+				<equipment slot="Item0" id="Item.mp_throwing_stone" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_crossbow_hero" default_group="Ranged" level="15"
+		name="{=!}Арбалетчик" occupation="Soldier" is_hero="true" culture="Culture.triznov_prop_hunters">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="0" />
+			<skill id="Crossbow" value="110" />
+			<skill id="Bow" value="0" />
+			<skill id="Riding" value="0" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.hallow_armor_helmet" />
+				<equipment slot="Body" id="Item.hallow_armor" />
+				<equipment slot="Cape" id="Item.hallow_armor_shoulder" />
+				<equipment slot="Gloves" id="Item.hallow_armor_gauntlets" />
+				<equipment slot="Leg" id="Item.hallow_armor_boots" />
+				<equipment slot="Item0" id="Item.mp_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_crossbow_troop" default_group="Ranged" level="15"
+		name="{=!}Арбалетчик" occupation="Soldier" is_hero="false" culture="Culture.triznov_prop_hunters">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="0" />
+			<skill id="Crossbow" value="110" />
+			<skill id="Bow" value="0" />
+			<skill id="Riding" value="0" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.hallow_armor_helmet" />
+				<equipment slot="Body" id="Item.hallow_armor" />
+				<equipment slot="Cape" id="Item.hallow_armor_shoulder" />
+				<equipment slot="Gloves" id="Item.hallow_armor_gauntlets" />
+				<equipment slot="Leg" id="Item.hallow_armor_boots" />
+				<equipment slot="Item0" id="Item.mp_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_archer_hero" default_group="Ranged" level="15"
+		name="{=!}Лучник" occupation="Soldier" is_hero="true" culture="Culture.triznov_prop_hunters">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Bow" value="125" />
+			<skill id="Riding" value="0" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.hallow_armor_helmet" />
+				<equipment slot="Body" id="Item.hallow_armor" />
+				<equipment slot="Cape" id="Item.hallow_armor_shoulder" />
+				<equipment slot="Gloves" id="Item.hallow_armor_gauntlets" />
+				<equipment slot="Leg" id="Item.hallow_armor_boots" />
+				<equipment slot="Item0" id="Item.mp_fast_short_bow" />
+				<equipment slot="Item1" id="Item.mp_arrows_steppe" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_archer_troop" default_group="Ranged" level="15"
+		name="{=!}Лучник" occupation="Soldier" is_hero="false" culture="Culture.triznov_prop_hunters">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Bow" value="125" />
+			<skill id="Riding" value="0" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.hallow_armor_helmet" />
+				<equipment slot="Body" id="Item.hallow_armor" />
+				<equipment slot="Cape" id="Item.hallow_armor_shoulder" />
+				<equipment slot="Gloves" id="Item.hallow_armor_gauntlets" />
+				<equipment slot="Leg" id="Item.hallow_armor_boots" />
+				<equipment slot="Item0" id="Item.mp_fast_short_bow" />
+				<equipment slot="Item1" id="Item.mp_arrows_steppe" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_horse_archer_hero" default_group="HorseArcher" level="15"
+		name="{=!}Конный лучник" occupation="Soldier" is_hero="true" culture="Culture.triznov_prop_hunters">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Bow" value="110" />
+			<skill id="Riding" value="110" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.hallow_armor_helmet" />
+				<equipment slot="Body" id="Item.hallow_armor" />
+				<equipment slot="Cape" id="Item.hallow_armor_shoulder" />
+				<equipment slot="Gloves" id="Item.hallow_armor_gauntlets" />
+				<equipment slot="Leg" id="Item.hallow_armor_boots" />
+				<equipment slot="Item0" id="Item.mp_nomad_bow" />
+				<equipment slot="Item1" id="Item.mp_arrows_steppe_mounted" />
+				<equipment slot="Horse" id="Item.mp_khuzait_horse_saddle" />
+				<equipment slot="HorseHarness" id="Item.mp_steppe_harness" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_horse_archer_troop" default_group="HorseArcher" level="15"
+		name="{=!}Конный лучник" occupation="Soldier" is_hero="false" culture="Culture.triznov_prop_hunters">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Bow" value="110" />
+			<skill id="Riding" value="110" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.hallow_armor_helmet" />
+				<equipment slot="Body" id="Item.hallow_armor" />
+				<equipment slot="Cape" id="Item.hallow_armor_shoulder" />
+				<equipment slot="Gloves" id="Item.hallow_armor_gauntlets" />
+				<equipment slot="Leg" id="Item.hallow_armor_boots" />
+				<equipment slot="Item0" id="Item.mp_nomad_bow" />
+				<equipment slot="Item1" id="Item.mp_arrows_steppe_mounted" />
+				<equipment slot="Horse" id="Item.mp_khuzait_horse_saddle" />
+				<equipment slot="HorseHarness" id="Item.mp_steppe_harness" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_prop_hero" default_group="Infantry" level="15"
+		name="{=!}Пропс" occupation="Soldier" is_hero="true" culture="Culture.triznov_props">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Bow" value="0" />
+			<skill id="Riding" value="0" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.mp_cloth_tunic" />
+				<equipment slot="Leg" id="Item.mp_woven_leather_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="triznov_ph_prop_troop" default_group="Infantry" level="15"
+		name="{=!}Пропс" occupation="Soldier" is_hero="false" culture="Culture.triznov_props">
+		<face><BodyProperties version="4" age="34.12" weight="0.4" build="0.4568" key="00000C07000000010011111211161111000701000010000000111011000101000007600407111110000000000000000000000000000000000000000000500000" /><BodyPropertiesMax version="4" age="68.79" weight="0.7253" build="0.6852" key="0011FC0FC03C384FFFFFFFFEFFFBEFFFFFFFFFA97EF7FEFFFFEFFFFFFFFFFFFF000ABFD80AFFFFFF000000000000000000000000000000000000000000C89101" /><hair_tags><hair_tag name="vlandia" /></hair_tags><beard_tags><beard_tag name="vlandia" /></beard_tags><tattoo_tags><tattoo_tag name="Cleanface" /></tattoo_tags></face>
+		<skills>
+			<skill id="OneHanded" value="85" />
+			<skill id="Throwing" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Bow" value="0" />
+			<skill id="Riding" value="0" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.mp_cloth_tunic" />
+				<equipment slot="Leg" id="Item.mp_woven_leather_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</MPCharacters>

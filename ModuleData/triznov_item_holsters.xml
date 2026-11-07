@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base>
+	<item_holsters>
+		<item_holster
+			id="triznov_drum_back"
+			equip_action="act_equip_shield"
+			equip_action_left_stance="act_equip_shield_left_stance"
+			unequip_action="act_unequip_shield"
+			unequip_action_left_stance="act_unequip_shield_left_stance"
+			show_holster_when_drawn="false"
+			group_name="back_top"
+			holster_skeleton="holster_skeleton_back"
+			base_set="thorax_back_far"
+			holster_position="0.000, -0.200, 0.000"
+			holster_rotation_yaw_pitch_roll="-90.910, -89.160, -175.000" />
+		<item_holster
+			id="triznov_drum_back_4"
+			equip_action="act_equip_shield"
+			equip_action_left_stance="act_equip_shield_left_stance"
+			unequip_action="act_unequip_shield"
+			unequip_action_left_stance="act_unequip_shield_left_stance"
+			show_holster_when_drawn="false"
+			group_name="back_shield_4"
+			holster_skeleton="holster_skeleton_back"
+			base_set="thorax_back_near_right"
+			holster_position="0.000, -0.220, 0.000"
+			holster_rotation_yaw_pitch_roll="-89.520, -90.160, -174.170" />
+	</item_holsters>
+</base>

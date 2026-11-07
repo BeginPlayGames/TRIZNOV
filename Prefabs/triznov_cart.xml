@@ -1,0 +1,34 @@
+<prefabs>
+	<game_entity name="triznov_cart" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true" />
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="bd_cart_a" position="-0.600, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+		</components>
+		<scripts>
+			<script name="TriznovCart">
+				<variables>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="body_physics">
+				<physics shape="bo_bd_cart_a">
+					<body_flags>
+						<body_flag name="moveable"/>
+					</body_flags>
+				</physics>
+			</game_entity>
+			<game_entity name="triznov_cart_attach_point" old_prefab_name="" mobility="1">
+				<transform position="-3.296, -0.025, -0.190"/>
+				<tags>
+					<tag name="cart_attach_point"/>
+					<tag name="pb_attach_point"/>
+				</tags>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>

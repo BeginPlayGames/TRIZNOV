@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+<Item multiplayer_item="true"
+		id="bb_plate_breastplate_mail"
+		name="[BUA] Breastplate over mail T2"
+		subtype="body_armor"
+		mesh="bb_plate_breastplate_mail"
+		weight="22.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="60"
+				leg_armor="18"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item
+		multiplayer_item="true"
+		id="bb_zizka_armor"
+		name="[BUA] Breastplate with waffenrock"
+		subtype="body_armor"
+		mesh="bb_zizka_armor"
+		weight="18.0"
+		difficulty="0"
+		appearance="1.5"
+		value="26000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="52"
+				leg_armor="8"
+				arm_armor="20"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_waffenrock_plate"
+		name="[BUA] Breastplate with waffenrock T2"
+		subtype="body_armor"
+		mesh="bb_waffenrock_plate"
+		weight="22.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="58"
+				leg_armor="16"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_cuirass"
+		name="[BUA] Plate cuirass with faulds"
+		subtype="body_armor"
+		mesh="bb_cuirass"
+		weight="24.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="64"
+				leg_armor="20"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_kastenbrust_t3"
+		name="[BUA] Kastenbrust cuirass scale skirt"
+		subtype="body_armor"
+		mesh="bb_kastenbrust_t3"
+		weight="26.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="66"
+				leg_armor="24"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_cuirass_t2"
+		name="[BUA] Plate cuirass with faulds T2"
+		subtype="body_armor"
+		mesh="bb_cuirass_t2"
+		weight="25.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="65"
+				leg_armor="22"
+				arm_armor="28"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_cuirass_t2_trim"
+		name="[BUA] Plate cuirass with faulds T2 gold trim"
+		subtype="body_armor"
+		mesh="bb_cuirass_t2_trim"
+		weight="25.0"
+		difficulty="0"
+		appearance="2.5"
+		value="67200"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="65"
+				leg_armor="22"
+				arm_armor="28"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_breastplate_leather"
+		name="[BUA] Breastplate over leather"
+		subtype="body_armor"
+		mesh="bb_breastplate_leather"
+		weight="18.0"
+		difficulty="0"
+		appearance="1.5"
+		value="26000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="54"
+				leg_armor="10"
+				arm_armor="18"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_breastplate_leather_tc"
+		name="[BUA] Breastplate over leather coloured"
+		subtype="body_armor"
+		mesh="bb_breastplate_leather_tc"
+		weight="18.0"
+		difficulty="0"
+		appearance="1.5"
+		value="26000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="54"
+				leg_armor="10"
+				arm_armor="18"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_covered_cuirass_t1"
+		name="[BUA] Cuirass covered T1"
+		subtype="body_armor"
+		mesh="bb_covered_cuirass_t1"
+		weight="20.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="56"
+				leg_armor="16"
+				arm_armor="14"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_covered_cuirass_t2"
+		name="[BUA] Cuirass covered T2"
+		subtype="body_armor"
+		mesh="bb_covered_cuirass_t2"
+		weight="22.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="57"
+				leg_armor="18"
+				arm_armor="20"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_covered_cuirass_t2_tc"
+		name="[BUA] Cuirass covered T2 coloured"
+		subtype="body_armor"
+		mesh="bb_covered_cuirass_t2_tc"
+		weight="22.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="57"
+				leg_armor="18"
+				arm_armor="20"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_covered_cuirass_t3"
+		name="[BUA] Cuirass covered T3"
+		subtype="body_armor"
+		mesh="bb_covered_cuirass_t3"
+		weight="23.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="58"
+				leg_armor="18"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_covered_cuirass_t3_trim"
+		name="[BUA] Cuirass covered T3 gold trim"
+		subtype="body_armor"
+		mesh="bb_covered_cuirass_t3_trim"
+		weight="23.0"
+		difficulty="0"
+		appearance="2.5"
+		value="44800"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="58"
+				leg_armor="18"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_cuirass_skirt"
+		name="[BUA] Cuirass mail skirt"
+		subtype="body_armor"
+		mesh="bb_cuirass_skirt"
+		weight="24.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="63"
+				leg_armor="26"
+				arm_armor="28"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_jupon"
+		name="[BUA] Combat Jupon"
+		subtype="body_armor"
+		mesh="bb_jupon"
+		weight="20.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="61"
+				leg_armor="14"
+				arm_armor="25"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_jupon_breastplate"
+		name="[BUA] Combat Jupon under breastplate"
+		subtype="body_armor"
+		mesh="bb_jupon_breastplate"
+		weight="18.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="61"
+				leg_armor="14"
+				arm_armor="25"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_jupon_royal"
+		name="[BUA] Combat Jupon Royal"
+		subtype="body_armor"
+		mesh="bb_jupon_royal"
+		weight="20.0"
+		difficulty="0"
+		appearance="2.5"
+		value="84000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="61"
+				leg_armor="14"
+				arm_armor="25"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_cuirass_coat"
+		name="[BUA] Cuirass with royal coat"
+		subtype="body_armor"
+		mesh="bb_cuirass_coat"
+		weight="22.0"
+		difficulty="0"
+		appearance="2.5"
+		value="86400"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="63"
+				leg_armor="16"
+				arm_armor="25"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_cuirass_coat_trim"
+		name="[BUA] Cuirass with royal coat gold trim"
+		subtype="body_armor"
+		mesh="bb_cuirass_coat_trim"
+		weight="22.0"
+		difficulty="0"
+		appearance="3.0"
+		value="120960"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="64"
+				leg_armor="16"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_gambeson_1"
+		name="[BUA] Gambeson 1"
+		subtype="body_armor"
+		mesh="bb_gambeson_1"
+		weight="4.5"
+		difficulty="0"
+		appearance="1.5"
+		value="1400"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="18"
+				leg_armor="8"
+				arm_armor="10"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+	</Item>
+	<Item multiplayer_item="true"
+			id="bb_gambeson_tc"
+			name="[BUA] Gambeson coloured"
+			subtype="body_armor"
+			mesh="bb_gambeson_tc"
+			weight="16.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="2"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_gambeson_tabard_1"
+		name="[BUA] Gambeson tabard 1"
+		subtype="body_armor"
+		mesh="bb_gambeson_tabard_1"
+		weight="5.0"
+		difficulty="0"
+		appearance="1.5"
+		value="1400"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="18"
+				leg_armor="10"
+				arm_armor="10"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_gambeson_tabard_2"
+		name="[BUA] Gambeson tabard 2"
+		subtype="body_armor"
+		mesh="bb_gambeson_tabard_2"
+		weight="5.0"
+		difficulty="0"
+		appearance="1.5"
+		value="1400"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="18"
+				leg_armor="10"
+				arm_armor="10"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_gambeson_tabard_heraldry"
+		name="[BUA] Gambeson tabard heraldry"
+		subtype="body_armor"
+		mesh="bb_gambeson_tabard_heraldry"
+		using_tableau="true"
+		weight="5.0"
+		difficulty="0"
+		appearance="2.0"
+		value="1960"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="18"
+				leg_armor="10"
+				arm_armor="10"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_gambeson_breastplate"
+		name="[BUA] Gambeson breastplate"
+		subtype="body_armor"
+		mesh="bb_gambeson_breastplate"
+		weight="12.0"
+		difficulty="0"
+		appearance="1.5"
+		value="26000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="46"
+				leg_armor="8"
+				arm_armor="10"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_gambeson_breastplate_tc"
+		name="[BUA] Gambeson breastplate coloured"
+		subtype="body_armor"
+		mesh="bb_gambeson_breastplate_tc"
+		weight="12.0"
+		difficulty="0"
+		appearance="1.5"
+		value="26000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="46"
+				leg_armor="8"
+				arm_armor="10"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_tabard_t1"
+		name="[BUA] Tabard over cuirass"
+		subtype="body_armor"
+		mesh="bb_tabard_t1"
+		using_tableau="true"
+		weight="22.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="62"
+				leg_armor="16"
+				arm_armor="16"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_tabard_t2"
+		name="[BUA] Tabard over cuirass T2"
+		subtype="body_armor"
+		mesh="bb_tabard_t2"
+		using_tableau="true"
+		weight="24.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="62"
+				leg_armor="16"
+				arm_armor="24"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_tabard_t3"
+		name="[BUA] Tabard over cuirass T3"
+		subtype="body_armor"
+		mesh="bb_tabard_t3"
+		using_tableau="true"
+		weight="26.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="62"
+				leg_armor="16"
+				arm_armor="28"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_overcoat_1"
+		name="[BUA] Overcoat"
+		subtype="body_armor"
+		mesh="bb_overcoat_1"
+		weight="1.5"
+		difficulty="0"
+		appearance="1.5"
+		value="180"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				leg_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_overcoat_2"
+		name="[BUA] Overcoat 2"
+		subtype="body_armor"
+		mesh="bb_overcoat_2"
+		weight="1.5"
+		difficulty="0"
+		appearance="1.5"
+		value="180"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				leg_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_overcoat_3"
+		name="[BUA] Overcoat 3"
+		subtype="body_armor"
+		mesh="bb_overcoat_3"
+		weight="1.5"
+		difficulty="0"
+		appearance="1.5"
+		value="180"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				leg_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_overcoat_heraldry"
+		name="[BUA] Overcoat heraldry"
+		subtype="body_armor"
+		mesh="bb_overcoat_heraldry"
+		using_tableau="true"
+		weight="1.5"
+		difficulty="0"
+		appearance="2.0"
+		value="252"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				leg_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_overcoat_heraldry_2"
+		name="[BUA] Overcoat heraldry 2"
+		subtype="body_armor"
+		mesh="bb_overcoat_heraldry_2"
+		using_tableau="true"
+		weight="1.5"
+		difficulty="0"
+		appearance="2.0"
+		value="252"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="4"
+				leg_armor="4"
+				arm_armor="4"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_cuirass_leather_t2"
+		name="[BUA] Cuirass over leather"
+		subtype="body_armor"
+		mesh="bb_cuirass_leather_t2"
+		weight="22.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="62"
+				leg_armor="10"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_cuirass_leather_t2_tc"
+		name="[BUA] Cuirass over leather coloured"
+		subtype="body_armor"
+		mesh="bb_cuirass_leather_t2_tc"
+		weight="22.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="62"
+				leg_armor="10"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_coat_plates"
+		name="[BUA] Coat of plates"
+		subtype="body_armor"
+		mesh="bb_coat_plates"
+		weight="20.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="55"
+				leg_armor="18"
+				arm_armor="22"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_coat_plates_tc"
+		name="[BUA] Coat of plates coloured"
+		subtype="body_armor"
+		mesh="bb_coat_plates_tc"
+		weight="20.0"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="55"
+				leg_armor="18"
+				arm_armor="22"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson"
+		name="[BUA] Surcoat over mail shirt"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson"
+		weight="12.0"
+		difficulty="0"
+		appearance="1.5"
+		value="8500"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="32"
+				leg_armor="12"
+				arm_armor="16"
+				covers_body="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson_heraldry"
+		name="[BUA] Surcoat over mail shirt heraldry"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson_heraldry"
+		using_tableau="true"
+		weight="12.0"
+		difficulty="0"
+		appearance="2.0"
+		value="11900"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="32"
+				leg_armor="12"
+				arm_armor="16"
+				covers_body="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson_alt"
+		name="[BUA] Surcoat over padded shirt"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson_alt"
+		weight="5.0"
+		difficulty="0"
+		appearance="1.5"
+		value="1400"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				leg_armor="10"
+				arm_armor="12"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson_alt_heraldry"
+		name="[BUA] Surcoat over padded shirt heraldry"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson_alt_heraldry"
+		using_tableau="true"
+		weight="5.0"
+		difficulty="0"
+		appearance="2.0"
+		value="1960"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				leg_armor="10"
+				arm_armor="12"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson_1"
+		name="[BUA] Surcoat over mail shirt T2"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson_1"
+		weight="14.0"
+		difficulty="0"
+		appearance="1.5"
+		value="8500"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="34"
+				leg_armor="12"
+				arm_armor="22"
+				covers_body="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson_1_heraldry"
+		name="[BUA] Surcoat over mail shirt T2 heraldry"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson_1_heraldry"
+		using_tableau="true"
+		weight="14.0"
+		difficulty="0"
+		appearance="2.0"
+		value="11900"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="34"
+				leg_armor="12"
+				arm_armor="22"
+				covers_body="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson_t2"
+		name="[BUA] Surcoat over mail shirt T3"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson_t2"
+		weight="15.0"
+		difficulty="0"
+		appearance="1.5"
+		value="8500"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="34"
+				leg_armor="12"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson_t2_tc"
+		name="[BUA] Surcoat over mail shirt T3 coloured"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson_t2_tc"
+		weight="15.0"
+		difficulty="0"
+		appearance="1.5"
+		value="8500"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="34"
+				leg_armor="12"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+	<Item multiplayer_item="true"
+		id="bb_surcoat_gambeson_t2_heraldry"
+		name="[BUA] Surcoat over mail shirt T3 heraldry"
+		subtype="body_armor"
+		mesh="bb_surcoat_gambeson_t2_heraldry"
+		using_tableau="true"
+		weight="15.0"
+		difficulty="0"
+		appearance="2.0"
+		value="11900"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="34"
+				leg_armor="12"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="chainmail"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Item multiplayer_item="true"
+		id="bb_tabard_belt"
+		name="[BUA] Tabard T3 girdle"
+		subtype="body_armor"
+		mesh="bb_tabard_belt"
+		using_tableau="true"
+		weight="27.5"
+		difficulty="0"
+		appearance="1.5"
+		value="60000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="64"
+				leg_armor="16"
+				arm_armor="29"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_jupon_long"
+		name="[BUA] Combat Jupon long"
+		subtype="body_armor"
+		mesh="bb_jupon_long"
+		weight="22.5"
+		difficulty="0"
+		appearance="1.5"
+		value="51000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="62"
+				leg_armor="18"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_jupon_short"
+		name="[BUA] Combat Jupon short"
+		subtype="body_armor"
+		mesh="bb_jupon_short"
+		weight="20.0"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="61"
+				leg_armor="14"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_jupon_sleeved"
+		name="[BUA] Combat Jupon sleeved"
+		subtype="body_armor"
+		mesh="bb_jupon_sleeved"
+		weight="17.5"
+		difficulty="0"
+		appearance="1.5"
+		value="40000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="61"
+				leg_armor="14"
+				arm_armor="6"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_jupon_sleeved_t2"
+		name="[BUA] Combat Jupon sleeved T2"
+		subtype="body_armor"
+		mesh="bb_jupon_sleeved_t2"
+		weight="20.5"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="61"
+				leg_armor="14"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_jupon_royal_2"
+		name="[BUA] Combat Jupon Royal 2"
+		subtype="body_armor"
+		mesh="bb_jupon_royal_2"
+		weight="21.5"
+		difficulty="0"
+		appearance="1.5"
+		value="58000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="62"
+				leg_armor="15"
+				arm_armor="28"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_kastenbrust_t2"
+		name="[BUA] Kastenbrust T2"
+		subtype="body_armor"
+		mesh="bb_kastenbrust_t2"
+		weight="20.5"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="47"
+				leg_armor="8"
+				arm_armor="10"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_kastenbrust_t1"
+		name="[BUA] Kastenbrust T1"
+		subtype="body_armor"
+		mesh="bb_kastenbrust_t1"
+		weight="26.5"
+		difficulty="0"
+		appearance="1.5"
+		value="32000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="58"
+				leg_armor="18"
+				arm_armor="16"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_jupon_royal_2_breastplate"
+		name="[BUA] Royal Jupon under Breastplate"
+		subtype="body_armor"
+		mesh="bb_jupon_royal_2_breastplate"
+		weight="22.0"
+		difficulty="0"
+		appearance="1.5"
+		value="65000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="62"
+				leg_armor="15"
+				arm_armor="29"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_coat_plates_t2"
+		name="[BUA] Coat of plates T2"
+		subtype="body_armor"
+		mesh="bb_coat_plates_t2"
+		weight="20.5"
+		difficulty="0"
+		appearance="1.5"
+		value="40000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="55"
+				leg_armor="18"
+				arm_armor="26"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="bb_coat_plates_t2_royal"
+		name="[BUA] Coat of plates T2 Royal"
+		subtype="body_armor"
+		mesh="bb_coat_plates_t2_royal"
+		weight="22.5"
+		difficulty="0"
+		appearance="1.5"
+		value="48000"
+		Type="BodyArmor">		
+		<ItemComponent>
+			<Armor
+				body_armor="58"
+				leg_armor="18"
+				arm_armor="27"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+</Item>
+<Item multiplayer_item="true"
+		id="hallow_armor"
+		name="{=!}Доспех Охотника"
+		subtype="body_armor"
+		mesh="hallow_armor"
+		weight="6.0"
+		difficulty="0"
+		appearance="1.5"
+		value="10000"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				leg_armor="10"
+				arm_armor="10"
+				has_gender_variations="true"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="false" />
+</Item>
+</Items>
