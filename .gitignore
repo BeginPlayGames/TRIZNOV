@@ -28,3 +28,4 @@ STEAM_DESCRIPTION_AND_PATCHNOTES.txt
 *.ps1
 *.bak
 workshop_*.xml
+TriznovLauncher.exe.config
