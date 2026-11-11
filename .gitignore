@@ -29,3 +29,4 @@ STEAM_DESCRIPTION_AND_PATCHNOTES.txt
 *.bak
 workshop_*.xml
 TriznovLauncher.exe.config
+*.zip
