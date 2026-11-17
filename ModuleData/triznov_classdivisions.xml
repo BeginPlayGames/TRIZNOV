@@ -18,9 +18,9 @@
 		melee_ai="70"
 		ranged_ai="0"
 		armor="40"
-		movement_speed="0.68"
-		combat_movement_speed="0.73"
-		acceleration="2.1"
+		movement_speed="0.79"
+		combat_movement_speed="0.82"
+		acceleration="2.4"
 		hitpoints="160">
 		<Perks>
 			<!-- Левый перк: Оружие -->
@@ -66,9 +66,9 @@
 		melee_ai="70"
 		ranged_ai="0"
 		armor="45"
-		movement_speed="0.67"
-		combat_movement_speed="0.72"
-		acceleration="2.0"
+		movement_speed="0.78"
+		combat_movement_speed="0.81"
+		acceleration="2.4"
 		hitpoints="160">
 		<Perks>
 			<!-- Левый перк: Оружие Панов -->
@@ -118,9 +118,9 @@
 		melee_ai="50"
 		ranged_ai="100"
 		armor="20"
-		movement_speed="0.68"
-		combat_movement_speed="0.71"
-		acceleration="2.1"
+		movement_speed="0.80"
+		combat_movement_speed="0.82"
+		acceleration="2.4"
 		hitpoints="125">
 		<Perks>
 			<!-- Левый перк: Оружие дальнего боя (бонус по коням) -->
@@ -211,9 +211,9 @@
 		melee_ai="80"
 		ranged_ai="0"
 		armor="45"
-		movement_speed="0.66"
-		combat_movement_speed="0.71"
-		acceleration="2.0"
+		movement_speed="0.77"
+		combat_movement_speed="0.80"
+		acceleration="2.3"
 		hitpoints="160">
 		<Perks>
 			<!-- Левый перк: Пеший / Верхом -->
@@ -247,9 +247,9 @@
 		melee_ai="80"
 		ranged_ai="50"
 		armor="42"
-		movement_speed="0.68"
-		combat_movement_speed="0.73"
-		acceleration="2.1"
+		movement_speed="0.79"
+		combat_movement_speed="0.82"
+		acceleration="2.4"
 		hitpoints="160">
 		<Perks>
 			<!-- Левый перк: Мастер -->
@@ -342,9 +342,9 @@
 		melee_ai="75"
 		ranged_ai="0"
 		armor="25"
-		movement_speed="0.68"
-		combat_movement_speed="0.73"
-		acceleration="2.1"
+		movement_speed="0.79"
+		combat_movement_speed="0.82"
+		acceleration="2.4"
 		hitpoints="140">
 		<Perks>
 			<!-- Левый перк: Оружие -->
@@ -391,9 +391,9 @@
 		melee_ai="70"
 		ranged_ai="0"
 		armor="40"
-		movement_speed="0.68"
-		combat_movement_speed="0.73"
-		acceleration="2.1"
+		movement_speed="0.79"
+		combat_movement_speed="0.82"
+		acceleration="2.4"
 		hitpoints="160">
 		<Perks>
 			<!-- Левый перк: Оружие -->
@@ -437,9 +437,9 @@
 		melee_ai="50"
 		ranged_ai="100"
 		armor="20"
-		movement_speed="0.68"
-		combat_movement_speed="0.71"
-		acceleration="2.1"
+		movement_speed="0.80"
+		combat_movement_speed="0.82"
+		acceleration="2.4"
 		hitpoints="125">
 		<Perks>
 			<!-- Левый перк: Оружие дальнего боя -->
@@ -482,9 +482,9 @@
 		melee_ai="75"
 		ranged_ai="0"
 		armor="25"
-		movement_speed="0.68"
-		combat_movement_speed="0.73"
-		acceleration="2.1"
+		movement_speed="0.79"
+		combat_movement_speed="0.82"
+		acceleration="2.4"
 		hitpoints="140">
 		<Perks>
 			<!-- Левый перк: Оружие -->
@@ -527,9 +527,9 @@
 		melee_ai="80"
 		ranged_ai="50"
 		armor="42"
-		movement_speed="0.68"
-		combat_movement_speed="0.73"
-		acceleration="2.1"
+		movement_speed="0.79"
+		combat_movement_speed="0.82"
+		acceleration="2.4"
 		hitpoints="160">
 		<Perks>
 			<!-- Левый перк: Мастер -->
@@ -568,9 +568,9 @@
 		melee_ai="70"
 		ranged_ai="0"
 		armor="45"
-		movement_speed="0.67"
-		combat_movement_speed="0.72"
-		acceleration="2.0"
+		movement_speed="0.78"
+		combat_movement_speed="0.81"
+		acceleration="2.4"
 		hitpoints="160">
 		<Perks>
 			<!-- Левый перк: Оружие Атаманов -->
@@ -620,9 +620,9 @@
 		melee_ai="80"
 		ranged_ai="0"
 		armor="45"
-		movement_speed="0.66"
-		combat_movement_speed="0.71"
-		acceleration="2.0"
+		movement_speed="0.77"
+		combat_movement_speed="0.80"
+		acceleration="2.3"
 		hitpoints="160">
 		<Perks>
 			<!-- Левый перк: Пеший / Верхом -->

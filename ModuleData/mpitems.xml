@@ -1399,5 +1399,26 @@
 			Stealth="true" />
 	</Item>
 
+	<!-- TRIZNOV TWO-HANDED HAMMER OVERRIDE (prevents overhead ground/back clipping) -->
+	<CraftedItem
+		multiplayer_item="true"
+		id="mp_sturgia_twohanded_hammer"
+		name="{=Ae9L1a9g}Maul"
+		crafting_template="TwoHandedMace"
+		value="1"
+		is_merchandise="false"
+		culture="Culture.neutral_culture">
+		<Pieces>
+			<Piece
+				id="mp_sturgia_2hhammer_head"
+				Type="Blade"
+				scale_factor="100" />
+			<Piece
+				id="mp_sturgia_2hammer_handle"
+				Type="Handle"
+				scale_factor="80" />
+		</Pieces>
+	</CraftedItem>
+
 </Items>
 
