@@ -9,6 +9,7 @@ obj/
 src/
 src_client/
 src_launcher/
+src_server_updater/
 bot/
 scratch/
 
@@ -17,6 +18,7 @@ runtimelog*.txt
 *.log
 crash_logs/
 triznov_launcher.json
+triznov_server_updater.json
 admins.txt
 filtered_warrior_actions.txt
 orig_bot.txt
@@ -29,4 +31,5 @@ STEAM_DESCRIPTION_AND_PATCHNOTES.txt
 *.bak
 workshop_*.xml
 TriznovLauncher.exe.config
+TriznovServerUpdater.exe.config
 *.zip
