@@ -16,7 +16,8 @@
 				arm_armor="34"
 				covers_hands="true"
 				modifier_group="plate"
-				material_type="Plate"/>
+				material_type="Plate"
+				has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="false"/>
@@ -46,7 +47,8 @@
 				arm_armor="15"
 				covers_hands="true"
 				modifier_group="leather"
-				material_type="Leather"/>
+				material_type="Leather"
+				has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="false"/>
@@ -65,7 +67,8 @@
 				arm_armor="15"
 				covers_hands="true"
 				modifier_group="leather"
-				material_type="Leather"/>
+				material_type="Leather"
+				has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="false"/>
@@ -84,7 +87,8 @@
 				arm_armor="15"
 				covers_hands="true"
 				modifier_group="leather"
-				material_type="Leather"/>
+				material_type="Leather"
+				has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="true"/>
@@ -105,7 +109,8 @@
 				arm_armor="25"
 				covers_hands="true"
 				modifier_group="leather"
-				material_type="Leather"/>
+				material_type="Leather"
+				has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="false"/>
@@ -124,7 +129,8 @@
 				arm_armor="25"
 				covers_hands="true"
 				modifier_group="leather"
-				material_type="Leather"/>
+				material_type="Leather"
+				has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="true"/>
@@ -144,7 +150,8 @@
 				arm_armor="36"
 				covers_hands="true"
 				modifier_group="plate"
-				material_type="Plate"/>
+				material_type="Plate"
+				has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="true"/>

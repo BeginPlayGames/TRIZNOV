@@ -14,7 +14,8 @@
 			body_armor="2"
 			arm_armor="1"
 			modifier_group="cloth"
-			material_type="Cloth"/>
+			material_type="Cloth"
+			has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="true"
@@ -33,7 +34,8 @@
 			body_armor="2"
 			arm_armor="1"
 			modifier_group="cloth"
-			material_type="Cloth"/>
+			material_type="Cloth"
+			has_gender_variations="false" />
 		</ItemComponent>
 		<Flags
 			UseTeamColor="true"

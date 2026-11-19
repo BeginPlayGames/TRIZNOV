@@ -12,7 +12,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -33,7 +32,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -54,7 +52,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -75,7 +72,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -96,7 +92,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -117,7 +112,6 @@
 			<Item id="bb_kettle_2_padded" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -138,7 +132,6 @@
 			<Item id="bb_kettle_2_padded" />
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -159,28 +152,6 @@
 			<Item id="bb_kettle_2_padded" />
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
-			<Item id="bb_kettle_hat_3" />
-			<Item id="bb_kettle_hat_3_mail" />
-			<Item id="bb_kettle_1_torse" />
-			<Item id="bb_skullcap" />
-			<Item id="bb_scale_cap" />
-			<Item id="bb_tegulated_helmet" />
-			<Item id="bb_tegulated_helmet_padded" />
-			<Item id="bb_tegulated_helmet_maille" />
-			<Item id="bb_bascinet_klappvisor_1" />
-			<Item id="bb_bascinet_open_1" />
-		</Replace>
-	</Cosmetic>
-	<Cosmetic type="Clothing" id="bb_kettle_hat_3" rarity="Common" cost="0">
-		<Replace>
-			<Item id="bb_kettle_1_bare" />
-			<Item id="bb_kettle_2_bare" />
-			<Item id="bb_kettle_hat_3_bare" />
-			<Item id="bb_kettle_1_padded" />
-			<Item id="bb_kettle_2_padded" />
-			<Item id="bb_kettle_hat_3" />
-			<Item id="bb_kettle_1" />
-			<Item id="bb_kettle_2" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -202,7 +173,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
 			<Item id="bb_scale_cap" />
@@ -223,7 +193,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_skullcap" />
 			<Item id="bb_scale_cap" />
@@ -244,7 +213,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_scale_cap" />
@@ -265,7 +233,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -286,7 +253,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -307,7 +273,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
@@ -328,7 +293,6 @@
 			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_1" />
 			<Item id="bb_kettle_2" />
-			<Item id="bb_kettle_hat_3" />
 			<Item id="bb_kettle_hat_3_mail" />
 			<Item id="bb_kettle_1_torse" />
 			<Item id="bb_skullcap" />
