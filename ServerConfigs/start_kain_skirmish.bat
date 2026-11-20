@@ -18,30 +18,35 @@ if not defined SERVER_ROOT (
 
 set "AUTH_TOKEN="
 set "TOKEN_FILE="
-if exist "%~dp0DedicatedCustomServerAuthToken.txt" set "TOKEN_FILE=%~dp0DedicatedCustomServerAuthToken.txt"
+if exist "%~dp0DedicatedCustomServerAuthToken" set "TOKEN_FILE=%~dp0DedicatedCustomServerAuthToken"
+if not defined TOKEN_FILE if exist "%~dp0DedicatedCustomServerAuthToken.txt" set "TOKEN_FILE=%~dp0DedicatedCustomServerAuthToken.txt"
+if not defined TOKEN_FILE if exist "%SERVER_ROOT%DedicatedCustomServerAuthToken" set "TOKEN_FILE=%SERVER_ROOT%DedicatedCustomServerAuthToken"
 if not defined TOKEN_FILE if exist "%SERVER_ROOT%DedicatedCustomServerAuthToken.txt" set "TOKEN_FILE=%SERVER_ROOT%DedicatedCustomServerAuthToken.txt"
 if not defined TOKEN_FILE if exist "%USERPROFILE%\Documents\Mount and Blade II Bannerlord\Tokens\DedicatedCustomServerAuthToken.txt" set "TOKEN_FILE=%USERPROFILE%\Documents\Mount and Blade II Bannerlord\Tokens\DedicatedCustomServerAuthToken.txt"
+if not defined TOKEN_FILE if exist "%USERPROFILE%\Documents\Mount and Blade II Bannerlord\Tokens\DedicatedCustomServerAuthToken" set "TOKEN_FILE=%USERPROFILE%\Documents\Mount and Blade II Bannerlord\Tokens\DedicatedCustomServerAuthToken"
 
 if defined TOKEN_FILE (
-    for /f "usebackq delims=" %%A in ("%TOKEN_FILE%") do set "AUTH_TOKEN=%%A"
+    for /f "usebackq tokens=1" %%A in ("%TOKEN_FILE%") do if not defined AUTH_TOKEN set "AUTH_TOKEN=%%A"
 )
 
 if not defined AUTH_TOKEN (
-    echo [ОШИБКА] Не найден непустой токен DedicatedCustomServerAuthToken.txt!
-    echo Положите файл DedicatedCustomServerAuthToken.txt рядом с батником или в:
+    echo [ОШИБКА] Не найден непустой файл токена DedicatedCustomServerAuthToken!
+    echo Положите файл DedicatedCustomServerAuthToken ^(или .txt^) рядом с батником в папку сервера или в:
     echo   "%USERPROFILE%\Documents\Mount and Blade II Bannerlord\Tokens\DedicatedCustomServerAuthToken.txt"
     pause
     exit /b 1
 )
 
-if not exist "%SERVER_ROOT%Modules\Native\%CONFIG_FILE%" (
-    if exist "%~dp0%CONFIG_FILE%" (
-        echo Копирование %CONFIG_FILE% в "%SERVER_ROOT%Modules\Native\"...
-        copy /y "%~dp0%CONFIG_FILE%" "%SERVER_ROOT%Modules\Native\%CONFIG_FILE%" >nul
-    )
+if exist "%~dp0%CONFIG_FILE%" (
+    echo Синхронизация %CONFIG_FILE% в "%SERVER_ROOT%Modules\Native\"...
+    copy /y "%~dp0%CONFIG_FILE%" "%SERVER_ROOT%Modules\Native\%CONFIG_FILE%" >nul
+) else if exist "%SERVER_ROOT%%CONFIG_FILE%" (
+    echo Синхронизация %CONFIG_FILE% в "%SERVER_ROOT%Modules\Native\"...
+    copy /y "%SERVER_ROOT%%CONFIG_FILE%" "%SERVER_ROOT%Modules\Native\%CONFIG_FILE%" >nul
 )
 if not exist "%SERVER_ROOT%Modules\Native\%CONFIG_FILE%" (
     echo [ОШИБКА] Не найден конфиг "%SERVER_ROOT%Modules\Native\%CONFIG_FILE%".
+    echo Положите %CONFIG_FILE% рядом с батником в папку сервера или в "%SERVER_ROOT%Modules\Native\".
     pause
     exit /b 1
 )
