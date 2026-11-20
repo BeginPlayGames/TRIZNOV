@@ -18,6 +18,7 @@ flora_entity tree_forest_beech___mix_broken
 flora_entity tree_high__mix_poplar_forest
 flora_entity tree_high__mix_poplar_sprout
 flora_entity tree_high_sycamore_a
+mesh arrow_new_icon
 mesh battania_castle_keep_roof
 mesh battania_castle_keep_wood_stake_a
 mesh battania_castle_keep_wood_stake_b
@@ -99,6 +100,7 @@ prefab armor_merchant_shoe_c
 prefab arrow_barrel
 prefab aserai_grandbazaar_shop_door_b
 prefab aserai_grandbazaar_shop_windows_a
+prefab attacker_spawn_visual
 prefab battania_castle_keep_wood_stake_a
 prefab battania_castle_keep_wood_stake_c
 prefab battania_castle_keep_wood_stake_e
@@ -169,8 +171,6 @@ prefab border_soft
 prefab bucket_empty
 prefab burning_campfire
 prefab campfire
-prefab captain_attack_spawn
-prefab captain_defender_spawn
 prefab cave_rock_a
 prefab cave_rock_b
 prefab cave_rock_small_a
@@ -277,7 +277,8 @@ prefab merchandise_wood
 prefab middle_position
 prefab module_european_village_rooftop_tangent_b
 prefab mp_merchandise_leather_b
-prefab mp_spawnpoint
+prefab mp_spawnpoint_attacker
+prefab mp_spawnpoint_defender
 prefab nord_mossy_forest_rock_e
 prefab open_inside
 prefab outer_a
@@ -295,8 +296,6 @@ prefab prop_merchantsiege_b
 prefab prop_merchantweavery_linen_c
 prefab rock_desert_cliff_b
 prefab rock_desert_cliff_c
-prefab sergeant_attack_spawn
-prefab sergeant_defender_spawn
 prefab shop_prop_merchantarmory_b
 prefab shop_prop_merchantbeer_c
 prefab shop_prop_merchantsilversmith_b
@@ -307,6 +306,7 @@ prefab shop_prop_merchantweavery_wool_b
 prefab shovel
 prefab smoked_fire_with_light
 prefab sp_chicken
+prefab spawn_visual
 prefab stairs_short_a
 prefab state1
 prefab state2
