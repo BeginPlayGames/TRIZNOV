@@ -1,0 +1,36 @@
+ServerName KAIN SKIRMISH
+AdminPassword CHANGE_ME_ADMIN_PASS
+GameType Skirmish
+
+# Карта и фракции (поменяй на нужные из списка ниже; Map и add_map_to_automated_battle_pool должны совпадать)
+# Карты Схватки: mp_skirmish_map_002f (Town Outskirts), mp_skirmish_map_003_skinc (Trading Post),
+#   mp_skirmish_map_007 / mp_skirmish_map_007_winter (Xauna), mp_skirmish_map_008_skin (Port at Omor),
+#   mp_skirmish_map_009 (Zendyar), mp_skirmish_map_010 / mp_skirmish_map_010_winter (Echerion),
+#   mp_skirmish_map_014 (Urikskalaar), mp_skirmish_map_020 (Sharis)
+# Фракции: vlandia, empire, sturgia, battania, aserai, khuzait
+Map mp_skirmish_map_002f
+CultureTeam1 vlandia
+CultureTeam2 empire
+
+# Автоперезапуск той же карты и тех же фракций после завершения матча
+disable_map_voting
+disable_culture_voting
+add_map_to_automated_battle_pool mp_skirmish_map_002f
+set_automated_battle_count -1
+enable_automated_battle_switching
+
+# Разминка 5 минут (300 сек) и матч до 3 победных раундов (RoundTotal 5 -> Best of 5)
+WarmupTimeLimitInSeconds 300
+RoundTotal 5
+RoundTimeLimit 420
+RoundPreparationTimeLimit 10
+
+# Игроки и правила (пароль GamePassword не задан — вход свободный)
+MaxNumberOfPlayers 12
+MinNumberOfPlayersForMatchStart 2
+AutoTeamBalanceThreshold 0
+AllowPollsToChangeMaps False
+AllowPollsToKickPlayers True
+AllowPollsToBanPlayers False
+
+start_game

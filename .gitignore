@@ -27,6 +27,7 @@ steam_appid.txt
 steam_workshop_uploader.txt
 STEAM_DESCRIPTION_AND_PATCHNOTES.txt
 *.bat
+!ServerConfigs/*.bat
 *.ps1
 *.bak
 workshop_*.xml

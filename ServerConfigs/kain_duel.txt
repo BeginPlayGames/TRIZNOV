@@ -1,0 +1,29 @@
+ServerName KAIN DUEL
+AdminPassword CHANGE_ME_ADMIN_PASS
+GameType Duel
+
+# Карта и культуры (Map и add_map_to_automated_battle_pool должны совпадать)
+# Дуэльные карты: mp_duel_mode_map_004 (Proving Grounds), mp_duel_mode_map_004_w (зима),
+#   mp_duel_mode_map_004_night (ночь), mp_duel_001 (Imperial Villa)
+Map mp_duel_mode_map_004
+CultureTeam1 vlandia
+CultureTeam2 empire
+
+# Автоперезапуск той же карты и тех же фракций после таймера карты
+disable_map_voting
+disable_culture_voting
+add_map_to_automated_battle_pool mp_duel_mode_map_004
+set_automated_battle_count -1
+enable_automated_battle_switching
+
+# Параметры дуэлей (пароль GamePassword не задан — вход свободный)
+MinScoreToWinDuel 3
+MapTimeLimit 60
+MaxNumberOfPlayers 64
+MinNumberOfPlayersForMatchStart 1
+DisableInactivityKick True
+AllowPollsToChangeMaps False
+AllowPollsToKickPlayers True
+AllowPollsToBanPlayers False
+
+start_game
