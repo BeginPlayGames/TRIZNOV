@@ -581,7 +581,7 @@
 				<equipment slot="Body" id="Item.bb_surcoat_gambeson_1" />
 				<equipment slot="Cape" id="Item.bb_hood_lowered" />
 				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
-				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
 				<equipment slot="Horse" id="Item.mp_battania_pony" />
 				<equipment slot="HorseHarness" id="Item.bb_horse_barding_1" />
 			</EquipmentRoster>
@@ -622,7 +622,7 @@
 				<equipment slot="Body" id="Item.bb_surcoat_gambeson_1" />
 				<equipment slot="Cape" id="Item.bb_hood_lowered" />
 				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
-				<equipment slot="Gloves" id="Item.bb_leather_gloves" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
 				<equipment slot="Horse" id="Item.mp_battania_pony" />
 				<equipment slot="HorseHarness" id="Item.bb_horse_barding_1" />
 			</EquipmentRoster>
@@ -831,7 +831,7 @@
 				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
 				<equipment slot="Cape" id="Item.bb_hood_lowered" />
 				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
-				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
 				<equipment slot="Horse" id="Item.mp_battania_pony" />
 				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
 			</EquipmentRoster>
@@ -872,7 +872,7 @@
 				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
 				<equipment slot="Cape" id="Item.bb_hood_lowered" />
 				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
-				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
 				<equipment slot="Horse" id="Item.mp_battania_pony" />
 				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
 			</EquipmentRoster>

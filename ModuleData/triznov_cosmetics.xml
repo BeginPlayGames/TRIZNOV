@@ -2855,26 +2855,29 @@
 		</Replace>
 	</Cosmetic>
 	<!-- ======================================================== -->
-	<!-- MEDIUM GLOVES (Pan, Ataman, Craftsman) (2 items) -->
+	<!-- MEDIUM GLOVES (Pan, Ataman, Craftsman, Cavalry) (2 items) -->
 	<!-- ======================================================== -->
 	<Cosmetic type="Clothing" id="bb_composite_gauntlets" rarity="Common" cost="0">
 		<Replace>
 			<Item id="bb_composite_gauntlets_tc" />
+			<Item id="bb_leather_gloves_tc" />
 		</Replace>
 	</Cosmetic>
 	<Cosmetic type="Clothing" id="bb_composite_gauntlets_tc" rarity="Common" cost="0">
 		<Replace>
 			<Item id="bb_composite_gauntlets" />
+			<Item id="bb_leather_gloves_tc" />
 		</Replace>
 	</Cosmetic>
 	<!-- ======================================================== -->
-	<!-- HEAVY GLOVES (Baron Novak, Warlord, Pan, Ataman) (2 items) -->
+	<!-- HEAVY GLOVES (Baron Novak, Warlord, Pan, Ataman, Cavalry) (2 items) -->
 	<!-- ======================================================== -->
 	<Cosmetic type="Clothing" id="bb_plate_gauntlets" rarity="Common" cost="0">
 		<Replace>
 			<Item id="bb_plate_gauntlets_trim" />
 			<Item id="bb_composite_gauntlets" />
 			<Item id="bb_composite_gauntlets_tc" />
+			<Item id="bb_leather_gloves_tc" />
 		</Replace>
 	</Cosmetic>
 	<Cosmetic type="Clothing" id="bb_plate_gauntlets_trim" rarity="Common" cost="0">
@@ -2882,6 +2885,7 @@
 			<Item id="bb_plate_gauntlets" />
 			<Item id="bb_composite_gauntlets" />
 			<Item id="bb_composite_gauntlets_tc" />
+			<Item id="bb_leather_gloves_tc" />
 		</Replace>
 	</Cosmetic>
 	<!-- ======================================================== -->

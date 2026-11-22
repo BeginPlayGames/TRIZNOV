@@ -347,26 +347,26 @@
 		acceleration="2.4"
 		hitpoints="140">
 		<Perks>
-			<!-- Левый перк: Оружие -->
-			<Perk game_mode="all" name="{=!}Кавалерийская пика" description="{=!}Длинная кавалерийская пика, меч и щит голоты." icon="PerkSpears" perk_list="1">
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_battania_long_spear" />
+			<!-- Левый перк: Оружие ближнего боя -->
+			<Perk game_mode="all" name="{=!}Меч" description="{=!}Одноручный меч и щит голоты." icon="PerkSword" perk_list="1">
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_long_sword" />
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
 			</Perk>
-			<Perk game_mode="all" name="{=!}Дротики" description="{=!}Метательные дротики, меч и щит голоты." icon="PerkFastJavelin" perk_list="1">
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_ash_throwing_spear" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_long_sword" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
-			</Perk>
-			<Perk game_mode="all" name="{=!}Боевой топор" description="{=!}Боевой топор, щит голоты и кавалерийская пика." icon="PerkHeavyAxe" perk_list="1">
+			<Perk game_mode="all" name="{=!}Боевой топор" description="{=!}Боевой топор и щит голоты.{newline}{newline}+20% урона по щитам" icon="PerkHeavyAxe" perk_list="1">
 				<Effect type="ShieldDamage" value="0.2" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_golota_shield" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_battania_long_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
 			</Perk>
 
-			<!-- Правый перк: Снаряжение Арсенала -->
-			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkArmorUpgrade" perk_list="2">
+			<!-- Правый перк: Древковое / Метательное -->
+			<Perk game_mode="all" name="{=!}Кавалерийское копьё" description="{=!}Длинное кавалерийское копьё для колющих ударов с седла." icon="PerkCavalrySpear" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_battania_long_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Ланец" description="{=!}Рыцарский ланец с возможностью рыцарского удара (клавиша X)." icon="PerkCouchedHeavySpears" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_western_lance" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Дротики" description="{=!}Метательные дротики вместо копья." icon="PerkFastJavelin" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_ash_throwing_spear" />
 			</Perk>
 		</Perks>
 	</MPClassDivision>
@@ -487,26 +487,26 @@
 		acceleration="2.4"
 		hitpoints="140">
 		<Perks>
-			<!-- Левый перк: Оружие -->
-			<Perk game_mode="all" name="{=!}Кавалерийская пика" description="{=!}Длинная кавалерийская пика, меч и щит налётчиков." icon="PerkSpears" perk_list="1">
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_battania_long_spear" />
+			<!-- Левый перк: Оружие ближнего боя -->
+			<Perk game_mode="all" name="{=!}Меч" description="{=!}Одноручный меч и щит налётчиков." icon="PerkSword" perk_list="1">
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_long_sword" />
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
 			</Perk>
-			<Perk game_mode="all" name="{=!}Дротики" description="{=!}Метательные дротики, меч и щит налётчиков." icon="PerkFastJavelin" perk_list="1">
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_ash_throwing_spear" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_long_sword" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
-			</Perk>
-			<Perk game_mode="all" name="{=!}Боевой топор" description="{=!}Боевой топор, щит налётчиков и кавалерийская пика." icon="PerkHeavyAxe" perk_list="1">
+			<Perk game_mode="all" name="{=!}Боевой топор" description="{=!}Боевой топор и щит налётчиков.{newline}{newline}+20% урона по щитам" icon="PerkHeavyAxe" perk_list="1">
 				<Effect type="ShieldDamage" value="0.2" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_vlandian_axe" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_golota_shield" />
-				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_battania_long_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="mp_vlandian_axe" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="triznov_golota_shield" />
 			</Perk>
 
-			<!-- Правый перк: Снаряжение Арсенала -->
-			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkArmorUpgrade" perk_list="2">
+			<!-- Правый перк: Древковое / Метательное -->
+			<Perk game_mode="all" name="{=!}Кавалерийское копьё" description="{=!}Длинное кавалерийское копьё для колющих ударов с седла." icon="PerkCavalrySpear" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_battania_long_spear" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Ланец" description="{=!}Рыцарский ланец с возможностью рыцарского удара (клавиша X)." icon="PerkCouchedHeavySpears" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_western_lance" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Дротики" description="{=!}Метательные дротики вместо копья." icon="PerkFastJavelin" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0" item="mp_ash_throwing_spear" />
 			</Perk>
 		</Perks>
 	</MPClassDivision>
