@@ -415,8 +415,27 @@
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_pike" />
 			</Perk>
 
-			<!-- Правый перк: Снаряжение Арсенала -->
-			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkVillageMilitia" perk_list="2">
+			<!-- Правый перк: Готовые наборы снаряжения Налётчиков -->
+			<Perk game_mode="all" name="{=!}Налётчик в стёганке" description="{=!}Классический наряд разбойника: шлем-черепник, стёганый гамбезон, поношенные шоссы и кожаные перчатки." icon="PerkVillageMilitia" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_skullcap" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_gambeson_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_hood_lowered" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_poor_legs" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_leather_gloves_black" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Разбойник в табарде" description="{=!}Капелин, гамбезон с табардом налётчика и широкий капюшон." icon="PerkFrontliner" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_kettle_1_bare" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_gambeson_tabard_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_hood_lowered_wide" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_poor_legs_tc" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_leather_gloves_black" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Боец в чешуе" description="{=!}Чешуйчатый шишак, дорожный кафтан с накидкой и шоссы." icon="PerkArmorUpgrade" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_scale_cap" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_overcoat_2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_hose_2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_leather_gloves_tc" />
 			</Perk>
 		</Perks>
 	</MPClassDivision>
@@ -549,6 +568,29 @@
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1" item="triznov_drum" />
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_axe" />
 			</Perk>
+
+			<!-- Правый перк: Готовые наборы снаряжения Профессий Налётчиков -->
+			<Perk game_mode="all" name="{=!}Наряд главаря" description="{=!}Капелин, гамбезон с табардом, худ с фестонами и обмотки." icon="PerkVillageMilitia" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_kettle_2_bare" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_gambeson_tabard_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_poor_legs_tc" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_leather_gloves_black" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Панцирь налётчика" description="{=!}Открытый бацинет, нагрудник поверх стёганки, поножи и латные рукавицы." icon="PerkArmorUpgrade" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_bascinet_open_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_gambeson_breastplate" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1_alt" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_poor_legs_greaves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_composite_gauntlets" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Капелин и кафтан" description="{=!}Закрытый капелин, длинный дорожный кафтан и поножи." icon="PerkFrontliner" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_kettle_2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_overcoat_2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_hood_lowered_wide" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_poor_legs_greaves_tc" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_leather_gloves_tc" />
+			</Perk>
 		</Perks>
 	</MPClassDivision>
 
@@ -596,8 +638,27 @@
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_vlandian_pike" />
 			</Perk>
 
-			<!-- Правый перк: Снаряжение Атаманов (настраивается в Арсенале) -->
-			<Perk game_mode="all" name="{=!}Снаряжение Арсенала" description="{=!}Использует ваш индивидуальный наряд, собранный в Арсенале." icon="PerkArmorUpgrade" perk_list="2">
+			<!-- Правый перк: Готовые наборы снаряжения Атаманов -->
+			<Perk game_mode="all" name="{=!}Бригантина атамана" description="{=!}Открытый бацинет, бригантина налётчика, поножи и комбинированные рукавицы." icon="PerkArmorUpgrade" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_bascinet_open_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_coat_plates" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_poor_legs_greaves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_composite_gauntlets" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Забрало и латы" description="{=!}Бацинет с забралом, кастенбруст и комбинированные поножи." icon="PerkFrontliner" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_bascinet_visor" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_kastenbrust_t1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1_alt" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_composite_legs" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_composite_gauntlets" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Бреташ и кираса" description="{=!}Бацинет с бреташем, обтянутая кираса и полулатные поножи." icon="PerkHoldTheLine" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_bascinet_bretache" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_covered_cuirass_t2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_hood_lowered_wide" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_half_plate_legs" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_composite_gauntlets" />
 			</Perk>
 		</Perks>
 	</MPClassDivision>
@@ -634,6 +695,29 @@
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse" item="mp_vlandia_horse" />
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness" item="bb_horse_barding_2_5" />
 				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2" item="mp_western_lance" />
+			</Perk>
+
+			<!-- Правый перк: Готовые наборы снаряжения Воеводы -->
+			<Perk game_mode="all" name="{=!}Доспех воеводы" description="{=!}Топфхельм, доспех воеводы, широкий худ и полные латные поножи." icon="PerkArmorUpgrade" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_sugarloaf_greathelm" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_zizka_armor" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1_wide" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_plate_legs" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_plate_gauntlets" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Хундсгугель и кираса" description="{=!}Остроносый бацинет, стальная кираса и тяжёлые поножи." icon="PerkFrontliner" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_bascinet_hounskull_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_cuirass" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_zizka_legs" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_plate_gauntlets" />
+			</Perk>
+			<Perk game_mode="all" name="{=!}Ваффенрок воеводы" description="{=!}Тяжёлый хундсгугель, рыцарский ваффенрок с латами и полные латные поножи." icon="PerkHoldTheLine" perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head" item="bb_bascinet_hounskull_3" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body" item="bb_waffenrock_plate" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape" item="bb_dagged_hood_1_wide" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg" item="bb_plate_legs_t0" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves" item="bb_plate_gauntlets" />
 			</Perk>
 		</Perks>
 	</MPClassDivision>

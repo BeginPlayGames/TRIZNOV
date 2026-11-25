@@ -671,6 +671,26 @@
 				<equipment slot="Leg" id="Item.bb_poor_legs" />
 				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_kettle_1_bare" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_scale_cap" />
+				<equipment slot="Body" id="Item.bb_overcoat_2" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
+			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
 	</NPCCharacter>
@@ -709,6 +729,26 @@
 				<equipment slot="Cape" id="Item.bb_hood_lowered" />
 				<equipment slot="Leg" id="Item.bb_poor_legs" />
 				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_kettle_1_bare" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_golota_shield" />
+				<equipment slot="Item2" id="Item.triznov_spear" />
+				<equipment slot="Head" id="Item.bb_scale_cap" />
+				<equipment slot="Body" id="Item.bb_overcoat_2" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_hose_2" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
 			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
@@ -752,6 +792,28 @@
 				<equipment slot="Leg" id="Item.bb_hose_2" />
 				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_skullcap" />
+				<equipment slot="Body" id="Item.bb_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_poor_legs" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_2_bare" />
+				<equipment slot="Body" id="Item.bb_overcoat_3" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
+			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
 	</NPCCharacter>
@@ -792,6 +854,28 @@
 				<equipment slot="Leg" id="Item.bb_hose_2" />
 				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_skullcap" />
+				<equipment slot="Body" id="Item.bb_gambeson_1" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_poor_legs" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triznov_light_crossbow" />
+				<equipment slot="Item1" id="Item.mp_bolts_western" />
+				<equipment slot="Item2" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item3" id="Item.triznov_pavise_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_2_bare" />
+				<equipment slot="Body" id="Item.bb_overcoat_3" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
+			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
 	</NPCCharacter>
@@ -830,6 +914,30 @@
 				<equipment slot="Head" id="Item.bb_kettle_2_padded" />
 				<equipment slot="Body" id="Item.bb_gambeson_tabard_1" />
 				<equipment slot="Cape" id="Item.bb_hood_lowered" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
+				<equipment slot="Horse" id="Item.mp_battania_pony" />
+				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_battania_long_spear" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item2" id="Item.triznov_golota_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_hat_3" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_2" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+				<equipment slot="Horse" id="Item.mp_battania_pony" />
+				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_battania_long_spear" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item2" id="Item.triznov_golota_shield" />
+				<equipment slot="Head" id="Item.bb_tegulated_helmet_padded" />
+				<equipment slot="Body" id="Item.bb_gambeson_tc" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
 				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
 				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
 				<equipment slot="Horse" id="Item.mp_battania_pony" />
@@ -876,6 +984,30 @@
 				<equipment slot="Horse" id="Item.mp_battania_pony" />
 				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_battania_long_spear" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item2" id="Item.triznov_golota_shield" />
+				<equipment slot="Head" id="Item.bb_kettle_hat_3" />
+				<equipment slot="Body" id="Item.bb_gambeson_tabard_2" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+				<equipment slot="Horse" id="Item.mp_battania_pony" />
+				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_battania_long_spear" />
+				<equipment slot="Item1" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item2" id="Item.triznov_golota_shield" />
+				<equipment slot="Head" id="Item.bb_tegulated_helmet_padded" />
+				<equipment slot="Body" id="Item.bb_gambeson_tc" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
+				<equipment slot="Horse" id="Item.mp_battania_pony" />
+				<equipment slot="HorseHarness" id="Item.bb_horse_barding_2" />
+			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
 	</NPCCharacter>
@@ -917,6 +1049,26 @@
 				<equipment slot="Leg" id="Item.bb_poor_legs_tc" />
 				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_sturgia_twohanded_hammer" />
+				<equipment slot="Head" id="Item.bb_bascinet_open_1" />
+				<equipment slot="Body" id="Item.bb_gambeson_breastplate" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_alt" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_sturgia_twohanded_hammer" />
+				<equipment slot="Head" id="Item.bb_kettle_2" />
+				<equipment slot="Body" id="Item.bb_overcoat_2" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
+			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
 	</NPCCharacter>
@@ -955,6 +1107,26 @@
 				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
 				<equipment slot="Leg" id="Item.bb_poor_legs_tc" />
 				<equipment slot="Gloves" id="Item.bb_leather_gloves_black" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_sturgia_twohanded_hammer" />
+				<equipment slot="Head" id="Item.bb_bascinet_open_1" />
+				<equipment slot="Body" id="Item.bb_gambeson_breastplate" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_alt" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_sturgia_twohanded_hammer" />
+				<equipment slot="Head" id="Item.bb_kettle_2" />
+				<equipment slot="Body" id="Item.bb_overcoat_2" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
+				<equipment slot="Leg" id="Item.bb_poor_legs_greaves_tc" />
+				<equipment slot="Gloves" id="Item.bb_leather_gloves_tc" />
 			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
@@ -996,6 +1168,24 @@
 				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
 				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_visor" />
+				<equipment slot="Body" id="Item.bb_kastenbrust_t1" />
+				<equipment slot="Leg" id="Item.bb_composite_legs" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_alt" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_bretache" />
+				<equipment slot="Body" id="Item.bb_covered_cuirass_t2" />
+				<equipment slot="Leg" id="Item.bb_half_plate_legs" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
+			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
 	</NPCCharacter>
@@ -1033,6 +1223,24 @@
 				<equipment slot="Leg" id="Item.bb_poor_legs_greaves" />
 				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
 				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_visor" />
+				<equipment slot="Body" id="Item.bb_kastenbrust_t1" />
+				<equipment slot="Leg" id="Item.bb_composite_legs" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_alt" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_pan_shield" />
+				<equipment slot="Head" id="Item.bb_bascinet_bretache" />
+				<equipment slot="Body" id="Item.bb_covered_cuirass_t2" />
+				<equipment slot="Leg" id="Item.bb_half_plate_legs" />
+				<equipment slot="Gloves" id="Item.bb_composite_gauntlets" />
+				<equipment slot="Cape" id="Item.bb_hood_lowered_wide" />
 			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
@@ -1075,6 +1283,26 @@
 				<equipment slot="Leg" id="Item.bb_plate_legs" />
 				<equipment slot="Gloves" id="Item.bb_plate_gauntlets" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_western_long_spear" />
+				<equipment slot="Head" id="Item.bb_bascinet_hounskull_1" />
+				<equipment slot="Body" id="Item.bb_cuirass" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_zizka_legs" />
+				<equipment slot="Gloves" id="Item.bb_plate_gauntlets" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_western_long_spear" />
+				<equipment slot="Head" id="Item.bb_bascinet_hounskull_3" />
+				<equipment slot="Body" id="Item.bb_waffenrock_plate" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_wide" />
+				<equipment slot="Leg" id="Item.bb_plate_legs_t0" />
+				<equipment slot="Gloves" id="Item.bb_plate_gauntlets" />
+			</EquipmentRoster>
 		</Equipments>
 		<Resistances knockdown="50" knockback="25" dismount="50" />
 	</NPCCharacter>
@@ -1112,6 +1340,26 @@
 				<equipment slot="Body" id="Item.bb_zizka_armor" />
 				<equipment slot="Cape" id="Item.bb_dagged_hood_1_wide" />
 				<equipment slot="Leg" id="Item.bb_plate_legs" />
+				<equipment slot="Gloves" id="Item.bb_plate_gauntlets" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_western_long_spear" />
+				<equipment slot="Head" id="Item.bb_bascinet_hounskull_1" />
+				<equipment slot="Body" id="Item.bb_cuirass" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1" />
+				<equipment slot="Leg" id="Item.bb_zizka_legs" />
+				<equipment slot="Gloves" id="Item.bb_plate_gauntlets" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mp_vlandian_long_sword" />
+				<equipment slot="Item1" id="Item.triznov_master_shield" />
+				<equipment slot="Item2" id="Item.mp_western_long_spear" />
+				<equipment slot="Head" id="Item.bb_bascinet_hounskull_3" />
+				<equipment slot="Body" id="Item.bb_waffenrock_plate" />
+				<equipment slot="Cape" id="Item.bb_dagged_hood_1_wide" />
+				<equipment slot="Leg" id="Item.bb_plate_legs_t0" />
 				<equipment slot="Gloves" id="Item.bb_plate_gauntlets" />
 			</EquipmentRoster>
 		</Equipments>

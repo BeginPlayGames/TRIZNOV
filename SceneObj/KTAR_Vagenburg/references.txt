@@ -1,4 +1,4 @@
-386
+393
 flora_entity agriculture_chickpeas
 flora_entity artemis_white
 flora_entity artemis_yellow
@@ -18,7 +18,6 @@ flora_entity tree_forest_beech___mix_broken
 flora_entity tree_high__mix_poplar_forest
 flora_entity tree_high__mix_poplar_sprout
 flora_entity tree_high_sycamore_a
-mesh arrow_new_icon
 mesh battania_castle_keep_roof
 mesh battania_castle_keep_wood_stake_a
 mesh battania_castle_keep_wood_stake_b
@@ -54,6 +53,8 @@ mesh empire_house_bridge_e_roof
 mesh european_castle_corner_c_roof
 mesh fence_old_a5
 mesh fence_old_a6
+mesh flag_pole_big
+mesh flag_stand_white2
 mesh khuzait_platform_wooden_c
 mesh kitchen_bottle_a
 mesh kitchen_bottle_b
@@ -171,6 +172,7 @@ prefab border_soft
 prefab bucket_empty
 prefab burning_campfire
 prefab campfire
+prefab capture_flag_a
 prefab cave_rock_a
 prefab cave_rock_b
 prefab cave_rock_small_a
@@ -214,7 +216,12 @@ prefab fence_old_a6
 prefab fire_stones_bonfire
 prefab fishnet_b
 prefab flag_4
+prefab flag_pole_big_sergeant_A
+prefab flag_pole_big_sergeant_B
+prefab flag_pole_big_sergeant_C
+prefab flag_raising_boundary
 prefab flag_rope_cloth
+prefab flag_stand_big
 prefab floor_dirt_a
 prefab floor_dirt_b
 prefab floor_dirt_c
